@@ -1,0 +1,49 @@
+Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
+
+Input Format
+
+The following tables contain challenge data:
+
+Hackers: The hacker_id is the id of the hacker, and name is the name of the hacker. 
+
+Challenges: The challenge_id is the id of the challenge, and hacker_id is the id of the student who created the challenge. 
+
+Sample Input 0
+
+Hackers Table:  Challenges Table: 
+
+Sample Output 0
+
+21283 Angela 6
+88255 Patrick 5
+96196 Lisa 1
+Sample Input 1
+
+Hackers Table:  Challenges Table: 
+
+Sample Output 1
+
+12299 Rose 6
+34856 Angela 6
+79345 Frank 4
+80491 Patrick 3
+81041 Lisa 1
+Explanation
+
+For Sample Case 0, we can get the following details:
+
+Students  and  both created  challenges, but the maximum number of challenges created is  so these students are excluded from the result.
+
+For Sample Case 1, we can get the following details:
+
+Students 12299  and 34856 both created 6 challenges. Because  is the maximum number of challenges created, these students are included in the result.
+
+#SOLUTION:
+SELECT c.hacker_id, h.name, count(c.challenge_id) AS cnt 
+FROM Hackers AS h JOIN Challenges AS c ON h.hacker_id = c.hacker_id
+GROUP BY c.hacker_id, h.name 
+HAVING cnt = (SELECT count(c1.challenge_id) FROM Challenges AS c1 GROUP BY c1.hacker_id 
+              ORDER BY count(*) desc limit 1) or
+cnt NOT IN (SELECT count(c2.challenge_id) FROM Challenges AS c2 GROUP BY c2.hacker_id 
+            HAVING c2.hacker_id <> c.hacker_id)
+ORDER BY cnt DESC, c.hacker_id;
