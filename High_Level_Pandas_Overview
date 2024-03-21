@@ -1,0 +1,144 @@
+#MASTERING THE PANDAS LIBRARY
+
+'''The Dataset used to perform these methods can be found here:
+  https://www.kaggle.com/datasets/gregorut/videogamesales'''
+import pandas as pd
+
+#reading in the csv we will use for this
+video_game_sales = pd.read_csv("YOUR_CSV_LOCATION_HERE", index_col="Rank")   #NOTES:
+                                                                             #______________
+                                                                             # index_col="your_column_here" allows us to utilizr one column as an index column for our data
+
+#--getting the data types of the video game sales
+video_game_sales.dtypes
+
+#--grabbing the first 100 rows using the head method
+video_game_sales.head(n=100)
+#--grabbing the last 100 rows useing the tail method
+video_game_sales.tail(n=100)
+
+#--sorting the rows by the "name" column in alphabetical order
+video_game_sales.sort_values("Name", ascending=True)
+#--sorting the rows by the "Name" column in descending order
+video_game_sales.sort_values("Name", ascending=False)
+
+#--sorting the data by two columns
+video_game_sales.sort_values(["Platform", "Global_Sales"]) #To sort by two columns, put the column names into a list
+
+#--sort two columns in descending order
+video_game_sales.sort_values(["Platform", "Global_Sales"], ascending=False)
+
+#--sort the first column in ascending order, and the second column in descending order
+video_game_sales.sort_values(["Platform", "Global_Sales"],ascending=[True,False]) #you must put the T/F in a list to assign which column is True and which is False
+
+#--using inplace to permanently restructure the dataset
+video_game_sales.sort_values(["Platform", "Global_Sales"],ascending=[True,False], inplace=True)
+
+#--sorting the index
+video_game_sales.sort_index() #sorting the values by the index column ("Rank") which we set in the earlier code
+
+video_game_sales.sort_index(ascending=True, inplace=True) #permanently restructuring the data back to its original format
+
+#--getting a summary of the data
+video_game_sales.info() #shows number of colums, datatypes, and number of non-null values
+
+
+#--removing "NaN" values
+#--***NaN stands for "not a number"***
+video_game_sales.dropna(subset = ["Year"], inplace=True) #dropping Nan values on the "Year" column
+
+#converting data type to int
+video_game_sales["Year"] = video_game_sales["Year"].astype(int)
+
+
+#--categorizing data
+#--getting the number of unique values for each column in the dataset
+video_game_sales.nunique()
+
+#--converting column data types to category
+video_game_sales["Platform"]=video_game_sales["Platform"].astype("category")
+video_game_sales["Genre"]=video_game_sales["Genre"].astype("category")
+
+video_game_sales.info()
+
+
+#--selecting columns
+video_game_sales[["Publisher","Name"]]
+
+#--resetting the index column to a different column
+video_game_sales.reset_index(inplace=True)
+video_game_sales.set_index("Name", inplace = True) #setting the "Name" column as our index
+
+#--using value counts to determine the count of each value in a column
+video_game_sales["Genre"].value_counts()
+video_game_sales["Genre"].value_counts(normalize=True) *100 # normalize=true will give us the overall percentage of how many occurrences a value is in the data
+
+#--selecting rows
+video_game_sales.loc["Wii Sports"] #using .loc["Wii Sports"] will display the data related to this specific value in the data
+
+video_game_sales.loc["Wii Sports", "Platform"] #finding what platform "Wii Sports" came out on
+
+video_game_sales.loc["Grand Theft Auto V"] #finding all of the data for "Grand Theft Auto V"
+
+
+#--finding both wii sports and grand theft auto 5
+# video_game_sales.loc["Wii Sports", "Grand Theft Auto V"], ["Platform", "Global_Sales"] #here, we are seeking the platform and global sales data related to "wii sports" and "grand theft auto v" respectively.
+
+#--filtering
+video_game_sales["Publisher"] == "Square Enix" #filtering the data to say "True" if a publisher has the name of "Square Enix"
+
+#--finding every publisher that has the value of "Square Enix"
+video_game_sales[video_game_sales["Publisher"] == "Square Enix"]
+
+#--there is also another way you can filter this data by creating a variable
+#-- EXAMPLE 1
+square_enix = video_game_sales["Publisher"] == "Square Enix"
+video_game_sales[square_enix]
+# --# EXAMPLE 2
+action_game= video_game_sales["Genre"] == "Action"
+video_game_sales[action_game]
+
+#--extract only the values that have "square enix" and "Action"
+video_game_sales[square_enix & action_game]
+
+#--extract only the values that have "square enix" OR "actions"
+video_game_sales[square_enix | action_game] #using "|" represents the OR function.
+
+#--filtering by numbers
+#--find all the values that sold over 10 million copies
+over_ten_million= video_game_sales["Global_Sales"] > 10
+video_game_sales[over_ten_million]
+
+#--find all the games between 1991 and 1995
+# early_90s_game= video_game_sales["Year"].between(1991,1995)
+# video_game_sales[early_90s_game]
+
+#--aggregate operations
+#--getting the mean of a column
+video_game_sales["Global_Sales"].mean()
+#--getting the sum of a column
+video_game_sales["Global_Sales"].sum()
+#--getting the max of a column
+video_game_sales["Global_Sales"].max()
+#--getting the min of a column
+video_game_sales["Global_Sales"].min()
+
+#--using groupby to find the number of sales per genre
+genre_group = video_game_sales.groupby("Genre")
+genre_group["Global_Sales"].sum().sort_values(ascending=False)
+
+#--finding the average number of sales per genre
+genre_group["Global_Sales"].mean()
+
+
+#--using melting techniques
+#---putting all the "sales" columns into one column named "Region"
+#--melting is essentially used to unpivot a column
+# video_game_sales.melt(
+#   id_vars = ["Name", "Publisher"],
+#   value_vars = ["NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales"],
+#   var_name = "Region",
+#   value_name = "Sales"
+# )
+
+
