@@ -1,0 +1,114 @@
+import pandas as pd
+from pandasql import sqldf
+#WORKING WITH FOR LOOPS
+
+#printing a number 1-100
+for number in range(1,100,1):
+  None
+  # print(number)
+
+#printing each item in a list once
+fruits = ["strawberry", "apple", "orange"]
+for fruit in fruits:
+  None
+  # print(fruit)
+
+#printing if you see "strawberry" else print nothing
+for fruit in fruits:
+  if fruit == "strawberry":
+    None
+    # print(fruit)
+  else:
+    None
+    # print("data not found")
+
+ #WORKING WITH THE FAKER PACKAGE TO FURHTER LEARN FOR LOOPS
+#  !pip install faker
+from faker import Faker
+fake= Faker()
+ 
+#using faker to produce fake names for analysis
+names = [fake.name().split() for i in range(100)]
+names = [name for name in names if len(name) == 2] #only generate names with first and last names
+
+#putting the list into a dataframe
+df= pd.DataFrame(names,columns=['First_Name','Last_Name'])
+# display(df)
+
+#print first names with 5 or more characters
+for x in df['First_Name']:
+  if len(x) >= 5:
+    x
+    # print(x)
+  else: 0
+#getting the total amount of first_names over 5 characters
+#using the variable "x_count" we are appending the x_count column to our df
+x_count= df['First_Name'].apply(lambda x: len(x) >=5).sum()
+print(f'There are {x_count} first names with 5 characters or more')
+
+
+
+#print last names with more than 5 characters
+for y in df['Last_Name']:
+  if len(x) >= 5:
+    y
+    # print(y)
+  else:
+    0
+  
+y_count = df['Last_Name'].apply(lambda y: len(y) >= 5).sum()
+print(f'There are {y_count} last names with 5 characters or more')
+
+#sum of x_count and y_count
+total_count = x_count + y_count
+print(f'The sum of of first names and last names that have 5 or more characters in their name is: {total_count}' )
+# print(df['First_Name'])
+
+#getting the amount of characters for each first name and creating it as a column in our dataframe
+df['first_name_length']= [len(_) for _ in df['First_Name']]
+# display(df)
+
+#getting the amount of characters for each last name and creating it as a column in our dataframe
+df['last_name_length'] = [len(_) for _ in df['Last_Name']]
+
+#checking accuracy 
+# display(df)
+
+#adding the first name length and last name length together and appending it as a column on df
+df['total_length'] = df['first_name_length'] + df['last_name_length'] 
+
+# display(df)
+
+#adding addresses to the dataframe
+df['address'] = pd.DataFrame([fake.address() for i in range (100)],columns=['address'])
+# display(df)
+
+
+#adding phone number to the dataframe
+df['phone_number'] = pd.DataFrame([fake.phone_number() for i in range (100)],columns=['phone_number'])
+# display(df)
+
+#adding company name to the dataframe
+df['Company_Name'] = pd.DataFrame([fake.company() for i in range (100)],columns=['Company_Name'])
+# display(df)
+
+#adding job title to the dataframe
+df['Job_Title'] = pd.DataFrame([fake.job() for i in range (100)],columns=['Job_Title'])
+# display(df)
+
+
+#Reindexing columns to get the desired order of columns
+column_order = ['First_Name','Last_Name','Job_Title','Company_Name','address','phone_number','first_name_length','last_name_length','total_length']
+df=df.reindex(columns=column_order)
+print(type(df))
+
+display(df)
+
+#getting the amount of job titles in the dataframe
+job_title_count = df['Job_Title'].value_counts()
+print(job_title_count)
+
+
+
+
+
