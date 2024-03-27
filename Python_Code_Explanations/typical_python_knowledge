@@ -33,3 +33,20 @@ directories = os.listdir()
 directories[4] #supplying a number here will give you the name of the directory in thr "4th" position
 directories.index('.profile') #supplying a directory name here will give you the index number of where the directory file is in the list
 directories
+
+import re
+pattern = r"zack"
+replace = "??"
+string = "My name is zack, name is zack"
+result = re.fullmatch(pattern, string) #"fullmatch" will only display something if it is an EXACT match
+result_2 = re.search(pattern,string) #this will show the index in which the data is found, and also display the character string we are looking for!
+result_3 = re.findall(pattern,string) #this will match all the cases in which the pattern is present
+result_4 = re.split(pattern,string) #this function will split the data where "zack" the present #you could also set the pattern as "," to split columns by commas, etc.
+result_5 = re.sub(pattern,replace,string) #this will replace the "pattern" with "??"
+print(f"result_1: {result}")
+print(f"result_2: {result_2}")
+print(f"result_2_using_group: {result_2.group()}") #this will group the pattern together and generate one clean answer
+print(f"result_3: {result_3}")
+print(f"result_4: {result_4}")
+print(f"result_5: {result_5}")
+
