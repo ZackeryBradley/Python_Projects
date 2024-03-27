@@ -1,0 +1,60 @@
+#using the apply() function in python
+import pandas as pd
+
+#  Applying a Function to DataFrame Elements
+df = pd.DataFrame({'A': [1, 2], 'B': [10, 20]})
+def square(x):
+    return x * x
+df1 = df.apply(square)
+print(df)
+print(df1)
+
+# apply() with lambda
+df1 = df.apply(lambda x: x * x)
+
+# apply() along axis
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({'A': [1, 2], 'B': [10, 20]})
+df1 = df.apply(np.sum, axis=0)
+print(df1)
+df1 = df.apply(np.sum, axis=1)
+print(df1)
+
+# DataFrame apply() with arguments
+import pandas as pd
+
+
+def sum(x, y, z):
+    return x + y + z
+df = pd.DataFrame({'A': [1, 2], 'B': [10, 20]})
+df1 = df.apply(sum, args=(1, 2))
+print(df1)
+
+#  DataFrame apply() with positional and keyword arguments
+import pandas as pd
+
+
+def sum(x, y, z, m):
+    return (x + y + z) * m
+df = pd.DataFrame({'A': [1, 2], 'B': [10, 20]})
+df1 = df.apply(sum, args=(1, 2), m=10)
+print(df1)
+
+# DataFrame applymap() function
+import pandas as pd
+import math
+
+df = pd.DataFrame({'A': [1, 4], 'B': [100, 400]})
+df1 = df.applymap(math.sqrt) #applies the sqrt function
+print(df)
+print(df1)
+
+#using applymap() to convert all elements to upper case 
+import pandas as pd
+
+df = pd.DataFrame({'Name': ['Pankaj', 'Meghna'], 'Role': ['ceo', 'cto']})
+df1 = df.applymap(str.upper)
+print(df)
+print(df1)
