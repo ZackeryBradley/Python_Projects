@@ -50,3 +50,23 @@ print(f"result_3: {result_3}")
 print(f"result_4: {result_4}")
 print(f"result_5: {result_5}")
 
+#date and time
+import datetime as dtm
+
+dt = dtm.datetime.now()
+dt_1 = dtm.date.today()
+print(dt)
+print(dt_1)
+
+dt_2 = dtm.date(2020, 5, 17)
+dt_3 = dtm.timedelta(30) #increase any day by 30 days
+print(dt_2 + dt_3) #adding 30 days to the dt_2 variable
+
+print(f"Current Year:", dt.year)
+print(f"Current Month:", dt.month)
+print(f"Current Day:", dt.day)
+
+print(dt.strftime("%A, %B %d, %Y")) #using the dt varilable and rearranging the date to get your desired output
+
+dt_4 = dtm.time(11, 20, 45)
+print(dt_4.strftime("%I:%M:%S")) #hours minutes seconds
