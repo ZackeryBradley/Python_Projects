@@ -85,3 +85,37 @@ print(tzeurope)
 time_zone_2 = zoneinfo.ZoneInfo('US/Pacific')
 tzUS = datetime.datetime.now(tz=time_zone_2) #passing the USA time zone into a new variable
 print(tzUS)
+
+# EXCEPTION HANDLING FOR KNOWN EXCEPTIONS
+
+try:
+  print(a)
+  # print(4+"hi")
+  # open("abc.txt")
+  # print(4/0)
+  # import fabric
+except NameError:  # this will trigger if the code is a Name Error
+  print("Variable is not defined")
+except TypeError:  # this will trigger if the code is a type Error
+  print("Adding number and string is not possible")
+except ZeroDivisionError:  # this will trigger if the code is a division by zero error
+  print("Division with zero is not possible")
+except ModuleNotFoundError:
+  print("Please install the proper package to install it")  # this will trigger if the code is a module not found error
+except Exception as e:  # this will trigger if the code is an unknown or unmentioned error
+  print(e)
+finally:
+  print("Finally this will execute")  # this will execute regardless if there is an error or not.
+
+#TRY EXCEPT ELSE AND FINALLY USAGE
+try:
+  a=10
+  print(a)
+except NameError:
+  print("Variable is not defined")
+except Exception as e:
+  print("Exception occured:",e)
+else:
+  print("This will execute if there is no exceptions in the try block")
+finally:
+  print("this will always execute")
