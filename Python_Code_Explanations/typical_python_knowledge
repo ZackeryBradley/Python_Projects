@@ -1,0 +1,27 @@
+#overall function help for python
+'''this file is meant to represent a few methods in python and provide examples as to what they do'''
+
+#finding your package directory:
+import re
+print(dir(re))
+
+#getting a list and explanation of each function in your python package
+import numpy
+function_list = [name for name in dir(numpy) if callable(getattr(numpy, name))]
+for function_name in function_list:
+  print(function_name)
+  help(getattr(numpy, function_name))
+print()
+
+#getting a list of functions and what each function is used for in your package (Version2)
+import re
+for name in dir(re):
+  obj = getattr(re, name)
+  if callable(obj):
+    print(f"Function: {name}")
+  help(obj)
+  print()
+
+#getting overall help for python
+info = help()
+print(info)
