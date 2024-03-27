@@ -1,0 +1,120 @@
+#CREATING CLASSES IN PYTHON
+class MyClass():
+  x=5
+p1=MyClass() #the variable assignment of 'p1' has to be out of the loop in order for it to run!
+print(p1.x)
+
+# Assinging an "init" to a function
+class Person:
+  def  __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+#creating two classes and printing a certain variable
+class Person:
+  def __init__(self, fname):
+    self.firstname = fname
+
+  def printname(self):
+    print(self.firstname)
+
+class Student(Person):
+  pass
+
+x = Student("Mike")
+x.printname()
+
+#--
+#CREATING IF-ELSE STATEMENTS IN PYTHON
+a=50
+b=75
+c=60
+d=99
+if a > b:
+  print('a is greater than b')
+elif a < b:
+  print('a is less than b')
+else:
+  print('a is equal to b')
+
+#if with an AND statement
+if a==b and c==d:
+  print('a and b are equal to eachother, and c and d are also equal to eachother')
+elif a!=b and c!=d:
+  print('a is not equal to b and c is also not equal to d')
+else:
+  None
+#if with an OR statement
+if a==b or c==d:
+  print("either a and b are equal to eachother or c and d are equal to eachother")
+else:
+  print("a is not equal to b and c is not equal to d")
+
+#Shorthand if-else statement
+a1 = 5
+b1 = 2
+print("YES") if a1==b1 else print("NO") #this is utilizing the if-else statement within one line of data
+
+#Multiple if-else-or statement
+s1 = 2
+s2 = 3
+s3 = 2
+if s1==s3 or s2==s3:
+  print('One of the variable are equal')
+
+#--
+#PRACTICE WITH WHILE LOOPS
+#small WHILE loop
+#this will print every number before the number called. in this case, we are printing the numbers 1-5
+i = 1
+while i<6:
+  print(i)
+  i+=1
+
+#while loop with a break statement
+i=1
+while i<6:
+  if i == 3:
+    break
+  i+=1
+
+  #while loop with a continue statement
+i=0
+
+while i <6:
+  i+=1
+  if i==3: #this statement is written to skip the number "3" and continue with the other numbers
+    continue
+  print(i)
+
+#while loop with an else statement
+i = 1
+while i < 6:
+  print(i) #this will print when 1 is between 1-5
+  i += 1 #this indicates for i to increase in number by 1
+else:
+  print("i is no longer less than 6") #this will print once a reaches 6
+#--
+#PRACTICE WITH FOR LOOPS
+
+#loop through the items in the "fruits" list
+fruits = ["apple", "banana", "cherry"]
+for x in fruits: #here the "x" value respresents each individual item in your list
+  print(x)
+
+#In the loop, when the item value is "banana", jump directly to the next item. Meaning, the skip will skip the word "banana"
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+# Use the range function to loop through a code set 6 times.
+for x in range(6): #this will print numbers 0-5
+  print(x)
+
+# Exit the loop when x is "banana". Meaning this method will only print "apple"
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
