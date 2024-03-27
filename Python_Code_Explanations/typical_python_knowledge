@@ -70,3 +70,18 @@ print(dt.strftime("%A, %B %d, %Y")) #using the dt varilable and rearranging the 
 
 dt_4 = dtm.time(11, 20, 45)
 print(dt_4.strftime("%I:%M:%S")) #hours minutes seconds
+
+#Native time support (Zoneinfo)
+#pip install tzdata --required package to perform these functions
+import zoneinfo
+import datetime
+
+now = datetime.datetime.now()
+
+time_zone_1 = zoneinfo.ZoneInfo('Europe/London')
+tzeurope = datetime.datetime.now(tz=time_zone_1) #passing the europe time zone into a new variable
+print(tzeurope)
+
+time_zone_2 = zoneinfo.ZoneInfo('US/Pacific')
+tzUS = datetime.datetime.now(tz=time_zone_2) #passing the USA time zone into a new variable
+print(tzUS)
