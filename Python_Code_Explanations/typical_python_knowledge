@@ -25,3 +25,11 @@ for name in dir(re):
 #getting overall help for python
 info = help()
 print(info)
+
+# listing current directories
+import os
+directories = os.listdir()
+# directories.insert(0,'example') #this will create a directory named "example" and place it as the top of your directories list.
+directories[4] #supplying a number here will give you the name of the directory in thr "4th" position
+directories.index('.profile') #supplying a directory name here will give you the index number of where the directory file is in the list
+directories
