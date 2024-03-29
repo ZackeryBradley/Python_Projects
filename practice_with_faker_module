@@ -1,0 +1,58 @@
+#building a practice faker dataframe
+#installing the proper packages
+# !pip install faker
+from faker import Faker
+import pandas as pd
+import datetime as dt
+#giving the Faker() import an alias
+fake=Faker()
+#using faker to produce fake names for analysis
+names = [fake.name().split() for i in range(100)]
+names = [name for name in names if len(name) == 2] #only generate names with first and last names
+#putting the list into a dataframe
+
+df= pd.DataFrame(names,columns=['First_Name','Last_Name'])
+
+def create_df():
+#adding columns to the dataframe
+  df['address'] = pd.DataFrame([fake.address() for i in range (100)],columns=['address'])
+  df['phone_number']=pd.DataFrame([fake.phone_number() for i in range(100)],columns=['phone_number'])
+  df['emoji']=pd.DataFrame([fake.emoji() for i in range(100)],columns=['emoji'])
+  df['date_time']=pd.DataFrame([fake.date_time() for i in range(100)],columns=['date_time'])
+  df['job_title']=pd.DataFrame([fake.job() for i in range(100)])
+  df['company']=pd.DataFrame([fake.company() for i in range(100)])
+  df['ssn']=pd.DataFrame([fake.ssn() for i in range(100)])
+create_df()
+
+#reordering columns
+df= df[['First_Name', 'Last_Name','emoji', 'address', 'phone_number','job_title', 'company','date_time','ssn']]
+#checking the df
+# display(df)
+
+#cleaning the phone_number column
+for x in df["phone_number"]:
+  df["phone_number"] = df["phone_number"].str.replace('.','-')
+# display(df)
+
+#cleaning the date_time column
+for x in df["date_time"]:
+  df["date_time"] = pd.to_datetime(df["date_time"]).dt.date  
+display(df)
+
+#getting a number  of unique job_title
+nunique_jobs = df["job_title"].nunique()
+print(f'out of {df["job_title"].count()} jobs, there are a total of {nunique_jobs} unique_jobs')
+
+#finding which jobs are NOT unique:
+for x in df["job_title"]:
+  if x in df["job_title"] != df["job_title"].unique(x):
+    print(x)
+print(f'The duplicated job_titles in our dataset are: {x}')
+
+#grabbing the 'state' out of the address column and appending it to a the dataframe
+for i,address in enumerate(df["address"]):
+  state=address[-8:-6]
+  df.loc[i,"state"]=state
+display(df)
+
+
