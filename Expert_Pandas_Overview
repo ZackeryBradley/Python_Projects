@@ -1,0 +1,512 @@
+#multi indexing
+#used to combine or compare data values across columns
+import pandas as pd
+
+# bigmac dataset can be found here:
+# https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice
+
+bigmac=pd.read_csv('/YOUR_FILE_LOCATION/BigmacPrice.csv', parse_dates=["date"],
+date_parser=lambda x:pd.to_datetime(x,format="%Y-%m-%d")
+,index_col=["date","name"]).sort_index() #setting th eindex columns in the csv
+
+
+#setting the indexes ouside the csv
+# bigmac=bigmac.set_index(keys=["name","date"]).sort_index()
+bigmac
+
+#getting number of unique values per column
+# bigmac.nunique()
+
+
+#checking the index
+bigmac.index
+#checking the index names
+bigmac.index.names
+
+bigmac.index[0]
+#getting index data type
+type(bigmac.index[0])
+
+#extract index level values 
+#these will both grab the date values in the data 
+bigmac.index.get_level_values("date")
+bigmac.index.get_level_values(0)
+#these will both grab the country name in the data 
+bigmac.index.get_level_values("name")
+bigmac.index.get_level_values(1)
+
+#rename index labels
+bigmac.index.set_names("Time",level=0) #taking the "date" column which is on the 0 level index, and changing the column name to "Time"
+bigmac.index.set_names("Location",level=1) #changing the "name" column to "location"
+#changing two column names as one
+bigmac.index=bigmac.index.set_names(names=["Time","Location"])
+#checking to see if column name change was successful
+bigmac.head()
+
+#the sort_index method of a multindex dataframe
+bigmac=pd.read_csv('YOUR_FILE_LOCATION/BigmacPrice.csv', parse_dates=["date"],
+date_parser=lambda x:pd.to_datetime(x,format="%Y-%m-%d")
+,index_col=["date","name"])
+
+#sorting in ascending order
+bigmac.sort_index(ascending=True)
+
+#custom sorting columns
+bigmac.sort_index(ascending=[True,False]) #this would sort dates in asceding order and names in descending order
+
+#extract rows from a multiindex dataframe
+bigmac=pd.read_csv('YOUR_FILE_LOCATION/BigmacPrice.csv', parse_dates=["date"],
+date_parser=lambda x:pd.to_datetime(x,format="%Y-%m-%d")
+,index_col=["date","name"]).sort_index() #setting th eindex columns in the csv
+
+#pulling our specific rows in the dataframe
+bigmac.iloc[2]
+#pulling out specific rows based on a specific row value
+bigmac.loc["2000-04-01"] #here we are gathering all of the data asccoiated with the data "2000-04-01"
+
+#pulling out rows based on two specific value
+bigmac.loc["2000-04-01","Canada"] #here we are gathering all the data associated with "2000-04-01" and the country "Canada"
+
+#we can also specify a value AND a column name
+bigmac.loc["2000-04-01","dollar_price"] #here we have a date value, and the :dollar_price: column name (this is genuinely not recommmended to do)
+
+#generally, when specifying specific values and rows, we want to use a tuple ()
+bigmac.loc[("2000-04-01","Canada")]
+
+#getting a specific range of data based on the values
+bigmac.loc[("2000-04-01","Hungary"): ("2000-04-01","Poland")] #here we are gathering the data for all the results between Hungary and Poland for the date "2000-04-01"
+#another way to perform this task is to create a variable and set the parameters
+#EXAMPLE
+start= ("2000-04-01","Hungary")
+end= ("2000-04-01","Poland")
+bigmac.loc[start:end]
+
+#start from a specific row and pull until the end of the dataframe
+bigmac.loc[("2019-07-09","Hungary"):]
+
+#entering specific start dates and end dates with specific values
+bigmac.loc[("2012-01-01","Brazil"): ("2013-07-01","Turkey")]
+
+#using transpose to move row labels to column labels and vice versa
+start= ("2018-01-01","China")
+end= ("2018-01-01","Denmark")
+#using transpose to flip the column names into rows
+bigmac.loc[start:end].transpose()
+
+#using the stack method to move the column index to the row index
+
+# the "worldstats" dataset used in this analysis can be found here:
+# https://www.kaggle.com/datasets/tistha/worldstatscsv
+
+#importing the new csv
+world=pd.read_csv('YOUR_FILE_LOCATION/worldstats.csv',index_col=["year","country"]).sort_index()
+world.head()
+
+#finding unique values
+pd.read_csv('YOUR_FILE_LOCATION/worldstats.csv').nunique()
+
+#getting a multiindex series
+world.stack() #1st level is the year, 2nd level is the country, 3rd level captures the other columns in the dataset (population and gdp)
+
+#checking the type
+type(world.stack())
+
+#converting from series to  DataFrame
+world.stack().to_frame()
+
+
+#using the unstack metthod to move a toe index to a column index
+world=pd.read_csv('YOUR_FILE_LOCATION/worldstats.csv',index_col=["year","country"]).sort_index().stack()
+world.unstack()
+
+#unstacking the stack method that was implemented when reading the csv
+# world.unstack().unstack()
+world.unstack().unstack().columns
+
+#customize which level you want to unstack
+world.unstack(level=0) #moving only the "year" level
+#you can also do this by referencing the column name directly
+#EXAMPLE:
+world.unstack(level="year")
+
+world.unstack(level=1) #moving only the "country" column
+#referncing the column name directly 
+world.unstack(level="country")
+
+#unstacking more than one column
+world.unstack([1,0])
+#referencing the column name directly
+world.unstack(["country","year"])
+
+#using the pivot method to reshapre data from a tall format to a wide format
+# you can find this dataset used in this analysis here:
+# https://www.kaggle.com/datasets/ganesunichaitanya/salesman-contact-data
+
+sales=pd.read_csv('YOUR_FILE_LOCATION/salesman_contact_data.csv')
+
+#here we are making the data wider by setting the index as "salesman ID"  and making each persons name as a column. we are then searching in the values for each persons phone number
+sales.pivot(index="Salesman ID", columns="Salesman Name", values="Phone Number")
+
+
+#using the melt method to convert wide dataframes to tall dataframes
+#you can find the dataset used for this analysis here:
+# https://www.kaggle.com/datasets/eduardopedron/tesla-vehicle-sales-by-quarters
+
+quarters=pd.read_csv("YOUR_FILE_LOCATION/Tesla_car_sales.csv")
+
+#melting the data based on the "year column"
+quarters.melt(id_vars="Year") #here we are filtering the data by year to be able to easily compare 2015 q1 results to 2017 q1 results
+
+#changing the column name using "var_name" and using "value_name" to change the values column name
+quarters.melt(id_vars="Year", var_name="Quarter", value_name="Revenue") 
+
+#using the pivot table method
+
+#you can find the dataset used for this analysis located here:
+# https://www.kaggle.com/datasets/arnavsharmaas/us-food-imports-1999-2021
+
+foods= pd.read_csv('YOUR_FILE_LOCATION/Foods import data.csv')
+foods.head()
+#using this pivot_table method will generate the amount of millions spent (the value) per country (the index)
+foods.pivot_table(values="Million $", index="Country")
+
+#you can grab the sum of this data by simply adding the "aggfunc" parameter
+foods.pivot_table(values="Million $", index="Country", aggfunc="mean")
+#you can grab the sum of this data by simply adding the "aggfunc" parameter
+foods.pivot_table(values="Million $", index="Country", aggfunc="sum")
+
+#filtering the items on amount spent by food ctaegory
+foods.pivot_table(values="Million $", index="General Food Category", aggfunc="sum")
+
+#adding the columns= method to analyze which countries bought which food category based on the year bought
+foods.pivot_table(values="Million $", index=["General Food Category","Year"], columns="Country", aggfunc="sum")
+
+#adding the general food cateory into the columns parameter to build two columns
+foods.pivot_table(values="Million $", index="Year", columns=["Country","General Food Category"], aggfunc="sum")
+
+#further analysis with the aggfunc=count method
+foods.pivot_table(values="Million $", index="Year", columns=["Country","General Food Category"], aggfunc="count")
+#further analysis with the aggfunc=max method
+foods.pivot_table(values="Million $", index="Year", columns=["Country","General Food Category"], aggfunc="max")
+
+
+#utilizing the groupby 
+#this method allows us to create groups of rows into one dataframe
+
+#the data used in this analysis can be found here:
+# https://www.kaggle.com/datasets/agailloty/fortune1000
+
+#ingesting the data
+fortune=pd.read_csv('YOUR_FILE_LOCATION/fortune1000.csv', index_col="Rank")
+fortune.head()
+
+#finding the sums of revenue for one sector
+fortune[fortune["Sector"] == "Retailing"] ["Revenue"].sum()
+
+#sum of revenues for each sector
+sectors= fortune.groupby("Sector")
+sectors
+#how many dataframes is the sector variable holding?
+len(sectors)
+
+#how many rows of data are in each sector?
+sectors.size()
+
+#getting the first row of each nested dataframe
+sectors.first()
+#getting the last row of each nexted dataframe
+sectors.last()
+
+#using the get_group method
+#this retrieves all of the grouping belonging to a specific group/category
+
+#this will get all sectors listed as "Energy"
+sectors.get_group("Energy")
+#this will get all of the sectors listed as "Techonlogy"
+sectors.get_group("Technology")
+
+#methods on the GroupBy object
+#getting the sum of the revenue for each sector
+sectors["Revenue"].sum()
+#this will also give the sum of revenue, but only for one sector
+fortune[fortune["Sector"] == "Apparel"] ["Revenue"].sum()
+
+#finding the amount of employees for each sector
+sectors["Employees"].sum()
+#finding the max profit for each sector
+sectors["Profits"].max()
+#finding the min profit for each sector
+sectors["Profits"].min()
+#finding the mean employees for eacch sectors
+sectors["Employees"].mean()
+#getting the sum of all of the revenues and profits in each sector
+sectors["Revenue","Profits"].sum()
+
+#grouping by multiple columns
+
+#resetting the groupby statement
+sectors= fortune.groupby(["Sector", "Industry"])
+#gwtting the number of industries in each sector
+sectors.size()
+
+sectors["Revenue"].sum()
+#getting the average employees for each industry in a sector
+sectors["Employees"].mean().head(20)
+
+#using the agg method
+#getting the sum of revenues and the max profits within each sector
+sectors.agg({ "Revenue":"sum", "Profits":"max" })
+
+#iterating through groups
+#resetting our groupby method
+sectors=fortune.groupby("Sector")
+
+#find the two companies in each sector with the most employees
+def top_two_employees_by_employee_count(sector):
+  return sector.nlargest(2, "Employees") #"nlargest" is taking 2 rows, and getting the largest 2 rows in the "employees" column for each sector
+sectors.apply(top_two_employees_by_employee_count)
+
+
+
+#working with dates and times
+#to work with dates and times, we use the datetime module
+import datetime as dt
+
+#getting a specific date
+someday = dt.date(2025, 12, 15)
+#extracting only the year
+someday.year
+#extracting the month
+someday.month
+#extracting the day
+someday.day
+
+#further generating a date for the hours minuts and seconds
+sometime = dt.datetime(2025, 12, 15, 8, 13, 59)
+sometime.year
+sometime.month
+sometime.year
+sometime.day
+sometime.hour
+sometime.minute
+sometime.second
+
+#the timestamp and datetimeindex objects
+
+pd.Timestamp(2027,3,12)
+pd.Timestamp(2027,3,12,18,23,49)
+pd.Timestamp("2025-01-01")
+#using pandas with the datetime module
+pd.Timestamp(dt.date(2028,10,23))
+pd.Timestamp(dt.datetime(2028,10,23,14,35))
+
+#creating a datetime series
+pd.Series([pd.Timestamp("2021-03-08 08:35:15")]).iloc[0]
+#creating a datetime index
+pd.DatetimeIndex(["2025-01-01","2025-02-01","2025-03-01"])
+
+index= pd.DatetimeIndex([
+  dt.date(2026, 1, 10),
+  dt.date(2026, 2, 20)
+])
+index[0]
+
+#create range of date with pd.date_range function
+#the date_range functiod generates and returns a DatetimeIndex which holds a sequence of dates
+#getting every date between 2025-01-01 and 2025-01-07
+
+pd.date_range(start="2025-01-01", end="2025-01-07")
+
+pd.date_range(start="2025-01-01", end="2025-01-07", freq="D")
+#here, freq=2D is allowing us to have 2 days in between each date
+pd.date_range(start="2025-01-01", end="2025-01-07", freq="2D")
+#here freq="B" refers to only business days
+pd.date_range(start="2025-01-01", end="2025-01-07", freq="B")
+#here freq="W" refers to only only week start dates (this autmatically begins on sunday)
+pd.date_range(start="2025-01-01", end="2025-01-31", freq="W")
+#here we are still referring to week days, but this time we are setting the specific day of the week in which we want to start on
+pd.date_range(start="2025-01-01", end="2025-01-31", freq="W-FRI")
+pd.date_range(start="2025-01-01", end="2025-01-31", freq="W-THU")
+#here we can generate days based on an hour frequency 
+pd.date_range(start="2025-01-01", end="2025-01-31", freq="H")
+#jumping by 6 hours
+pd.date_range(start="2025-01-01", end="2025-01-31", freq="6H")
+#here we are jumping by month
+pd.date_range(start="2025-01-01", end="2025-12-31", freq="M")
+#jumping by the 1st of each month
+pd.date_range(start="2025-01-01", end="2025-12-31", freq="MS")
+#jumping by year (annual)
+pd.date_range(start="2025-01-01", end="2050-12-31", freq="A")
+#jumping by a period of one day, for a period of 25 days
+pd.date_range(start="2012-09-09", freq="D", periods=25)
+#regress backwards in a period of one day
+pd.date_range(end="2013-10-31", freq="D", periods = 20)
+
+
+
+#the dt attribute
+#setting a date range of 24d, every 3 hours
+bunch_of_dates=pd.Series(pd.date_range(start="2000-01-01", end="2020-12-31", freq="24D 3H"))
+bunch_of_dates.dt
+bunch_of_dates.head()
+#using the date, time, month, and hour attributes
+bunch_of_dates.dt.day
+bunch_of_dates.dt.month
+bunch_of_dates.dt.year
+bunch_of_dates.dt.hour
+bunch_of_dates.dt.day_of_year
+#method to get the name of the day for a specific date
+bunch_of_dates.dt.day_name()
+#is the day on the last day of the month?
+bunch_of_dates.dt.is_month_end
+#is the day of the first day of the month?
+bunch_of_dates.dt.is_month_start
+#is the date the start of a quarter?
+bunch_of_dates[bunch_of_dates.dt.is_quarter_start]
+
+#selecting rows from a dataframe with DatetimeIndex
+#you can find the dataset used for this analysis here:
+# https://www.kaggle.com/datasets/ranugadisansagamage/ibm-stocks
+#using parse_dates will ensure that our "Date" column is  a datetime object
+stocks=pd.read_csv('YOUR_FILE_LOCATION/IBM.csv', parse_dates=["Date"], index_col="Date").sort_index()
+stocks.head()
+
+#grabbing the "301st"row in the data as an example
+stocks.iloc[300]
+#loc accesses a wider variety of data than iloc and will allow us to grab a specific value
+stocks.loc["2014-03-04"]
+#we could also use a timestamp here
+stocks.loc[pd.Timestamp(2014, 3, 4)]
+#or we could even specify as rnage of dates as shown here
+stocks.loc["2014-03-04":"2014-12-31"]
+#we can also accomplish the same thing as above by utilizing the timestamp as well
+stocks.loc[pd.Timestamp(2014, 3, 4): pd.Timestamp(2014, 12, 31)]
+#you can also use a method based extraction using truncate
+stocks.truncate("2014-03-04", "2014-12-31")
+#you can also extract specific values based on their columns
+stocks.loc["2014-03-04", "Close"] #here we are using the column "Close" to identify data
+stocks.loc["2014-03-04", "High":"Close"] #here we are finding the data associated with the "high" and "close" columns
+#we can once again also utilize use timestamp as well with the desired columns 
+stocks.loc[pd.Timestamp(2014, 3, 4): pd.Timestamp(2014, 12, 31), "High":"Close"]
+
+#using the dateoffset funcion
+#this allows us to add time to a timestamp to arrive at a new timestamp
+
+#go through every timestamp you are going through and add 5 days to it
+stocks.index + pd.DateOffset(days=5)
+#go through every timestamp and subtract 5 days from it
+stocks.index - pd.DateOffset(days=5)
+#adding 3 months to every date
+stocks.index + pd.DateOffset(months=3)
+#subtracting 1 year to every date
+stocks.index - pd.DateOffset(years=1)
+#adding 1 year 3 month,2 days, 14 hours, 23 minutes, and 12 seconds to every date
+stocks.index + pd.DateOffset(years=1, months=3, days=2, hours=14, minutes=23, seconds=12)
+
+#analysis:
+#how can I find the IBM stock price on every one of my birthdays? (August 25, 1993)
+#step 1: identify the dates you are wanting to check
+birthdays = pd.date_range(start="1993-08-25", end="2024-08-25", freq=pd.DateOffset(years=1))
+#step 2: checking our variable inside our dataset
+stocks.index.isin(birthdays)
+#step 3: generate the data
+stocks[stocks.index.isin(birthdays)]
+
+#specialized date offsets
+#pd.tseries.offsets will allows us to round dates to the next month, etc
+#finding the month end of every single date
+stocks.index + pd.tseries.offsets.MonthEnd()
+#finding the month end of the previous month
+stocks.index - pd.tseries.offsets.MonthEnd()
+#finding the dates for the quarter end
+stocks.index + pd.tseries.offsets.QuarterEnd()
+#finding the dates for the quarter end specificying the first of the month
+stocks.index + pd.tseries.offsets.QuarterEnd(startingMonth=1)
+#exploring dates with yearend
+stocks.index - pd.tseries.offsets.YearEnd()
+#or year begin
+stocks.index - pd.tseries.offsets.YearBegin()
+#checking the data
+# stocks.tail()
+
+#using the timedelta object 
+#timedelta shows us the gaps in between dates
+pd.Timestamp("2023-03-31 12:30:48") - pd.Timestamp("2023-03-20 19:25:59")
+#or utilize it with checking out negative days
+pd.Timestamp("2023-03-20 19:25:59") - pd.Timestamp("2023-03-31 12:30:48")
+
+#timdelta using numericals
+pd.Timedelta(days=3, hours=2, minutes=5)
+#timedelta using a string
+pd.Timedelta("5 minutes")
+pd.Timedelta("3 days 2 hours 5 minutes")
+
+#you can find the dataset used for this analysis here:
+# https://www.kaggle.com/datasets/shashwatwork/ecommerce-data
+
+ecommerce= pd.read_csv('YOUR_FILE_LOCATION/ecommerce.csv', index_col="Order ID", parse_dates=["Order Date", "Ship Date"])
+#finding the delivery time between order dates and ship dates
+ecommerce["Ship Date"] - ecommerce["Order Date"]
+#building a new column called delivery_time
+ecommerce["Delivery_Time"] = ecommerce["Ship Date"] - ecommerce["Order Date"]
+#checking the data
+ecommerce.head()
+#what was the longest delivery time?
+ecommerce["Delivery_Time"].max()
+#what was the shortest deliver time?
+ecommerce["Delivery_Time"].min()
+#what is the average delivery time?
+ecommerce["Delivery_Time"].mean()
+
+#INPUT AND OUTPUT
+#connecting to an online csv
+url = 'https://data.cityofnewyork.us/api/views/25th-nujf/rows.csv'
+baby_names = pd.read_csv(url)
+#cheking the data
+baby_names.head()
+
+#how to export a dataframe to a csv file
+#gathering the string contents of the file
+baby_names.to_csv("baby_names.csv") 
+#specifying paticular columns
+# baby_names.to_csv("baby_names.csv", index=False, columns=["Year of Birth", "Child's First Name", "Count"]) 
+baby_names
+
+#how to read and write excel files
+#installing the needed packages
+# %pip install openpyxl
+import openpyxl
+#reading in your excel
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names.xlsx')
+#reading an excel with multiple worksheets
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx')
+#grabbing the first worksheet
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name="Popular_Baby_Names") #here we are assigning the sheet name written on the tab in excel to reference which sheet name to use
+#grabbing the second worksheet
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name="Sheet1")
+#assigning the sheet_names a number
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name=0)
+#assigning the sheet_names a number
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name=1) #this will bring in the second data sheet 
+#grabbing both sheets at once
+pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name=[0,1])
+#telling pandas not to select a specific sheet name and grab all of them wrapped into a dictionary 
+data= pd.read_excel('YOUR_FILE_LOCATION/Popular_Baby_Names_Multiple_Worksheets.xlsx', sheet_name=None) #here, pandas will automatically assign the tab names as variables to your data as dictionaries.
+#checking the first sheet
+data['Popular_Baby_Names']
+#checking the second sheet
+data['Sheet1']
+
+#how to export excel files
+url = 'https://data.cityofnewyork.us/api/views/25th-nujf/rows.csv'
+baby_names = pd.read_csv(url)
+#cheking the data
+baby_names.head()
+#creating the sheets to export
+females= baby_names[baby_names["Gender"]=="FEMALE"]
+males= baby_names[baby_names["Gender"]=="MALE"]
+
+#writing the export
+with pd.ExcelWriter("NYC_baby_data.xlsx") as excel_file: #as excel_file is naming your excel file
+  females.to_excel(excel_file, sheet_name="Females",index=False) #sheet_name= is specifying what you want your sheet name to be
+  males.to_excel(excel_file, sheet_name= "Males", index=False)
