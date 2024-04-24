@@ -1,0 +1,15 @@
+# detemining the highest student scores
+
+#creating a list for student scores
+student_scores = input().split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+
+#detemining the highest score
+highest_score = 0
+#tapping into the "student_scores" list in order to grab the inputs and put it into the "score" variable
+for score in student_scores:
+  #comparing the "score" to the "highest_score" variable
+  if score > highest_score:
+    highest_score = score
+print(f"The higest score in the class is {highest_score}")
