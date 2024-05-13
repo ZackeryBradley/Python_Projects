@@ -1,0 +1,14 @@
+#passing an unknown amount of arguments to a function
+
+'''this code is a guide to see how you can use python functions to pass an unknown number of arguments into a funvtion. here, we are creating different pizzas!.'''
+
+def make_pizza(*toppings):
+  '''Print the list of topping that have been requested.'''
+  print("\nMaking a Pizza with the following toppings:")
+  #creating a for loop to iterate over the pizzas commands
+  for topping in toppings:
+    print(f" - {topping}")
+#making the custom pizzas
+make_pizza('cheese')
+make_pizza('pepperoni', 'bacon', 'pineapple')
+
