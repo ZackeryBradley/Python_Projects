@@ -29,5 +29,5 @@ print(f"{my_dog.name} is {my_dog.age} years old. what about yours?")
 my_dog.sit()
 
 print(f"Hi! my dog's name is {your_dog.name}")
-print(f"{my_dog.name} is {my_dog.age} years old. Thanks for asking!")
+print(f"{your_dog.name} is {your_dog.age} years old. Thanks for asking!")
 your_dog.sit()
