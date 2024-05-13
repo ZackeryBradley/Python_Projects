@@ -1,0 +1,33 @@
+'''this script was written to show how to write a simple class in python'''
+#creating and using classes
+class Dog:
+  '''this is a simple attempt to create a class modeling a dog'''
+  #**note: __init__ is considered a "method". this particular method runs automatically whenever we create new insrances based on the dog class in the code below.
+  def __init__(self, name, age):
+    '''creating the dogs name and age attributes'''
+    self.name = name
+    self.age = age
+  def sit(self):
+    '''this is to simulate a dog sitting in response to a command'''
+    print(f"{self.name} is now sitting. Good girl!")
+  def roll_over(self):
+    '''this is to simulate a dog rolling over in response to a command'''
+    print(f"{self.name} rolled over! Good girl times two!")
+#creating a variable to access the Dog class, and providing arguments based on the function inside of the class
+my_dog = Dog('Sadie',6)
+print(f"My dog's name is {my_dog.name}.")
+print(f"My dog was {my_dog.age} years old")
+#
+my_dog.sit()
+my_dog.roll_over()
+
+#pretending to have a conversation with someone else about our dogs
+your_dog = Dog('Riley', 8)
+
+print(f"Hello! my dog's name is {my_dog.name}")
+print(f"{my_dog.name} is {my_dog.age} years old. what about yours?")
+my_dog.sit()
+
+print(f"Hi! my dog's name is {your_dog.name}")
+print(f"{my_dog.name} is {my_dog.age} years old. Thanks for asking!")
+your_dog.sit()
