@@ -1,0 +1,33 @@
+#using args and kwargs
+#NOTE:
+# *args will always print as a tuple
+# **kwargs will always print as a dictionary
+def my_function(*args, **kwargs):
+  print(args)
+  print(kwargs)
+  #here we can see the differences between args and kwargs, and how each are defined
+my_function(10,True,'abc',key=20, name='Zackery')
+
+#how to gather positional arguments into the args tuple
+def send_email(to, subject, *args, **kwargs):
+  print(f"\nsending email to: {to}")
+  print(f"Email subject: {subject}")
+  #this is an if statement used to gather any additional arguments
+  if args:
+    print("\nAdditional recipients:")
+    for recipient in args:
+      print(recipient)
+    #printing the additional keyword argument
+  if kwargs:
+    print("\nAdditional details for the email:")
+    for key in list(kwargs):
+      print(f"{key}: {kwargs[key]}")
+    # print(list(kwargs))
+#printing each variety of arguments
+print('____________')
+send_email('test@example.com',"Hello There!",'other@example.com',bcc='zack@test.com')
+print('____________')
+send_email('test@example.com',"Hello There!",bcc='zack@test.com')
+print('____________')
+send_email('test@example.com',"Hello There!",'third@example.com',bcc='zack@test.com')
+
