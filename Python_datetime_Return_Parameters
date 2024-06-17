@@ -1,0 +1,18 @@
+#using default function parameters
+from datetime import date
+def get_weekday():
+  #FULL DAY RETURN
+  return date.today().strftime('%A')
+  # ABBREVIATION DAY RETURN
+  return date.today().strftime('%a')
+  #DAY NUMBER RETURN
+  return date.today().strftime('%d')
+  # MM/DD/YY RETURN
+  return date.today().strftime('%D')
+  #FULL MONTH RETURN
+  return date.today().strftime('%B')
+  #ABBREVIATED MONTH RETURN
+  return date.today().strftime('%b')
+  #DULL TIMESTAMP RETURN
+  return date.today().strftime('%c')
+get_weekday()
