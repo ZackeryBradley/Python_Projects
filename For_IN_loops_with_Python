@@ -1,0 +1,41 @@
+my_object = {
+  'x': 10,
+  'y': True,
+  'z': 'abc'
+}
+
+for key in my_object:
+  print(key, my_object[key])
+
+#FOR IN dicionary using the items() method
+#this will convert the dictionary into a tuple
+for item in my_object.items():
+  print(item)
+print(type(item))
+
+#unpacking the tuple from the code above
+for item in my_object.items():
+  key, value = item
+  print(key, value)
+
+#for unpacking a variable inside the for loop itself
+for key, value in my_object.items():
+  print(key, value)
+
+#for in method in a set
+ids = {'5164', '2843', '2672', '14'}
+for id in ids:
+  print(id)
+
+  #for in in a string 
+my_name = 'zackery'
+for char in my_name:
+  #printing every letter in my name
+  print(char)
+
+#for in using range
+for num in range(5):
+  print(num)
+#for in using range to get odd numbers
+for odd_num in range(3,10,2):
+  print(odd_num)
