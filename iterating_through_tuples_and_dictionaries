@@ -1,0 +1,27 @@
+#iterating over a tuple
+months = ('Jan', 'Feb', 'Apr', 'Sep')
+for month in months:
+    print(f"The month is {month}")
+
+#iterating over a dictionary
+product_prices = {
+    'PC': 1000,
+    'Cell Phone': 800,
+    'Tablet': 200,
+    'Camera': 700,
+    }
+for key in product_prices:
+    #get key for each item in the dictionary
+    print(key)
+    #get values for each key
+    print(product_prices[key])
+
+#utilizing the .items() method
+for item in product_prices.items():
+    #converting dictionary to tuple for each product0
+    print(item)
+    #unpacking the tuples into seperate items
+    key,value = item
+    print(key,value)
+
+
