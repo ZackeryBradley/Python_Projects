@@ -1,0 +1,52 @@
+all_nums = [-3, 1, 0, 10, -20, 5]
+absolute_nums = [abs(num) for num in all_nums]
+print(absolute_nums)
+
+print(all_nums)
+
+#using list comprehension to filter numbers in our list
+positive_nums = []
+for num in all_nums:
+    if num > 0:
+        positive_nums.append(num)
+print(positive_nums)
+
+print(all_nums)
+
+#list comprehension with filtering
+positive_nums = [num for num in all_nums if num > 0]
+print(positive_nums)
+
+print(all_nums)
+
+#creating a new set using reglar for in loop
+my_set = {1, 10,15}
+#creating the new set
+new_set = set()
+
+for val in my_set:
+    new_set.add(val * val)
+print(new_set)
+
+print(my_set)
+
+#creating a new dictionary from sn existing dictionary 
+my_scores = {
+    'a': 10,
+    'b': 7,
+    'm': 14,
+
+}
+scores = {}
+for key, value in my_scores.items():
+    scores[key] = value * 10
+print(scores)
+
+print(my_scores)
+
+#condensed code of dictionary comprehension
+scores = {k: v * 10 for k, v in my_scores.items()}
+
+print(scores)
+
+print(my_scores)
