@@ -1,3 +1,29 @@
+#working with decorators:
+
+def decorator_function(original_fn):
+    def wrapper_function(*args, **kwargs):
+        print(args)
+        #this would be our decorator
+        print(kwargs)
+        print("Executed before function")
+
+        result = original_fn(*args, **kwargs)
+
+        print("Executed after function")
+
+        return result
+    
+    return wrapper_function
+
+@decorator_function
+def my_function(*args, **kwargs):
+    print("This is my function")
+
+my_function(10,name='Zackery')
+
+#verifying user permissions with decorators
+
+
 #using a decorator to verify a user authentication
 def is_user_authenticated():
     return True
