@@ -1,0 +1,72 @@
+#using a decorator to verify a user authentication
+def is_user_authenticated():
+    return True
+
+def check_user_auth(fn):
+    def wrapper(*args, **kwargs):
+        if is_user_authenticated():
+            print("User is authenticated!")
+            return fn(*args, **kwargs)
+        else:
+            raise Exception("User is not authenticated")
+    return wrapper
+
+@check_user_auth  #this is out decorator assignment     
+def do_sensitive_job():
+    #perform ONLY is the user is authenticated
+    print("Some sensitive job results")
+
+do_sensitive_job()
+
+#using a decorator to multiply numbers
+
+#adding the decorator function:
+def log_function_call(fn):
+    def wrapper(*args, **kwargs):
+        print(f"calling functions {fn.__name__}")
+        print(f"Function arguments: {args}, {kwargs}")
+        res = fn(*args, **kwargs)
+        print(f"Result of the function is {res}")
+        return res
+    return wrapper
+#end of decorator function creation
+
+@log_function_call #calling our function decorator
+def multiply_numbers(a,b):
+    return a*b
+multiply_numbers(10,20)
+#creating an empty line to seperate my values
+print('')
+
+#creating a function call for the "sum_numbers" function
+@log_function_call
+def sum_numbers(a,b):
+    return a + b
+sum_numbers(10,20)
+#creating an empty line to seperate my values
+print('')
+#creating keyword arguments
+print(sum_numbers(a=50,b=5))
+
+
+#validating arguments with decorator functions
+
+def validate_args(fn):
+    def wrapper(*args, **kwargs):
+        for arg in args:
+            #creating a function to validate our data type argument, and showing the invalid data type if applicable
+            if not isinstance(arg, int):
+                raise ValueError("Arguments must be integers!", f"{args} is of type {type(args)}")
+        return fn(*args, **kwargs)
+    return wrapper
+
+#calling our decorator
+@validate_args
+def sum(a, b):
+    return a+b
+try:
+    print(sum(5,2))
+    #creating the invalid funciton call
+    print(sum('5',2))
+except ValueError as e:
+    print(e)
