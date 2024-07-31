@@ -1,0 +1,37 @@
+#creating a counter to utilize a global scope
+#a global scope is something used OUTSIDE of the class
+users_qty = 0
+
+class User:
+    def __init__(self, username, email):
+        #since we are working wuth a GLOBAL scope, we need to define that we are doing so
+        global users_qty
+        self.username = username
+        self.email = email
+        users_qty += 1
+
+first_user = User('bob28', 'bob@yahoo.com')
+second_user = User('jenny', 'jennypalpano@gmail.com')
+third_user = User('malcolm', 'malcomcmiller@aol.com')
+print("Global class method:")
+print(users_qty)
+print('')
+
+
+class User:
+    #since we have now put 'users_qty' INSIDE of the class, this is considered a LOCAL scope!
+    users_qty = 0
+    def __init__(self, username, email):
+        self.username = username
+        self.email = email
+        #when using the LOCAL variable, we have to reference our class by dot notation with "User."
+        User.users_qty += 1
+first_user = User('bob28', 'bob@yahoo.com')
+second_user = User('jenny', 'jennypalpano@gmail.com')
+third_user = User('malcolm', 'malcomcmiller@aol.com')
+print("Local class method:")
+print(users_qty)
+#creating a dictionary out of the "second_user" method
+print(second_user.__dict__)
+print('')
+
