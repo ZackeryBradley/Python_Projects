@@ -1,0 +1,20 @@
+class Post:
+    #creating the first instance in the class
+    def __init__(self, title):
+        self.title = title
+    #creating the second instance in the class
+    def __add__(self, other):
+        return f"{self.title} {other.title}"
+    #setting both title methods to be the same
+    def __ed__(self, other):
+        return self.title == other.title
+
+first_post = Post("This is first post")
+second_post = Post("This is second post")
+same_post_as_first = Post("This is first post")
+
+print(first_post + second_post)
+
+
+print(first_post == same_post_as_first)
+print(first_post == second_post)
