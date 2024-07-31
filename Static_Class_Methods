@@ -1,0 +1,103 @@
+class Comment:
+    def __init__(self, text):
+        self.text = text
+
+#you have to set this method to access static issues
+#MAKE SURE THE STATIC METHOD IS INSIDE OF THE LOOP!
+    @staticmethod
+    def merge_comments(first, second):
+        return f"{first} {second}"
+
+my_comment = Comment("My comment")
+
+#passing the {first} and {second} arguments as strings
+print("Comment Class results:")
+m_1 = Comment.merge_comments("Thanks!", "Excellent.")
+print(m_1)
+
+m_2 = my_comment.merge_comments("Great", "OK")
+print(m_2)
+
+#creating  a separator between the next class:
+print('')
+
+class Post:
+    def __init__(self, title, content, author):
+        self.title = title
+        self.content = content
+        self.author = author
+        self.likes_qty = 0
+    def like(self):
+        self.likes_qty += 1
+
+    @staticmethod
+    def format_post(title, content):
+        return (
+            f"Post title: {title}\n"
+            f"Post content: {content}"
+        )
+
+#calling the post method 
+print("Post Class results:")
+
+formatted_post = Post.format_post("Some post title", "Post contents")
+print(formatted_post)
+
+#creating  a separator between the next class:
+print('')
+
+#creating a calculator class
+#creating a adddition class
+class Calculator:
+    @staticmethod
+    def add(a, b):
+        return a + b
+    #creating a subtraction method
+    @staticmethod
+    def subtract(a, b):
+        return a - b
+    #adding a multiplication method
+    @staticmethod
+    def mult(a,b):
+        return a * b
+    #creating a division method
+    @staticmethod
+    def divide(a, b):
+        if b != 0:
+            return a / b
+        #raise an exception in the event that zero is utilized
+        raise ValueError("Can't divide by zero!")
+    
+#calling the Calculator class
+#calling the add method
+print("Calculator Class addition result:")
+print(Calculator.add(20,10))
+#calling the subtract method
+print("Calculator Class subtraction result:")
+print(Calculator.subtract(20,10))
+#calling the multiplication method
+print("Calculator Class multiplication result:")
+print(Calculator.mult(20,10))
+#calling the division method
+print("Calculator Class division result:")
+print(Calculator.divide(20,10))
+
+#creating  a separator between the next class:
+print('')
+
+# Class Attributes
+class Comment:
+    total_comments = 0
+    def __init__(self, text):
+        self.text = text
+        self.votes_qty = 0
+        Comment.total_comments += 1
+#creating the first comment
+print("Comment Class results:")
+first_comment = Comment("First comment")
+print(Comment.total_comments)
+#creating the second comment
+second_comment = Comment("Second comment")
+print(Comment.total_comments)
+    
+
