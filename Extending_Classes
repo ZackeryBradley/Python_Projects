@@ -1,0 +1,34 @@
+#class inheritance
+class ExtendedList(list):
+    def print_list_info(self):
+        print(f"List has {len(self)} elements.")
+    
+custom_list = ExtendedList([3, 5, 2])
+print("Inheritence class results:")
+custom_list.print_list_info()
+print('')
+#class extension
+class User:
+    def __init__(self, username, email):
+        self.username = username
+        self.email = email
+    
+class AdminUser(User):
+    def __init__(self, username, email, role):
+        super().__init__(username, email)
+        self.role = role
+        self.is_admin = True
+print("Extended classes results:")
+my_admin = AdminUser('admin123', 'admin@aol.com', 'administrator')
+my_user = User('bob234', 'bob@lakewood.com')
+print(my_admin)
+print(type(my_admin))
+#checking whether each each is an instance
+print(isinstance(my_admin, AdminUser))
+print(isinstance(my_admin, User))
+print(isinstance(my_admin, object))
+
+#printing the values inside of "my_admin"
+print(my_admin.__dict__)
+#printing the values inside of my_user"
+print(my_user.__dict__)
