@@ -1,0 +1,26 @@
+    #inheritance in OOP
+class Vehicle:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+    
+    def start(self):
+        #code to start the vehicle
+        pass
+    def stop(self):
+        #code to stop the vehicle
+        pass
+#extending the Vehicle class
+class Car(Vehicle):
+    def __init__(self, make, model, doors_qty):
+        super().__init__(make, model)
+        self.doors_qty = doors_qty
+
+    def lock_doors(self):
+        #Logic to lock the doors
+        pass
+    def unlock_doors(self):
+        #logic to unlock the doors
+        pass
+
+    
