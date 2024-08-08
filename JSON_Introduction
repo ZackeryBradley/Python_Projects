@@ -1,0 +1,21 @@
+#SIMPLE JSON INTRODUCTION
+# converting json into a dictionary
+import json
+
+json_str = '{"id": 235, "brand": "Nike","qty":84,"status": {"isForSale":true}}'
+#checking to ensure json is a string
+print(type(json_str))
+#converting json into a dictionary
+sneakers= json.loads(json_str)
+#ensuring json was converted to string
+print(type(sneakers))
+
+#establishing columns:
+print(sneakers['brand'])
+print(sneakers['qty'])
+print(sneakers['status'], ['isForSale'])
+
+#converting json back to dictionary
+json_convert = json.dumps(sneakers, indent=1)
+
+print(type(json_convert))
