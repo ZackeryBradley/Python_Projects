@@ -4,6 +4,7 @@ import json
 #list to string conversion
 my_nums = [10, 100, 5, 20]
 my_nums_json = json.dumps(my_nums)
+print("CONVERTING PYTHON OBJECTS TO JSON")
 #converting json to string
 print(type(my_nums_json))
 
@@ -11,6 +12,7 @@ print(type(my_nums_json))
 print('')
 #tuple to string conversion
 my_nums = (10, 100, 5, 20)
+#"dumps" is used for converting objects to json (note: the dumps method will ALWAYS create a string!)
 my_nums_json = json.dumps(my_nums)
 #converting json to string
 print(type(my_nums_json))
@@ -32,4 +34,28 @@ my_post_json = json.dumps(my_post)
 print('')
 print(my_post_json)
 print(type(my_post_json))
+
+# printing line break 
+print('')
+
+# CONVERTING JSON OBJECTS TO PYTHON
+print("CONVERTING JSON OBJECTS TO PYTHON")
+#converting json object back into dictionary
+#"loads" is used to convert json back from a specified data type
+my_post_dict = json.loads(my_post_json)
+#checking results
+# print(my_post_dict)
+print(type(my_post_dict))
+
+# printing line break 
+print('')
+#converting json to a list 
+my_list = json.loads('[10, "abc", null, [1, 2], {"name": "Bradley"}]')
+print(my_list)
+print(type(my_list))
+
+
+
+
+
 
