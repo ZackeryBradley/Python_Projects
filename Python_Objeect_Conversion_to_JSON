@@ -1,0 +1,35 @@
+import json
+# CONVERTING PYTHON OBJECTS TO JSON
+
+#list to string conversion
+my_nums = [10, 100, 5, 20]
+my_nums_json = json.dumps(my_nums)
+#converting json to string
+print(type(my_nums_json))
+
+#printing line break 
+print('')
+#tuple to string conversion
+my_nums = (10, 100, 5, 20)
+my_nums_json = json.dumps(my_nums)
+#converting json to string
+print(type(my_nums_json))
+
+#dictionary to string conversion
+my_post = {
+    'title': "My post",
+    'content': "Post content",
+    'likes_qty': 25,
+    'author': {
+        'username': 'bradleyz',
+        'email': 'bradleyz@aol.com'
+    },
+    'metadata': (5, 7, 20)
+}
+
+my_post_json = json.dumps(my_post)
+# printing line break 
+print('')
+print(my_post_json)
+print(type(my_post_json))
+
