@@ -1,0 +1,49 @@
+#WORKING WITH FILES IN PYTHON
+
+#Uusing the os method
+from os import path
+#this will give you your workspace 
+print(path.abspath('.'))
+#this method is a module class
+print(type(path))
+
+from pathlib import Path
+print(Path('.').absolute())
+#this method is a type class
+print(type(Path))
+
+
+#using path method a 'test' file
+from pathlib import Path
+file_path = Path('test.txt')
+
+#checking all of the attributes in your file path, excluding those that start with '_'(we are essentially just showing all the magic methid attributes)
+print([m for m in dir(file_path)
+       if not m.startswith('_')])
+
+#how to find your current working directory
+from pathlib import Path
+print(Path.cwd())
+
+#creating a new path using pathlib
+from pathlib import Path
+print(Path('usr')/ 'local'/ 'bin')
+
+#checking to see if a directory of file exists in your path
+from pathlib import Path
+print(Path('test').exists()) #this will result is a True or False depending on if the file exists
+print(Path('test2.py').exists()) #this will result is a True or False depending on if the file exists
+
+#how to determine you have a file or a directory
+print(Path('test').is_file())
+print(Path('test2').is_dir())
+
+#to get your list of files and folders:
+from pathlib import Path
+for f in Path('.').iterdir():
+    print(f)
+
+
+
+
+
