@@ -1,0 +1,15 @@
+import json
+my_dict = {
+    'name': 'Zackery',
+    'is_practicing_python': True
+}
+print(my_dict)
+#how to format a dictionary using json
+#"indent" allows you to create a space for each item in the dictionary
+print(json.dumps(my_dict, indent=1))
+#setting json as variable
+my_dict_json = json.dumps(my_dict, indent=1)
+
+#putting the json results into a txt file
+file = open('test.txt', 'w')
+file.write(my_dict_json)
