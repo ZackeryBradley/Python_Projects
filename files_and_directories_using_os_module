@@ -1,0 +1,40 @@
+# working with files and directories using os module
+import os
+
+#name of the directory path you are looking for or creating 
+directory_path = 'my_test_directory'
+
+#checking to see if my directory exists
+if not os.path.exists(directory_path):
+    #create the directory if it does not exists
+    os.mkdir(directory_path)
+    print("Directory was created: ", directory_path)
+else:
+    print("Directory exists: ", directory_path)
+
+#creating a path to the file
+file_path = os.path.join(directory_path, 'my_file.txt')
+print("File path: ", file_path)
+
+#Getting the parent directory
+parent_dir = os.path.dirname(file_path)
+print("Parent directory ", parent_dir)
+
+#checking if the file is a file path or a directory path
+is_file = os.path.isfile(file_path)
+is_dir = os.path.isdir(directory_path)
+#printing the results to see if the file is a file path or directory path
+print(f"{file_path} is file: ", is_file)
+print(f"{directory_path} is directory: ", is_dir)
+
+#listing the files in your directory
+dir_files = os.listdir(directory_path)
+print(f"Files in the directory {directory_path}: ")
+for file in dir_files:
+    print(file)
+
+#removing a directory
+# if os.path.exists(directory_path):
+#     os.rmdir(directory_path)
+#     print(f"Directory {directory_path} was removed")
+
