@@ -1,0 +1,41 @@
+# working with files and directories using the path class
+
+#CREATING NEW FILES
+from pathlib import Path
+
+#directory path
+directory_path = Path('my_test_directory')
+#check the directory path type
+print(type(directory_path))
+#look at all subclasses in our path
+print(Path.__subclasses__())
+
+# printing a line break
+print('')
+
+#check if the directory exists
+if not directory_path.exists():
+    #create directory
+    directory_path.mkdir()
+    print("Directory was created: ", directory_path)
+else:
+    print("Directory already exists: ", directory_path)
+
+#creating path to the file
+#the "/" acts as a JOIN here.
+file_path = directory_path / 'my_file.txt'
+print("File path is: ", file_path)
+
+#Getting the parent directory
+parent_dir = file_path.parent
+print("Parent directory: ", parent_dir)
+
+#checking if the file is a file path or dir path
+is_file = file_path.is_file()
+is_dir = file_path.is_dir()
+print(f"File {file_path} is file: ", is_file)
+print(f"Directory {directory_path} is directory: ", is_dir)
+#listing the files in the directory
+
+#removing the directory
+
