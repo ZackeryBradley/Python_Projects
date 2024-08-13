@@ -37,5 +37,20 @@ print(f"File {file_path} is file: ", is_file)
 print(f"Directory {directory_path} is directory: ", is_dir)
 #listing the files in the directory
 
-#removing the directory
+# printing a line break
+print('')
+
+#listing the files in the directory
+files = [file for file in directory_path.iterdir() if file.is_file()]
+print("Files in the directory: ", files)
+
+
+#removing the directory and directory files using Path
+if directory_path.exists():
+    files = [file for file in directory_path.iterdir()]
+    for file in files:
+        #removes the file
+        file.unlink()
+    directory_path.rmdir()
+    print(f"Directory {directory_path} was removed")
 
