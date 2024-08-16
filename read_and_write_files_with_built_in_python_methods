@@ -1,0 +1,16 @@
+#reading and writing files iusing the built-in open method in python
+file_path = 'my_file.txt'
+file = open(file_path, 'w')
+print(file)
+print(type(file))
+
+#writing to the file
+file.write("First line\n")
+file.write("Second line\n")
+
+#in order to read the file afte rwriting it, you have to close the file!
+file.close()
+
+#opening the file to read it
+file= open(file_path)
+file.read()
