@@ -1,0 +1,39 @@
+# READING AND WRITING FILES
+
+#reading a file
+#to read all the contents of a file
+with open('test.txt') as test_file:
+    print(test_file.read())
+#to read the file as a list of strings
+with open('test.txt') as test_file:
+    print(test_file.readlines())
+
+#creating the "new_file" file
+with open('new.txt', 'w') as new_file:
+    #writing text to the new file
+    new_file.write("First line in the new file\n")
+
+    #writing data to a file
+with open('new.txt') as new_file:
+    print(new_file.read())
+
+with open('new.text', 'a') as new_file:
+    #appending a line line in the file
+    new_file.write("Second line in the new file\n")
+
+with open('new.txt') as new_file:
+    print(new_file.read())
+#printing line break
+print('')
+
+#deleting a file
+from pathlib import Path
+
+#checking if the file exists
+print(Path('new.txt').exists())
+
+#removing the file
+Path('new.txt').unlink()
+
+#checking if the file exists again
+print(Path('new.txt').exists())
