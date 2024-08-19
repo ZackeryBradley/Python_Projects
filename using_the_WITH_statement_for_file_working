@@ -1,0 +1,37 @@
+#reading and writing files iusing the built-in open method in python
+file_path = 'my_file.txt'
+
+#the purpose of the with statement is to avoide having to use the file.close() method to close the file.
+with open(file_path, 'w') as file:
+    #writing to the file
+    file.write("First line\n")
+    file.write("Second line\n")
+
+#using with to red each line of the file
+#THIS METHOD IS SUGGESTED FOR SMALLER FILES!
+with open(file_path) as file:
+    for line in file.readlines():
+        #use strip() to eliminate any line breaks between the first and second lines
+        print(line.strip())
+#printing a line break
+print('')
+
+#using a while loop and the "readline" method to work with files 
+#THIS METHOD IS SUGGESTED FOR BIGGER FILES!
+with open(file_path) as file:
+    while True:
+        line = file.readline()
+        if line:
+            print(line.strip())
+        else:
+            break
+#printing a line break
+print('')
+
+#appending a third line to the file
+with open(file_path, 'a') as file:
+    file.write("Third line\n")
+with open(file_path) as file:
+    print(file.read())
+        
+
