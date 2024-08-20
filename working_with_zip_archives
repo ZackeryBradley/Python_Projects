@@ -1,0 +1,48 @@
+#creating and unpacking of zip archives
+from zipfile import ZipFile
+from pathlib import Path
+
+#creating the "my-files" directory to store our files in
+# Path('my-files').mkdir()
+files_dir = Path('my-files')
+#creating the directory ONLY if one does not exist! (this eliminates getting the "file exists" error)
+if not files_dir.exists():
+    files_dir.mkdir()
+
+#checking if zip archive variable exists
+zip_archive = Path('my-files.zip')
+if zip_archive.exists():
+    zip_archive.unlink()
+
+
+
+#creating first file path
+with open('my-files/first.txt', 'w') as file:
+    file.write("This is first file\n")
+
+#creating second file path
+with open('my-files/second.txt', 'w') as file:
+    file.write("This is second file\n")
+
+#zipping both the files together
+with ZipFile('my-files.zip', mode='w') as zip_file:
+    for file in files_dir.iterdir():
+        print(file)
+        #writing to the zip file
+        zip_file.write(file)
+
+with ZipFile('my-files.zip') as zip_file:
+    # print(zip_file)
+    # print(type(zip_file))
+
+    #checking if the data was compressed
+    # print(zip_file.compression)
+
+    #describing each element of the file
+    # print(zip_file.infolist())
+
+    #unzipping files into the new 'unzipped-my-files' folder
+    # zip_file.extractall('unzipped-my-files')
+
+    #extracting ONLY the 'first.txt' file and placing it into a new folder names 'individual-files'
+    zip_file.extract('my-files/first.txt', 'individual-files')
