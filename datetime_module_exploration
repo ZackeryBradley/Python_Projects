@@ -1,0 +1,22 @@
+# Exploring the datetime module
+import datetime
+
+#creating a date using the datetime class
+future_date = datetime.date(2222,9,20)
+print("Future date:",future_date)
+#getting the individual month days and year 
+print(future_date.year)
+print(future_date.month)
+print(future_date.day)
+
+some_time = datetime.time(15,30,10)
+print("Some time:",some_time)
+#getting the individual times  from the time created in our "some_time" class
+print(some_time.hour)
+print(some_time.minute)
+print(some_time.second)
+
+
+
+
+
