@@ -1,0 +1,29 @@
+# WORKING WITH CSV FILES
+import csv
+#creating the 'test.csv' csv file
+with open('test.csv', 'w') as csv_file:
+    writer = csv.writer(csv_file, delimiter=';') 
+    #writing rows to the file
+    writer.writerow(['user_id', 'user_name', 'comments_qty'])
+    writer.writerow([5423, 'bradley', 1300])
+    writer.writerow([5425, 'charles', 830])
+    writer.writerow([7245, 'bob', 970])
+
+#opening 'test.csv' in read mode
+with open('test.csv') as csv_file:
+    reader = csv.reader(csv_file, delimiter=';')
+    print(reader)
+    print(type(reader))
+    #printing each line of the 'test.csv' file
+    #iterating over each row in the csv file
+    for index,line in enumerate(reader):
+        print(index, line)
+        if index == 0:
+            header = line
+        else:
+            #we are formatting the csv header here where 'header[idx]' is our colum names, and 'val' is our values
+            for idx, val in enumerate(line):
+                print(f"{header[idx]}: {val}")
+
+
+
