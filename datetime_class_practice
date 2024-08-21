@@ -1,0 +1,20 @@
+# USING THE DATETIME CLASS
+from datetime import datetime
+
+future_datetime = datetime(2100,10,12,20,50,15)
+print("Future date and time:", future_datetime)
+#exploring the functions in the datetime module
+# print(dir(datetime))
+
+#printing the hour
+print(future_datetime.hour)
+#reformatting the date
+print("Formatted date:", future_datetime.strftime("%B %d, %Y"))
+#reformatting time
+print("Formatted time:", future_datetime.strftime("%I:%M %p"))
+#reformatting date AND time
+print("Formatted date and time:", future_datetime.strftime("%A, %B %d, %Y %I:%M %p"))
+#reformatting month
+print("Formatted month:", future_datetime.strftime("%B"))
+#reformatting year
+print("Future year:", future_datetime.strftime("%Y"))
