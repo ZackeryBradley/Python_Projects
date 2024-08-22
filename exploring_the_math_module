@@ -1,0 +1,24 @@
+#built in math module
+import math
+
+#exploring math module functions
+# print(dir(math))
+
+# print(math.e)
+#getting the value of pi
+# print(math.pi)
+
+#finding the sqrt of a specific number
+print(math.sqrt(225))
+
+#finding the factorial of a specific number
+print(math.factorial(10))
+
+#finding the logathm of a specific number
+#AKA 10 the the power of 2 == 100
+print(math.log10(100))
+
+#this method essentially removes decimals
+print(math.floor(10.7))
+#round float numbers to nearest integer
+print(round(10.7))
