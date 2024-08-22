@@ -1,0 +1,22 @@
+#generating random csrf tokens, and URL-safe tokens
+import secrets
+#print 8, 16, and 24 character hex tokens
+print(secrets.token_hex(8))
+print(secrets.token_hex(16))
+print(secrets.token_hex(24))
+#creating a url-safe token
+print(secrets.token_urlsafe())
+#creating a url-safe token with 16 characters
+print(secrets.token_urlsafe(16))
+
+#generating an otp password
+def generate_otp_password(length):
+    digits = string.digits
+    password = ''.join(secrets.choice(digits) for _ in range(length))
+    return
+#6 character password
+generate_otp_password(6)
+#4 character password
+generate_otp_password(4)
+#10 character password
+generate_otp_password(10)
