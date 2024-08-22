@@ -1,0 +1,61 @@
+# exploring the random module
+import random
+print(random.random())
+
+#showing the functions of the random module
+print(dir(random))
+
+#generating a float number between 10.5 and 11.6
+print(random.uniform(10.5, 11.6))
+
+#generating a random integer between 100-1000
+print(random.randint(100,1000))
+
+#shuffle a list
+#Note: you are only allowed to shuffle lists in python!
+my_list = [1,2,3,4,5,6,7]
+print("Before shuffling:",my_list)
+#shuffling the list
+random.shuffle(my_list)
+print("After shuffling:",my_list)
+#printing a line break
+print('')
+#Choice
+#getting a random letter out of the string
+print(random.choice('zackery'))
+#printing a line break
+print('')
+#getting a random number out of the tuple
+print(random.choice((1,3,10)))
+
+#printing a line break
+print('')
+#printing a random item out of a list
+print(random.choice(['a', True, None]))
+
+#printing a line break
+print('')
+print("Utilizing random choices from a list:")
+#utilizing choices and shuffle methods from the random module
+#getting a random choice of 2 elements within the list
+print(random.choices([1, 2, 3, 4, 5], k=2))
+#selecting a random characters from our string 10 times
+print(random.choices('abcdef', k=10))
+
+#creating a random 12 alphaneumeric password based on the given parameters (this is not recommended to actually create a password with, by the way)
+print(''.join(random.choices('ABCDEF0123456789', k=12)))
+
+#printing line break
+print('')
+#exploring the random.sample method
+#this provides a sample in which the sample only generates singular list values.
+#Note: this works by taking a list of caharacters, and once the character is used it is removed from the list.
+print(random.sample([1, 2, 3, 4, 5], k=5))
+
+#generating a 10 character alphaneumeric where the characters are NOT repeated 
+print(''.join(random.sample('ABCDEF0123456789', k=10)))
+#showing how the element removal works. just because it removes an element it does not mean that the element is UNIQUE!
+print(random.sample([1, 1, 1, 1, 1], k=3))
+
+#picking 5 random numbers out of a million
+print(random.sample(range(1_000_000), k=5))
