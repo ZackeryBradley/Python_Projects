@@ -1,0 +1,41 @@
+# re module for regular expressions
+import re
+my_string = "My name is Zackery."
+
+#checking the the word 'Zackery' exists in the string
+#Note: the "$" symbol indicates the end of the string
+# the "^" symbol indicates the beginning of the string
+#the ".*" symbol indicates any character
+#the "\" symbol indicates an escape sequence
+res = re.search('^M.*Zackery\.$', my_string)
+print(res)
+print(type(res))
+
+#getting the index location of the last character in the string
+print(res.endpos)
+# printing line break
+print('')
+#showing a print within a line break
+print('^M.*Zackery\n$')
+#avoiding the line break for "\n" by indicating the string as a "r" string
+print(r'^M.*Zackery\$')
+
+
+#creating patterns for data matching
+#matching anything between Z and y with 7 characters
+my_pattern = re.compile(r'^M.*Z.....y')
+print(my_pattern)
+print(type(my_pattern))
+
+my_pattern.search(my_string)
+
+#matching the entire string with a specified pattern
+print(my_pattern.match(my_string))
+
+# printing line break
+print('')
+#using a method to finall all matches without your string
+print(my_pattern.findall("My name is Zackery. Hello Zackery."))
+
+
+
