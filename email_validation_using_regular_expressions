@@ -1,0 +1,24 @@
+# email validation using the regular expressions
+import re
+
+#this pattern looks specifically for email addresses
+def validate_email(email):
+    email_regex = r'^[\w\.\-]+@[\w\.\-]+\.\w+$'
+    email_pattern = re.compile(email_regex)
+    is_valid = bool(email_pattern.match(email))
+    return(email,is_valid)
+#the regex expression ensures that the email is in a valid format!
+#results check 1
+print(validate_email('zb@aol.com')) #valid
+#results check 2
+print(validate_email('zbaol.com')) #invalid
+#results check 3
+print(validate_email('zb@aolcom')) #invalid
+
+
+#searching to see if the email is a match
+if email_pattern.match('zb@aol.com'):
+    print("Email is valid")
+else:
+    print("Email is not valid")
+# print(email_pattern.match('zb@aol.com'))
