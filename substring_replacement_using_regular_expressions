@@ -1,0 +1,28 @@
+# Substring replacement using regular expressions
+import re
+
+regexp = r'replace'
+my_text = "Do we need to replace this? If we need to replace it, please let me know. We will replace your purchase free of charge."
+
+#replacing the word "replace" with asterisks 
+changed_text = re.sub(regexp, '*', my_text)
+print(changed_text)
+
+#you can also replace a single character by specifying the character to be replaced
+regexp = r'a'
+changed_text = re.sub(regexp, '*', my_text)
+print(changed_text)
+
+#removing excessing spaces using regular expressions
+import re
+my_text = "This is     a very          long        unformatted        sentence"
+print(my_text)
+# print(' '.join(my_text.split(' ')))
+#regexp variable signaling to remove instances where there are any spaces in the sentence 
+regexp = r'\s+'
+
+#utilizing the regexp variable created to remove excessing spaces in the my_text variable
+words = re.split(regexp, my_text)
+print(words)
+#completing the formatting of the sentence by properly spacing the sentence 
+print(' '.join(words))
