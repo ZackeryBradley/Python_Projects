@@ -1,0 +1,33 @@
+# exploring the array module
+from array import array
+
+my_int_array= array('i', [10, 4, 5, 6, 9, 15])
+print(my_int_array)
+#line break
+print('')
+print(type(my_int_array))
+#printing the function directory for the array module
+print(dir(my_int_array))
+#line break
+print('')
+#printing the item in the '2' position in the array
+print(my_int_array[2])
+#line break
+print('')
+
+#adding an element to the array
+my_int_array.append(20)
+print(my_int_array)
+
+#saving arrays into a file
+from array import array
+my_int_array= array('i', [10, 4, 5, 6, 9, 15])
+
+with open("my_array.bin", "wb") as file:
+    my_int_array.tofile(file)
+
+imported_array = array('i')
+with open('my_array.bin', 'rb') as file:
+    #reading only 3 elements from the file
+    imported_array.fromfile(file, 3)
+    print(imported_array)
