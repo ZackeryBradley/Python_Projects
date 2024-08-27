@@ -1,0 +1,24 @@
+# exploring the built in web-browser module
+import webbrowser
+#printing the available functions for the webbrowser module
+print(dir(webbrowser))
+
+#opening the built in python documentation in the webbrowser
+webbrowser.open('https://pypi.org')
+
+def search_on_search_engine(query: str, search_engine: str):
+    search_engines = {
+        'google': 'https://google.com/search?q={}',
+        'yahoo': 'https://yahoo.com/search?p={}',
+        'bing': 'https://bing.com/search?q={}',
+    }
+#if the user choosing a search engine that is not supported, inform them that the search engine is not supported
+    if search_engine not in search_engines:
+        print("Unsupported search engine:", search_engine)
+        return
+    
+    search_url = search_engines[search_engine].format(query)
+
+    webbrowser.open(search_url)
+#searching google for python programming results
+search_on_search_engine("Python programming", 'google')
