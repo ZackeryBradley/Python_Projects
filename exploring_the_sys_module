@@ -1,0 +1,32 @@
+# working with program arguments using the sys module
+import sys
+#printing all of the program arguments (including the name of the file) for your environment
+print("printing all of the python arguments:")
+print(sys.argv)
+
+#printing line break
+print('')
+
+#getting information on your python version
+print("Python version information:")
+print(sys.version_info)
+#printing your current python version
+print("Python version:")
+print(sys.version)
+
+
+#printing line break
+print('')
+
+if len(sys.argv) < 3:
+    raise IOError("You must provide username aand password!")
+#using indexes to get username and password
+print("Indexing method:")
+username = sys.argv[1]
+password = sys.argv[2]
+print(username, password)
+
+#using list unpacking to get username and password
+print("list unpacking method:")
+_, username, password = sys.argv
+print(username, password)
