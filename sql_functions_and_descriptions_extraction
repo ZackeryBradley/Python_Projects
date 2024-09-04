@@ -1,0 +1,18 @@
+'''this script is intending to create a csv file that has all of the sql functions and descriptions of what they do within your database'''
+from pyspark.sql.functions import col, lit
+
+
+function_descriptions = []
+for row in functions.collect():
+    function_description = spark.sql(f"DESCRIBE FUNCTION EXTENDED `{row['function']}`")
+    description_text = function_description.filter(function_description['function_desc'].contains('Extended Usage')).collect()
+    if description_text:  # Check if the description is not None
+        # Extracting the description might require parsing the collected result
+        function_descriptions.append((row['function'], description_text[0]['function_desc']))
+    else:  # If no description, append None
+        function_descriptions.append((row['function'], None))
+
+# Convert the list to a DataFrame
+functions_with_descriptions_df = spark.createDataFrame(function_descriptions, ["function", "description"])
+# Display the DataFrame
+display(functions_with_descriptions_df)
