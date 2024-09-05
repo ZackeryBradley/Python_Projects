@@ -1,0 +1,39 @@
+# one dimensional arrays in numpy
+import numpy as np
+#checking the functions list of numpy
+# print(dir(np))
+
+#creating a numpy array
+nums_array= np.array([1, 2, 3, 4])
+nums_array
+
+#checking "nums_array" type
+type(nums_array)
+
+#cchecking the first element in a numpy array
+nums_array[0]
+#checking the last element in the array
+nums_array[-1]
+
+#getting the shape of nums_array
+nums_array.shape 
+#(4,) <- means that the shape is a single dimension w/ one array of 4 elements
+
+#showing the number of dimensions with the array
+nums_array.ndim
+
+#writing the itemsize of the integer array
+nums_array.itemsize
+
+#getting the number of elements for nums_array
+nums_array.size
+
+#getting the type of elements within an array
+nums_array.dtype.name
+
+#building an array of items with different data types
+diff = np.array([True, 10, 'abc', 5.5])
+diff #here we can see that the array will convert all of the elements into strings
+
+#confirming that the diff array is a string
+diff.dtype.name
