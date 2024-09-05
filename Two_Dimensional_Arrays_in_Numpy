@@ -1,0 +1,73 @@
+# two dimensional arrays in numpy
+import numpy as np
+
+#creating a two-dimnesional array
+first = np.array([[1, 2, 3], [4, 5, 6]])
+first
+# array([[1, 2, 3],
+    #    [4, 5, 6]])
+
+#checking the shape of the "first" variable
+first.shape
+# (2, 3) <- 2, is the number of arrays and 3 is the number of elements within each array
+
+#checking index and row location
+first[0, 1]
+# 2 <- here "0" represents your first array, while "1" represents your specific location within the array. 
+
+#basic arithmatic operations in numpy
+second= np.array([[7, 8, 9], [10, 11, 12]])
+second
+# array([[ 7,  8,  9],
+#        [10, 11, 12]])
+
+#adding first and second array elements together
+first + second
+# array([[ 8, 10, 13],
+#        [14, 16, 18]])
+
+#adding one to each element in the first array
+first + 1
+# array([[2, 3, 5],
+#        [5, 6, 7]])
+
+#subtracting 2 to each element in the first array
+first - 2
+# array([[-1,  0,  2],
+#        [ 2,  3,  4]])
+
+#multiplying each element in the first array by 2
+first * 2
+# array([[ 2,  4,  8],
+#        [ 8, 10, 12]])
+
+#dividing each element in the first array by 3
+first / 3
+# array([[0.33333333, 0.66666667, 1.33333333],
+#        [1.33333333, 1.66666667, 2.        ]])
+
+#notice how the arithmetic operations do not affect the original array
+first
+
+
+#concatenating numpy arrays
+#note: keep in mind the "axis" parameters, where the "0" parameter is the vertical axis and the "1" parameter is the horizontal axis, by nature the "0" axis is your first element within your numpy array
+#note: observe how in order to concatenate the arrays, you MUST place the variable into tuples!
+#
+#concatenating the arrays vertically
+np.concatenate((first, second), axis=0)
+# array([[ 1,  2,  3],
+#        [ 4,  5,  6],
+#        [ 7,  8,  9],
+#        [10, 11, 12]])
+
+#concatenating the arrays horizontally
+np.concatenate((first, second), axis=1)
+# array([[ 1,  2,  3,  7,  8,  9],
+    #    [ 4,  5,  6, 10, 11, 12]])
+
+#concatenating 2 single dimensional arrays
+concat_single= np.concatenate((np.array([1, 2, 3]), np.array([4, 5, 6])))
+concat_single
+# array([1, 2, 3, 4, 5, 6])
+
