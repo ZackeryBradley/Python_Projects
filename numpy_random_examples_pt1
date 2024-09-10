@@ -1,0 +1,39 @@
+#numpy examples
+
+#example: calculating total revenue
+prices = np.array([19.99, 29.99, 14.99, 9.99, 24.99])
+prices
+
+quantities = np.array([10, 5, 8, 12, 3])
+quantities
+
+#multipying price * quanity to get revenue per product
+revenue_per_product = prices * quantities
+
+#adding the sum of the multiplications of price and quantity to get total revenue
+total_revenue = np.sum(revenue_per_product)
+print("Total revenue:", total_revenue)
+# Total revenue: 664.62
+
+#calculating revenue per product
+
+#example 2: analyzing blog post statistics
+
+views = np.array([1000, 500, 800, 1200, 300, 600])
+views
+
+#finding the maximum view amongst the entire array
+max_views = np.max(views)
+max_views
+
+#finding the minimum views amongst the entire array 
+min_views = np.min(views)
+min_views
+
+#average views amongst the entire array and rounding it to 2 decimal places
+average_views = np.round(np.mean(views),2)
+average_views
+
+#using sum to get the total views within the array
+total_views = np.sum(views)
+total_views
