@@ -1,0 +1,132 @@
+# numpy examples part 2
+
+#splitting an order into batches
+
+order_ids = np.array([1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008,])
+order_ids
+
+#using the split() method will split arrays into multiple sub arrays
+#split the array into 4 sub-arrays
+batches = np.split(order_ids, 4)
+batches
+
+#putting batches into a list
+for batch in batches:
+    print(batch)
+
+#categorizing product ratings
+
+ratings= np.array([4.5, 3.2, 2.8, 5.0, 4.1, 3.9, 2.5, 4.7])
+ratings
+#getting product ratings greater than or equal to than 4
+positive_ratings = ratings[ratings >= 4.0]
+positive_ratings
+#getting negative ratings for ratings less than 4
+negative_ratings = ratings[ratings < 4.0]
+negative_ratings
+
+#calculate total and average quantities sold
+#each column sis a specific product within the order
+#each row will be represented by a specific order
+order_quantities= np.array([[5, 3, 2, 7], [10, 6, 3, 9]])
+order_quantities
+
+#using the "axis" parameter to calculate the sum of the rows (axis=0 is for rows)
+#quantities sold for each product
+total_quantities_sold = np.sum(order_quantities, axis=0)
+total_quantities_sold
+
+
+#quantities of the sales for each order
+#using the "axis" parameter to calculate the sum of the columns (axis=1 is for columns)
+total_products_per_order = np.sum(order_quantities, axis=1)
+total_products_per_order
+
+#average quantities sold for each product
+average_quantities_sold = np.mean(order_quantities, axis=0)
+average_quantities_sold
+
+#calculate average product rating and maximum rating per category
+#each row represents a specific product
+#each product is rated in 4 different categories
+product_reviews = np.array([[4.5, 3.2, 2.5, 5.0], [4.3, 3.8, 1.0, 4.8], [2.0, 3.6, 4.7, 0.5]])
+product_reviews
+
+#average rating for each product
+average_rating = np.mean(product_reviews, axis=1)
+average_rating
+
+#finding the max rating
+max_rating_per_category = np.max(product_reviews, axis=0)
+max_rating_per_category
+
+#working with 3 dimensional arrays example
+#generation of the sample stock data
+companies = ['Google', 'Microsoft', 'Apple']
+days = ['Monday, 1 Apr', 'Tuesday, 2 Apr']
+price_types = ['Open', 'Close', 'High', 'Low']
+
+#setting the seed to stablize the random numbers
+np.random.seed(1)
+
+#getting a 3 dimensional array based on the 3 lists above
+stock_prices = np.round(np.random.random((len(companies), len(days), len(price_types))), 3)
+stock_prices
+
+#iterating over the companies by indexing them
+for index_axis_0, company in enumerate(companies):
+    # print(i, company)
+    print(f"Stock prices for {company}:")
+    #iterating over the days
+    for index_axis_1, day in enumerate(days):
+        print(f"Day: {day}")
+        #iterating over the prices and added in the iterations of the companies and days
+        for index_axis_2, price_type in enumerate(price_types):
+            print(f"{price_type} Price: {stock_prices[index_axis_0, index_axis_1, index_axis_2]}")
+            #adding line breaks to make code more readable
+        print('')
+
+#result:
+
+# Stock prices for Google:
+# Day: Monday, 1 Apr
+# Open Price: 0.417
+# Close Price: 0.72
+# High Price: 0.0
+# Low Price: 0.302
+
+# Day: Tuesday, 2 Apr
+# Open Price: 0.147
+# Close Price: 0.092
+# High Price: 0.186
+# Low Price: 0.346
+
+# Stock prices for Microsoft:
+# Day: Monday, 1 Apr
+# Open Price: 0.397
+# Close Price: 0.539
+# High Price: 0.419
+# Low Price: 0.685
+
+# Day: Tuesday, 2 Apr
+# Open Price: 0.204
+# Close Price: 0.878
+# High Price: 0.027
+# Low Price: 0.67
+
+# Stock prices for Apple:
+# Day: Monday, 1 Apr
+# Open Price: 0.417
+# Close Price: 0.559
+# High Price: 0.14
+# Low Price: 0.198
+
+# Day: Tuesday, 2 Apr
+# Open Price: 0.801
+# Close Price: 0.968
+# High Price: 0.313
+# Low Price: 0.692
+
+#exploring the shape of the stock prices 
+stock_prices.shape
+
