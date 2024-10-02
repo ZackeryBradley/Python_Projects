@@ -1,0 +1,181 @@
+# Pandas module exploration
+
+#creating a dataframe from a dictionary
+import pandas as pd
+forum_users = {
+    'user_id': [1, 2, 3, 4, 5],
+    'username': ['alice', 'bob', 'charlie', 'dan', 'erin'],
+    'age': [18, 35, 25, 38, 45],
+    'join_date': pd.to_datetime(['2031-01-01', '2032-02-15', '2032-04-25', '2032-06-21', '2032-09-15']), #turning this into a date time object
+    'total_posts': [150, 230, 80, 420, 310],
+    'reputation': [500, 720, 500, 940, 650]
+}
+#creating the dataframe
+df= pd.DataFrame(forum_users)
+df
+
+#performing basic operations within a dataframe
+
+#checking the shape of the df
+df.shape
+# results:
+# (5, 6) 5 rows, 6 columns
+
+#checking the type of the df
+print(type(df))
+# results:
+# <class 'pandas.core.frame.DataFrame'>
+
+#getting the columns in our dataframe
+df.columns
+# results:
+# Index(['user_id', 'username', 'age', 'join_date', 'total_posts', 'reputation'], dtype='object')
+
+#checking the types for df.columns
+print(type(df.columns))
+
+#placing columns within a list
+df.columns.tolist()
+
+#checking the data type for each columns
+print(df.dtypes)
+# results:
+
+# <class 'pandas.core.indexes.base.Index'>
+# user_id         int64
+# username       object
+# age             int64
+# join_date      object
+# total_posts     int64
+# reputation      int64
+# dtype: object
+
+#accessing the values in our dataframe
+df.values
+#checking the data type of our values
+type(df.values)
+#checking for a specific value
+df.values[1, 1]
+
+#accessing the first 5 rows in our data
+# note: you can also specify the number of rows you want to access by placing a number within the head() function
+df.head()
+#accessing the last 2 rows in our data
+df.tail(2)
+
+
+#using describe on the dataframe
+#gets the count, mean, std, min, max, 25%, 50%, and 75% for each column
+df.describe()
+#checking the data type
+type(df.describe())
+# results:
+    # pandas.core.frame.DataFrame
+
+#finding null values in the dataframe
+#note: "False" indicates that the value is not null. "True" would indicate a null value
+df.isna()
+
+#finding the rows with a specific data type (object data type)
+df.select_dtypes(include=['object'])
+
+#finding which columns have integer data type values (integer data type)
+df.select_dtypes(include=['int64']).columns
+
+#finding with columns do NOT have a specific data type (float data type)
+df.select_dtypes(exclude=['float64']).columns
+
+#exploring series data structures in Pandas
+
+#getting just one column within the dataframe
+df['username']
+
+#getting the type of the isolated column
+type(df['username'])
+
+#getting the counts of each username
+df['username'].value_counts()
+
+#getting the counts of each reputation
+df['reputation'].value_counts()
+
+#sorting reputation in ascending order
+df['reputation'].value_counts(ascending=True)
+
+#getting the unique values in the reputation column
+df['reputation'].unique()
+
+#sorting the username values
+df['username'].sort_values()
+
+#selecting part of a dataframe using loc and iloc
+df[['username', 'age']]
+
+#accessing the row with index 2 using loc
+df.loc[2]
+#accessing the rows with index 2 and 3 using loc
+df.loc[2:3]
+#accessing the rows with index 2 and 3 using loc to grab only specific named columns
+df.loc[2:3, ['age','total_posts']]
+#notice using a single index you will get the same familiar results as with the .loc function
+df.iloc[3]
+#the difference between loc and iloc is that iloc does not retrieve the last number specified
+df.iloc[2:4]
+
+#get all rows, and all columns from index one to index 4
+df.iloc[:, 1:4]
+
+
+#filtering data within a dataframe
+df[df['reputation'] ==500]
+
+#filtering the dataframe based on two specific conditiond using AND
+df[(df['total_posts'] >= 200) & (df['age'] >= 36)]
+
+#filtering the dataframe based on two specific conditiond using OR
+df[(df['total_posts'] >= 200) | (df['age'] >= 36)]
+
+#filtering the 'reputation' column to explore if a value is within the data
+df['reputation'].isin([200,500])
+
+#looking for the same values within the ENTIRE dataframe
+df.isin([200,500])
+
+#displaying all of the rows where the reputation column is equal to 200 or 500
+df[df['reputation'].isin([200,500])]
+#displaying all of the rows where the 'total_posts' columns in between 200 and 350
+df[df['total_posts'].isin(range(200,350))]
+
+#building a date range filter
+date_range = pd.date_range(start='2032-03-01', end='2032-08-31')
+#filtering all date to within our date time range
+df[df['join_date'].isin(date_range)]
+
+#sorting data within a dataframe
+#sorting values based on age
+df.sort_values(by='age', ascending=True)
+#sorting values based on join date desc
+df.sort_values(by='join_date', ascending=False)
+#sorting values based on multiple columns (user_id, total_posts, reputation)
+df[['user_id','total_posts','reputation']].sort_values(by=2, axis=1, ascending=False)
+
+#adding and removing columns and concatenating dataframes
+#creating a column with the same value
+df['language'] = 'English'
+df
+#creating a column with differing values
+df['activate'] = [True, False, False, True, True]
+df
+
+#concatenating 2 different data frames
+df2 = pd.DataFrame({
+    'total comments': [70, 30, 45, 55, 80]
+})
+df2
+#concatenating df1 and df2
+concat_df = pd.concat([df, df2], axis=1)
+concat_df
+#dropping a specific column
+concat_df.drop(['language'], axis=1)
+#dropping columns 2 and 3
+concat_df.drop([2,3])
