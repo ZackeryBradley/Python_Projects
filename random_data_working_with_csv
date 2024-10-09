@@ -1,0 +1,43 @@
+# !pip install openpyxl
+import pandas as pd
+import numpy as np
+import openpyxl
+np.random.seed(1)
+
+n= 1000
+
+dates= pd.date_range(start='2045-01-01', periods=n,freq='D')
+dates
+products = ['Tablet', 'Camera', 'Phone']
+prices = np.round(np.random.uniform(50, 200,n), 2)
+prices
+quantities = np.random.randint(1, 15, n)
+quantities
+
+data = {
+    'Date': dates,
+    'Product': np.random.choice(products,n),
+    'Price': prices,
+    'Quanity': quantities,
+}
+df = pd.DataFrame(data)
+df
+df.dtypes
+df.head()
+df.to_csv('random_sales.csv', index=False)
+
+df = pd.read_csv('random_sales.csv', parse_dates = ['Date'])
+df
+#checking column data types
+# df.dtypes
+
+#writing dataframes to excel and JSON files
+#importing the proper module
+# !pip install openpyxl
+# import openpyxl
+
+#writing to excel
+#creating an excel file named "sales_data" from our previously created 'df' variable
+df.to_excel('sales_dats.xlsx')
+#creating an JSON file named "sales_data" from our previously created 'df' variable
+df.to_json('sales_data.json')
