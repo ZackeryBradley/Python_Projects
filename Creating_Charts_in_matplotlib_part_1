@@ -1,0 +1,37 @@
+import matplotlib.pyplot as plt
+# Creating_Charts_in_matplotlib
+
+#examples of plot and scatter diagrams using matplotlib
+values = [0, 1, 2, 3, 4, 5, 6, 7]
+squares = [pow(value,2)for value in values]
+squares
+
+#line plot
+plt.plot(values, squares)
+plt.show()
+
+#scatter plot
+plt.scatter(values,squares)
+plt.show()
+
+#adding more values to the scatter plot
+values = list(range(100))
+pows = [pow(value,3)for value in values]
+plt.scatter(values,pows)
+plt.show()
+
+# plt.scatter(values, pows, c=pows, cmap=plt.cm.Blues, edgecolor='none', s=10)
+
+#examples of matplotlib subplots
+#building the data
+values = list(range(10))
+squares = [pow(value,2)for value in values]
+cubes = [pow(value,3)for value in values]
+
+#building the visuals
+fig, (ax1,ax2) = plt.subplots(2,1, sharex=True)
+ax1.scatter(values, squares)
+ax1.set_title('Square Numbers')
+ax2.scatter(values, cubes)
+ax2.set_title('Cube Numbers')
+plt.show()
