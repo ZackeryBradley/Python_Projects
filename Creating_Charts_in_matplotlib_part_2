@@ -1,0 +1,84 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+# Creating_Charts_in_matplotlib_part_2
+# 
+# #using dataframes for creating diagrams
+
+#creating data dictionary 
+data = {'Year': [2001, 2002, 2003, 2004, 2005, 2006],
+        'Sales': [100, 150, 130, 180, 200, 210]
+        }
+
+#placing data dictionary into a dataframe
+df = pd.DataFrame(data)
+df.head()
+
+#building a line plot with our data
+df.plot(x='Year', y='Sales', kind='line')
+plt.title('Yearly Sales')
+plt.show()
+
+#building a bar graph
+df.plot(x='Year', y='Sales', kind='bar')
+plt.title('Yearly Sales')
+plt.show()
+
+#building an area plot
+#here we are utilizing the 'year sales' data we created earlier
+df.plot(x='Year', y='Sales', kind='area')
+plt.title('Yearly Sales')
+plt.show()
+
+#building a pie chart and labeling the data by the 'year' column
+#also adding the autopct parameter to display the percentage of each slice 
+df.plot(y='Sales', kind='pie', labels=df['Year'], autopct='%1.1f%%')
+plt.title('Yearly Sales')
+plt.show()
+
+#building a histogram
+data = {'Age': [25, 28, 32, 41, 41, 50, 59, 60],
+        }
+
+df = pd.DataFrame(data)
+df.plot(y='Age', kind='hist')
+plt.title('Age Distribution')
+plt.show()
+
+#exploring boxplots
+
+data = {
+    'Category': ['FIRST', 'FIRST', 'SECOND', 'SECOND', 'THIRD', 'THIRD'],
+    'Value': [10, 20, 25, 45, 45, 50]
+}
+df = pd.DataFrame(data)
+
+#building a boxplot
+#this specific syntax will group the data by the 'Category' column and distribute the values by category!
+df.boxplot(by='Category', column='Value')
+plt.title('Value by Category')
+plt.show()
+
+
+#building a heatmap
+data = {
+    'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    'Week_1_Temperature': [6, 10, 12, 14, 17],
+    'Week_2_Temperature': [8, 12, 13, 14, 18],
+    'Week_3_Temperature': [9, 11, 14, 16, 20],
+    'Week_4_Temperature': [10, 15, 10, 17, 22],
+
+
+}
+
+#package needed for creating a heatmap
+#import seaborn as sns
+
+df = pd.DataFrame(data)
+#setting the index in the dataframe to the 'Month' column (this will remove the standard index given within the dataframe and replace it with you specified index)
+df = df.set_index('Month')
+df.head()
+
+sns.heatmap(df, annot=True, cmap='coolwarm')
+plt.title('Weekly Temperature Data')
+plt.show()
