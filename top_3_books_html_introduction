@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 3 books</title>
+  <h1> The top 3 books according to Zackery</h1>
+  <h2> My top 3 books of all time</h2>
+  <hr \>
+  <h3> Outliers by Malcolm Gladwell</h3>
+  <p>This book goes through timelines and how world movements are incorporated into modern successes.</p>
+  <h3> Blink by Malcolm Gladwell</h3>
+  <p> This book shows how small changes can make big impacts in the world.</p>
+  <h3> Atomic Habits by James Clear</h3>
+  <p> This book shows how everyday habits make for great building blocks for success.</p>
+
