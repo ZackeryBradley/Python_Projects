@@ -1,0 +1,36 @@
+import os
+import shutil
+from pathlib import Path
+
+"""This script is intedned to help you organize your work by moving files with teh same extensions into categorized sub-folders."""
+
+# Folder to organize (e.g., Downloads)
+base_folder = Path.home() / "Downloads"
+
+# Define folders for each extension
+folders = {
+    "images": ["jpg", "png", "gif", "bmp"],
+    "documents": ["txt", "pdf", "docx"],
+    "archives": ["zip", "rar", "tar", "gz"],
+    "audio": ["mp3", "wav"],
+    # add more categories as needed
+}
+
+# Iterate over files in base_folder
+for item in base_folder.iterdir():
+    if item.is_file():
+        ext = item.suffix.lower().lstrip('.')
+        moved = False
+        # Determine which category folder to use
+        for folder, ext_list in folders.items():
+            if ext in ext_list:
+                dest_dir = base_folder / folder
+                dest_dir.mkdir(exist_ok=True)
+                item.rename(dest_dir / item.name)
+                moved = True
+                break
+        # If extension didn’t match any category, move to "others"
+        if not moved:
+            dest_dir = base_folder / "others"
+            dest_dir.mkdir(exist_ok=True)
+            item.rename(dest_dir / item.name)
