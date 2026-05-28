@@ -1,0 +1,1651 @@
+ProductVariety,MarketingSpend,CustomerFootfall,StoreSize,EmployeeEfficiency,StoreAge,CompetitorDistance,PromotionsCount,EconomicIndicator,StoreLocation,StoreCategory,MonthlySalesRevenue
+581,29,1723,186,84.9,1,12,6,108.3,Los Angeles,Electronics,284.9
+382,31,1218,427,75.8,18,11,6,97.8,Los Angeles,Electronics,308.21
+449,35,2654,142,92.8,14,11,6,101.1,Los Angeles,Grocery,292.11
+666,9,2591,159,66.3,11,11,4,115.1,Sacramento,Clothing,279.61
+657,35,2151,275,89.1,28,12,7,93.4,Palo Alto,Electronics,359.71
+182,43,1789,312,88.8,13,8,8,70.4,Palo Alto,Electronics,258.21
+341,29,1868,400,65.2,8,12,6,99.3,San Francisco,Electronics,240.3
+500,32,786,112,54.6,3,12,6,96.4,Palo Alto,Clothing,250.28
+656,30,1352,108,51.4,16,15,6,82.5,Palo Alto,Electronics,249.41
+419,48,1949,90,93.1,16,5,8,110.3,Palo Alto,Electronics,203.93
+851,10,1501,223,53.6,18,9,4,99.5,Los Angeles,Clothing,393.32
+458,26,1673,324,63.5,28,7,5,114.6,Palo Alto,Grocery,266.49
+432,18,1901,286,50.1,13,7,5,76.6,San Francisco,Grocery,283.63
+555,40,2528,333,68.6,6,8,7,101.4,Sacramento,Electronics,303.41
+587,37,1797,268,53.7,28,10,7,109.3,San Francisco,Clothing,274.64
+637,46,1345,112,86.8,9,10,7,94.2,Los Angeles,Grocery,263.24
+510,17,1556,284,67.5,12,6,5,119,San Francisco,Clothing,297.06
+586,41,2249,397,62.8,28,8,7,88.5,Los Angeles,Clothing,313.59
+834,44,1403,340,68.2,24,11,7,77.5,Los Angeles,Grocery,405.82
+353,16,1624,416,88.2,9,10,5,102.9,San Francisco,Clothing,281.78
+253,18,2458,224,83.4,21,8,4,101.5,Palo Alto,Grocery,229.94
+507,9,2927,282,75.8,23,14,3,112.8,Los Angeles,Grocery,320.17
+517,16,2599,62,69.6,12,17,4,109.5,Palo Alto,Clothing,211.23
+458,32,2382,490,56.2,10,3,6,74.4,Palo Alto,Grocery,365.12
+250,12,1736,57,90.7,9,9,3,93.4,Palo Alto,Grocery,203.92
+458,6,2021,182,59.9,4,6,3,97.7,Palo Alto,Grocery,211.58
+458,42,2189,336,58.1,22,10,7,109.7,Sacramento,Grocery,288.35
+587,27,1966,422,51.9,16,16,5,72.9,Los Angeles,Clothing,377.97
+521,39,1994,76,55.9,25,10,7,109.5,Palo Alto,Electronics,289.66
+360,44,1819,145,67.1,4,13,8,111.9,San Francisco,Grocery,197.75
+345,17,2266,223,69.7,21,12,5,98.4,Palo Alto,Electronics,270.36
+344,47,1755,210,75.1,27,9,7,101.9,Sacramento,Electronics,241.87
+331,7,2893,110,82.1,27,7,4,87.3,Palo Alto,Electronics,203.15
+383,7,1770,368,94.9,8,13,4,60,Los Angeles,Electronics,349.08
+356,8,2590,368,56.8,23,6,4,73.9,Los Angeles,Clothing,233.12
+395,45,2513,136,94.2,3,10,7,70.9,Sacramento,Grocery,272.26
+475,30,2569,416,82.2,1,10,6,102.3,Palo Alto,Grocery,382.47
+627,41,2579,167,92,27,12,7,92.2,Palo Alto,Grocery,322.62
+590,24,2192,90,58.2,11,10,5,108.3,San Francisco,Electronics,230.59
+673,23,2968,89,82.5,25,11,4,103.4,Palo Alto,Electronics,302.74
+648,32,2720,128,64.7,11,8,6,97.9,Palo Alto,Grocery,272.91
+420,25,2296,481,67.2,5,9,5,92.6,Palo Alto,Electronics,295.04
+372,36,2277,327,82.8,18,9,6,80,Sacramento,Electronics,237.53
+471,42,1863,106,94.1,6,9,7,116.3,Los Angeles,Clothing,225.47
+524,37,2507,232,90.8,2,7,7,83.4,Los Angeles,Grocery,254.58
+569,10,3168,115,54.2,14,10,3,102.5,San Francisco,Clothing,298.26
+341,41,2148,458,53.8,3,9,7,104.6,Palo Alto,Clothing,307.22
+658,16,1632,345,72.3,18,12,4,95.3,Sacramento,Electronics,348.6
+609,36,2140,230,63.2,1,6,7,128.4,Los Angeles,Clothing,285.25
+350,20,1874,58,68.7,28,4,5,93.9,San Francisco,Grocery,175.45
+123,41,2450,201,93,8,14,7,116.2,San Francisco,Electronics,193.79
+743,14,2364,270,91.3,24,15,4,115.7,San Francisco,Grocery,329.44
+550,13,1274,365,76.5,25,14,5,111,Palo Alto,Grocery,370
+689,45,2753,258,58.7,15,13,6,132.9,Los Angeles,Clothing,310.33
+587,48,2079,325,87.4,24,6,8,117,Palo Alto,Grocery,352.54
+359,30,1764,345,59.4,24,10,6,93,Palo Alto,Electronics,272.66
+401,38,2517,162,74.9,10,10,7,122.7,Los Angeles,Clothing,219.76
+626,36,1814,451,54.2,15,15,6,80,Los Angeles,Grocery,421.11
+537,22,1576,441,87.3,22,11,5,94.1,Sacramento,Clothing,393.86
+330,12,1754,240,91.3,27,13,4,107.3,Sacramento,Clothing,235.99
+606,20,1157,181,85.1,25,11,4,93.9,Los Angeles,Clothing,270.8
+362,21,2155,85,86.2,24,6,5,94,Palo Alto,Electronics,238.37
+747,35,2233,449,78.6,30,7,6,128,Los Angeles,Grocery,404.24
+522,31,1481,480,69.5,8,7,6,87.5,San Francisco,Electronics,387.57
+450,26,1855,57,77.8,16,7,6,91,Los Angeles,Electronics,197.63
+562,31,1078,479,55.7,8,11,5,82.5,San Francisco,Clothing,338.81
+464,27,1744,315,52.5,12,7,6,82,San Francisco,Clothing,324.74
+572,23,2073,247,55,3,9,5,84.3,Palo Alto,Electronics,334.85
+406,41,2293,485,57.6,29,14,7,101.5,Los Angeles,Grocery,325.75
+646,12,878,400,77.5,5,4,4,93.3,Sacramento,Electronics,380.99
+521,36,1997,159,78.6,8,14,7,107.5,Los Angeles,Electronics,285.32
+702,39,1385,322,68.1,4,14,6,104.4,Los Angeles,Clothing,390.31
+286,7,1805,74,60.4,30,8,3,100.7,Sacramento,Grocery,143.15
+507,25,2277,55,57.2,30,9,5,84.6,Los Angeles,Grocery,223.89
+382,32,1886,188,62.6,2,11,6,117.9,San Francisco,Electronics,190.08
+556,42,1846,131,84,1,10,8,107.9,Sacramento,Electronics,288.98
+531,33,2056,93,70.6,16,9,6,121.7,Sacramento,Electronics,206.31
+691,10,2999,141,89.1,9,10,4,96.4,Los Angeles,Electronics,311.14
+526,45,2615,197,53.9,9,7,7,100.2,Los Angeles,Grocery,280.92
+285,16,1610,371,62.3,12,12,5,88.2,Palo Alto,Grocery,215.4
+444,29,2161,241,50.2,16,11,5,87.7,Los Angeles,Clothing,272.61
+747,17,2268,233,65.8,25,8,4,104.7,San Francisco,Clothing,319.96
+536,34,2480,212,79.9,23,9,5,80.3,Sacramento,Electronics,313.91
+362,13,2020,166,75.2,1,12,4,107.7,Palo Alto,Clothing,239.11
+272,15,1387,425,70.5,13,10,5,106.2,Los Angeles,Grocery,325.73
+512,6,1675,483,62.8,14,8,4,121.5,Sacramento,Grocery,385.29
+346,6,2127,386,81.4,11,12,4,110.8,Los Angeles,Grocery,319.73
+633,37,2182,119,63.6,23,14,6,90.3,Los Angeles,Grocery,267.45
+488,18,1509,137,53.1,23,8,5,101.7,Los Angeles,Grocery,249.4
+632,12,1849,261,67.2,17,3,4,105.9,Los Angeles,Grocery,348.88
+632,47,2015,415,65.4,5,10,7,125.6,San Francisco,Grocery,425.66
+338,32,1790,51,59.2,29,14,5,89.9,Sacramento,Clothing,153.34
+795,44,1820,156,63.2,8,10,7,125,Sacramento,Electronics,357.4
+537,49,1619,225,74.5,17,12,8,60,Palo Alto,Grocery,309.52
+354,14,3227,424,56.7,12,4,4,103,Los Angeles,Electronics,289.67
+527,7,1535,290,82.5,10,8,4,110.9,San Francisco,Electronics,314.77
+532,6,2262,483,56,29,17,3,117.9,Sacramento,Clothing,340.56
+684,29,2390,374,84.6,15,10,5,127.3,Palo Alto,Electronics,384.02
+475,22,2364,497,71.2,8,7,6,120.3,Palo Alto,Clothing,383.22
+706,22,1748,142,83.8,10,7,5,136,Los Angeles,Grocery,310.01
+578,44,2349,94,51.6,17,10,8,97.4,Sacramento,Electronics,254.69
+274,11,2356,295,61.4,12,13,4,85.8,San Francisco,Grocery,193.17
+852,39,2044,219,72.6,26,10,7,103.1,Sacramento,Clothing,423.69
+518,45,1916,95,72.2,2,8,7,102,Sacramento,Electronics,227.4
+504,9,1854,134,54.4,18,13,4,96.6,San Francisco,Grocery,221.18
+601,24,1950,402,86,7,7,5,139.7,San Francisco,Grocery,322.7
+558,35,1933,249,56.6,20,8,6,111.3,Palo Alto,Clothing,355.62
+674,41,1433,478,67.9,8,8,7,101.7,Palo Alto,Grocery,383.64
+181,36,2103,154,64.6,4,4,6,113.6,San Francisco,Electronics,214.1
+331,9,2302,488,73,16,9,3,89.9,Sacramento,Grocery,362.36
+100,47,2729,257,92.9,27,13,7,96.1,San Francisco,Grocery,176.83
+424,15,2921,266,91.1,19,11,5,76.8,Los Angeles,Clothing,251.8
+383,35,1803,152,82,3,16,5,106,San Francisco,Grocery,211.62
+459,40,1891,344,71.6,25,6,6,109.9,Palo Alto,Clothing,307.4
+394,16,2475,488,50.9,4,16,4,90.4,Palo Alto,Grocery,322.76
+546,36,1625,277,81,1,11,7,113.6,Los Angeles,Grocery,268.31
+582,42,1380,250,86.5,24,7,8,114.2,San Francisco,Grocery,346.32
+792,29,2928,143,68.7,14,5,5,74.6,Palo Alto,Electronics,307.88
+625,33,2123,210,52.4,22,9,7,122.3,San Francisco,Clothing,319.2
+400,15,1811,230,69.4,23,12,4,95.4,San Francisco,Electronics,271.75
+319,45,1503,412,69.1,4,14,7,108.4,San Francisco,Grocery,287.56
+561,43,2215,250,93.4,9,9,7,116.8,San Francisco,Electronics,270.1
+483,29,2012,240,81.4,16,6,6,82.7,Los Angeles,Clothing,308.43
+531,10,1166,162,65.1,29,12,3,95.1,Palo Alto,Grocery,285.19
+546,26,1817,431,79.2,19,5,5,82.4,San Francisco,Grocery,345.08
+233,28,2749,336,80.3,17,10,5,82.5,Sacramento,Electronics,192.54
+631,41,3169,249,72.7,23,11,7,110,San Francisco,Electronics,326.95
+469,38,1951,279,63.6,2,11,7,130.9,Los Angeles,Clothing,269.37
+621,31,1663,136,85.2,29,5,6,99.6,San Francisco,Electronics,334.01
+290,36,2633,107,63,21,11,7,93.7,Palo Alto,Clothing,206.97
+641,32,1520,394,59.8,25,5,6,93.4,Palo Alto,Clothing,389.46
+504,36,3356,204,82.6,8,13,7,98.3,Sacramento,Electronics,294.68
+301,9,1502,442,85.2,4,9,3,115.5,San Francisco,Grocery,274.45
+563,25,1939,357,60.1,10,10,5,105.2,Palo Alto,Electronics,324.83
+456,49,2764,116,61.2,13,9,7,140,Sacramento,Electronics,234.49
+596,7,2061,279,50.7,8,9,4,121.5,San Francisco,Clothing,300.73
+499,12,1601,154,67.8,13,7,3,109.3,San Francisco,Grocery,292.56
+734,30,2094,135,64.5,13,8,5,94.9,San Francisco,Grocery,303.8
+242,45,2515,146,90.3,7,7,8,87,Los Angeles,Electronics,228.51
+490,10,2454,89,66.7,6,15,4,64.9,Palo Alto,Grocery,211.71
+100,39,1885,173,77.9,29,9,7,83.9,San Francisco,Electronics,188.83
+590,23,1894,99,71.7,14,4,6,108.5,Sacramento,Electronics,323.4
+850,50,2346,276,61.3,22,6,8,108.8,San Francisco,Grocery,442.85
+586,45,2431,85,85.5,1,10,7,108.4,Sacramento,Clothing,224.43
+471,15,2635,256,66.3,3,5,4,90.3,Palo Alto,Electronics,288.17
+192,48,2984,248,81.9,11,12,8,106.9,Sacramento,Electronics,160.8
+564,20,1368,227,51,10,13,5,84.3,Sacramento,Grocery,318.36
+398,44,2399,181,91.3,17,8,8,110.2,San Francisco,Clothing,257.33
+334,46,1849,440,86.6,29,17,7,108.5,Palo Alto,Grocery,325.07
+372,29,2849,169,58.6,9,6,5,118,Los Angeles,Grocery,246.69
+385,37,2567,400,52.5,28,7,6,113.6,Palo Alto,Grocery,300.73
+491,15,1793,256,59.4,18,12,4,88.4,Palo Alto,Grocery,263.75
+515,48,1918,151,69.2,9,12,8,103.8,Los Angeles,Grocery,264.34
+677,43,2197,276,83.3,4,10,6,108.2,Palo Alto,Grocery,369.59
+677,33,2392,430,81.5,22,14,6,65.5,Sacramento,Grocery,446.4
+379,18,2138,65,75.3,15,9,4,92.3,Los Angeles,Electronics,172.68
+246,30,2167,171,79.3,25,14,6,62.7,Los Angeles,Electronics,173.43
+403,28,2702,361,70.3,12,11,6,126.6,San Francisco,Grocery,248.79
+624,44,2454,268,86,18,14,8,77.9,San Francisco,Grocery,370.83
+375,36,500,134,66.8,16,7,6,90.2,Los Angeles,Grocery,257.97
+381,35,2031,327,85.3,5,14,7,95.2,Palo Alto,Electronics,315.89
+422,36,2598,133,53,16,11,7,86,Sacramento,Electronics,211.68
+400,36,1928,133,59.9,1,13,7,88.2,Los Angeles,Clothing,235.06
+593,36,3067,230,72.6,3,14,6,91.9,San Francisco,Grocery,286.32
+507,13,1917,181,85.3,9,8,4,109.4,Palo Alto,Grocery,254.12
+680,25,1922,383,50.1,5,10,5,99.1,Los Angeles,Grocery,424.79
+631,8,1598,306,61.3,19,8,3,118.1,Palo Alto,Electronics,367.03
+449,14,1386,183,61,25,4,3,116,Palo Alto,Electronics,290.04
+713,16,1983,344,67.9,19,1,4,104.6,Palo Alto,Grocery,336.78
+526,38,1451,490,74.8,30,14,6,92.1,Palo Alto,Clothing,410.08
+488,49,1419,336,90.4,13,16,7,78.8,Sacramento,Electronics,355.66
+577,10,2429,115,56.6,1,17,4,115.5,Los Angeles,Clothing,302.6
+473,42,2238,363,78,5,7,6,71.2,Los Angeles,Electronics,354.11
+744,23,1877,124,61.7,9,5,5,102,San Francisco,Grocery,360.79
+638,16,2132,345,81.7,20,10,5,107.9,Palo Alto,Clothing,348.31
+328,29,2184,354,79.9,12,9,6,94.8,Sacramento,Clothing,285.92
+655,19,1527,446,66.4,9,14,5,84.2,Los Angeles,Electronics,396.66
+395,48,2889,274,71.8,6,12,8,100.7,San Francisco,Grocery,286.53
+299,24,1844,418,51.1,16,11,5,72.8,San Francisco,Electronics,292.54
+489,44,2377,206,81.2,12,8,7,103.4,Palo Alto,Electronics,249.16
+522,50,2200,179,86.7,5,13,8,103.8,Sacramento,Grocery,326.22
+640,37,2021,73,68.9,25,12,6,113.6,Sacramento,Clothing,260.52
+557,40,1472,140,52.6,4,2,7,108,Los Angeles,Grocery,297.08
+311,23,2643,159,69.6,4,9,6,84.6,Los Angeles,Clothing,242.8
+770,7,2275,342,69.3,15,11,3,99.4,Sacramento,Grocery,394.55
+310,43,2179,302,73.3,29,10,7,101.8,Los Angeles,Clothing,224.45
+424,36,1212,170,81.6,27,12,6,119,San Francisco,Grocery,288.86
+474,18,2121,91,65.3,10,9,5,84.1,San Francisco,Grocery,266.15
+489,34,2656,361,79.4,30,12,7,118.6,Sacramento,Electronics,326.23
+683,35,1977,265,80.5,29,8,6,118.8,Los Angeles,Clothing,325.24
+562,49,2048,178,72.9,5,8,8,100.7,Sacramento,Electronics,277.46
+663,38,1918,330,88.5,22,12,6,106.2,Palo Alto,Grocery,401.21
+567,33,2221,359,51.9,29,11,6,109.2,Sacramento,Grocery,354.94
+450,45,2618,208,50,13,12,8,106.7,Palo Alto,Grocery,260.63
+320,41,1509,494,91.8,17,8,7,106.4,Palo Alto,Grocery,323.82
+755,36,2944,256,62.5,28,14,6,83.5,Palo Alto,Clothing,399.65
+737,17,2274,372,85.4,15,6,5,104.7,Los Angeles,Electronics,376.91
+314,25,1906,408,85.1,30,11,6,92.8,Sacramento,Clothing,290.7
+391,12,1981,497,61.4,25,5,4,111.2,Los Angeles,Clothing,348.7
+534,14,1349,209,50.9,20,6,4,107.7,Los Angeles,Grocery,280.34
+441,19,2354,83,68,25,13,5,100.2,Sacramento,Electronics,273.19
+622,38,1420,64,64.7,25,15,7,83.7,Los Angeles,Electronics,241.43
+495,45,2462,197,70.2,26,8,7,117,San Francisco,Clothing,307.35
+708,10,2406,140,91.6,26,4,3,107.4,Sacramento,Electronics,317.86
+658,46,2860,102,78.1,10,17,7,120.5,Sacramento,Electronics,327.66
+357,23,1860,150,51.7,3,6,5,95.9,Los Angeles,Clothing,209.48
+397,20,2582,84,81.8,25,9,4,103.3,Sacramento,Grocery,220.63
+603,37,1588,258,90.1,29,16,7,92,Palo Alto,Grocery,348.74
+486,8,1734,429,70.9,1,10,3,115.2,Sacramento,Clothing,385.03
+558,33,2422,92,66.2,17,11,6,85.7,Palo Alto,Grocery,285.98
+580,12,2003,400,55.6,8,9,3,109.4,Palo Alto,Clothing,315.69
+676,29,2143,476,75.6,24,7,6,89.5,Los Angeles,Electronics,417.88
+530,46,1815,491,66.5,19,6,8,95.9,San Francisco,Electronics,413.24
+248,37,2004,98,58.9,20,12,7,106.1,San Francisco,Electronics,207.63
+281,44,1899,330,52.7,10,13,7,103.4,Sacramento,Grocery,267.84
+432,23,2607,185,59.6,29,10,5,136.2,San Francisco,Electronics,244.14
+458,11,3057,81,69.4,21,9,4,95.1,San Francisco,Electronics,245.54
+592,5,1581,205,83.5,15,7,3,99.3,San Francisco,Grocery,315.69
+432,33,2349,482,61.4,11,18,6,107.4,Los Angeles,Electronics,302.67
+267,26,1497,446,75.5,27,1,6,78.7,Palo Alto,Clothing,272.67
+689,38,1541,100,79.5,6,10,6,111.6,San Francisco,Electronics,304.17
+316,35,1960,291,70.5,24,8,6,109.4,Sacramento,Electronics,280.22
+294,8,2444,368,73,10,7,3,96.4,San Francisco,Electronics,277.12
+496,45,3325,234,53.8,8,9,8,103.5,Los Angeles,Electronics,273.22
+305,37,2799,98,52,5,10,6,104.5,San Francisco,Grocery,194.53
+535,45,2585,233,85,8,13,7,100.4,Los Angeles,Clothing,261.87
+515,45,1921,234,91.9,23,6,8,102,Los Angeles,Grocery,286.56
+198,45,3010,330,59.6,25,6,7,105,Sacramento,Electronics,273.07
+630,22,1910,282,72.3,1,10,5,78,Palo Alto,Clothing,296.63
+359,34,1916,483,82.1,27,12,7,113.3,Palo Alto,Electronics,345.04
+306,17,1589,407,93.3,11,10,5,88.5,San Francisco,Grocery,300.39
+632,14,1309,234,85.9,15,6,4,101.4,Sacramento,Clothing,285.71
+612,23,1094,273,68.1,1,11,6,95.9,San Francisco,Electronics,377.83
+167,38,1386,90,54.7,20,17,7,130.4,Sacramento,Grocery,169.91
+703,49,1349,388,70.3,2,5,8,110.5,Palo Alto,Clothing,349.93
+517,17,1811,495,56.8,12,11,4,104.7,Palo Alto,Grocery,318.01
+412,5,1633,292,78.3,16,13,4,112.6,San Francisco,Clothing,233.8
+626,31,2828,54,61.9,20,12,6,93.2,Sacramento,Grocery,223.38
+567,24,1486,274,81.9,1,7,5,99,San Francisco,Grocery,324.82
+796,37,1564,283,80.1,24,3,6,83.6,Los Angeles,Clothing,371.32
+682,11,2090,168,71,7,9,4,109.3,San Francisco,Grocery,288.48
+413,40,1823,447,76.4,4,8,7,81,Los Angeles,Electronics,310.87
+330,16,2381,140,55.7,14,7,4,104.6,Los Angeles,Clothing,185.5
+503,36,1531,380,85.9,10,12,7,86,Sacramento,Clothing,346.28
+369,34,1976,474,71,11,12,6,80.1,Palo Alto,Clothing,330.75
+664,29,2689,246,73.5,23,8,5,96.3,Palo Alto,Grocery,339.86
+499,48,2253,69,52.8,15,11,8,99.1,Palo Alto,Electronics,251.19
+518,23,2574,211,94.5,24,10,5,114.4,Palo Alto,Grocery,246
+634,15,1674,271,69.5,26,8,5,90.3,Palo Alto,Electronics,351.78
+751,5,1558,231,73.5,10,7,4,93,Palo Alto,Clothing,401.65
+440,29,1946,343,86.2,25,8,6,99.3,Sacramento,Electronics,339.25
+673,18,2088,142,90.2,30,10,4,113.9,Los Angeles,Electronics,340
+705,34,2585,412,59.3,20,13,6,102.7,Palo Alto,Clothing,367.51
+717,28,2589,438,85.1,27,12,6,99.3,San Francisco,Grocery,381.22
+311,49,2016,229,52.8,24,9,8,87.3,Palo Alto,Clothing,205.17
+424,38,1884,382,68.4,11,13,6,93.7,Sacramento,Electronics,332.58
+321,33,2185,410,76.8,19,12,6,96.6,Los Angeles,Electronics,268.71
+465,37,1725,381,54.6,11,8,6,90.2,Sacramento,Clothing,310.74
+523,41,1453,95,71.7,7,9,6,94,Sacramento,Electronics,211.71
+648,37,1861,478,74.2,28,10,7,95.3,San Francisco,Electronics,389.01
+641,18,1433,143,52.1,15,12,4,116.5,Los Angeles,Clothing,322.83
+846,26,2509,180,51.7,30,8,5,102.2,Los Angeles,Grocery,325.59
+321,13,2656,268,73.1,25,11,5,67.1,Los Angeles,Grocery,213.9
+489,16,2021,431,62.6,20,12,4,123.2,Los Angeles,Electronics,388.48
+389,21,1545,305,79.7,25,10,5,110,Los Angeles,Clothing,279.07
+567,39,2054,287,76.4,25,11,7,95.5,Los Angeles,Grocery,287.65
+722,45,2414,249,50.1,16,8,7,101.9,Sacramento,Grocery,378.74
+447,10,2362,191,71.5,15,6,4,94.9,Los Angeles,Clothing,242.38
+421,46,2742,153,58.1,30,6,8,103.5,Palo Alto,Clothing,259.29
+544,23,1826,201,76.6,23,7,4,78,San Francisco,Grocery,279.58
+575,20,2522,135,61.7,15,10,5,90.7,Palo Alto,Electronics,250.21
+622,29,2132,431,94.7,27,10,6,117.8,Sacramento,Clothing,400.05
+698,8,1695,480,50.8,21,11,4,100.9,Los Angeles,Grocery,451.52
+304,33,2377,143,91.1,7,12,6,115.4,Sacramento,Electronics,223.78
+342,12,1971,452,80.6,28,9,4,96.7,Sacramento,Grocery,258.92
+431,29,2109,76,55.5,13,8,5,121.2,San Francisco,Clothing,259.03
+379,31,1543,335,50.8,25,16,6,118,Los Angeles,Grocery,256.78
+569,21,1778,393,88.2,26,11,5,84.4,Los Angeles,Grocery,339.24
+580,29,1654,174,82,16,12,5,79.1,Palo Alto,Clothing,257.54
+757,7,2281,480,88.9,5,9,4,99.4,Los Angeles,Clothing,450.39
+544,33,1636,498,78.4,5,12,6,111,Los Angeles,Grocery,411.56
+756,27,1940,171,92.6,30,10,5,117.5,Los Angeles,Grocery,396.25
+756,17,2104,326,90.7,17,14,4,86.3,San Francisco,Clothing,373.47
+415,48,1883,412,84.6,11,9,8,99.1,Sacramento,Electronics,322
+324,15,1912,66,88.6,20,14,4,86.1,Los Angeles,Grocery,226.42
+597,20,1728,135,54.8,30,7,4,88.7,Palo Alto,Grocery,253.31
+586,38,2176,212,57.3,16,5,7,119,Los Angeles,Grocery,326.79
+585,22,1657,200,62.8,23,11,5,135,San Francisco,Grocery,284.59
+516,37,2698,149,76.9,25,11,7,91.9,Sacramento,Electronics,238.96
+100,6,3033,443,53.4,9,15,4,108.8,San Francisco,Clothing,246.43
+751,7,2049,443,60.3,24,8,4,110.7,San Francisco,Grocery,445.39
+213,43,2007,211,52.7,4,11,7,110,Palo Alto,Clothing,199.95
+384,29,2038,491,85.7,2,11,6,91.3,Los Angeles,Clothing,348.64
+533,40,2044,242,50.5,28,14,7,69.7,Sacramento,Electronics,276.72
+504,23,1748,165,61.8,12,11,5,97.4,Los Angeles,Grocery,298.41
+562,22,2168,164,86.1,26,12,4,92.5,Los Angeles,Clothing,263.03
+547,31,2105,203,68.3,12,9,6,85.4,Los Angeles,Clothing,256.52
+665,46,2204,470,54.9,1,11,7,110.2,Los Angeles,Electronics,452.44
+607,11,2186,317,70.5,14,12,4,101.1,San Francisco,Grocery,392.55
+848,17,1776,95,81.8,2,12,5,92.2,Sacramento,Electronics,322.7
+331,13,2386,222,78.5,27,10,4,102.8,Sacramento,Clothing,281.07
+396,31,2720,105,86.8,10,13,6,61.3,Palo Alto,Electronics,268.48
+321,24,1427,326,61.8,21,8,5,84.6,Los Angeles,Electronics,280.81
+641,45,2322,213,80.3,5,11,7,120.1,Palo Alto,Grocery,322.95
+596,19,1412,98,71.2,18,5,5,100.2,Sacramento,Grocery,260.79
+331,48,2671,376,76.6,15,15,8,117.3,Palo Alto,Clothing,257.88
+527,16,2338,191,80.7,3,8,5,92.1,San Francisco,Grocery,258.95
+749,36,1477,431,65.8,30,13,6,115.9,Los Angeles,Grocery,423.11
+552,34,1943,74,50.9,1,13,7,111.1,Sacramento,Grocery,226.69
+692,21,1760,419,78.1,21,12,5,134,San Francisco,Clothing,414.46
+589,25,2797,486,61.8,30,17,6,117.2,Sacramento,Grocery,344.89
+362,7,2262,55,78.9,30,9,3,93.1,Sacramento,Electronics,161.46
+236,37,2009,237,78.5,11,11,6,106,Sacramento,Grocery,164.01
+532,35,890,75,57.8,16,6,6,113.3,Sacramento,Electronics,251.23
+455,21,2532,65,90.8,23,12,5,77.6,Palo Alto,Grocery,227.6
+705,10,2934,315,94.8,28,15,4,96.5,San Francisco,Grocery,341.95
+517,19,2268,256,88.7,26,12,4,77.1,Sacramento,Electronics,337.68
+769,20,1709,160,89.8,25,8,4,77.3,Los Angeles,Clothing,354.17
+594,34,1790,73,82.1,30,8,6,107.4,Sacramento,Electronics,316.71
+440,30,2435,104,73.1,9,8,6,121.4,Palo Alto,Clothing,221.12
+347,25,1147,132,81.4,17,8,5,138.1,San Francisco,Clothing,260.38
+479,29,2249,103,59.3,9,12,5,115.1,Palo Alto,Grocery,252
+466,49,2241,475,71.9,18,3,8,82.2,Los Angeles,Clothing,396.05
+550,10,2384,53,81.3,14,15,4,106.4,Los Angeles,Grocery,294.56
+380,28,2786,291,83.9,9,10,5,76.6,Sacramento,Clothing,284.21
+617,44,1636,206,58.8,16,11,6,115.3,San Francisco,Clothing,327.13
+501,23,2290,416,59.9,19,10,6,87.9,Sacramento,Grocery,369.59
+660,26,1781,128,94.4,14,10,5,83.4,Sacramento,Electronics,344.05
+199,38,2087,332,86.7,11,13,7,73.2,San Francisco,Electronics,219.19
+487,12,2743,313,83.5,11,15,4,106.6,San Francisco,Clothing,319.72
+352,19,2167,446,88.9,13,8,5,96.3,Palo Alto,Grocery,282.97
+535,29,2127,389,65.3,12,5,5,88.4,Palo Alto,Clothing,373.27
+511,20,2362,351,51.9,26,2,5,97.9,San Francisco,Clothing,290.83
+652,42,1576,398,70.4,20,6,7,121.4,Sacramento,Grocery,389.79
+506,31,1392,454,80.2,20,12,6,70.5,San Francisco,Electronics,376.42
+198,48,1923,177,88.6,23,9,8,109.4,Los Angeles,Clothing,215.27
+592,19,2039,349,69.3,25,15,4,91.4,San Francisco,Electronics,331.78
+432,7,2138,341,84.9,4,11,3,107.9,Los Angeles,Electronics,340.24
+784,24,2317,320,54.1,2,12,5,85.7,Los Angeles,Grocery,391.82
+520,48,1901,273,94.4,10,7,8,111.3,Sacramento,Clothing,301.17
+477,50,916,82,89.6,22,14,8,109.5,Palo Alto,Grocery,219.9
+588,11,1755,347,77.6,6,13,4,86.7,Los Angeles,Clothing,301.57
+438,11,2198,249,51.1,4,8,4,71.3,Palo Alto,Clothing,229.48
+1092,42,2257,434,78.3,15,10,7,100.9,Palo Alto,Clothing,534.26
+561,22,1608,451,67.8,15,13,5,113.1,Palo Alto,Clothing,399.73
+970,16,1919,125,82,10,10,5,120.9,Palo Alto,Clothing,443.95
+998,7,2083,279,80.2,27,3,3,88.5,Sacramento,Clothing,429.02
+433,37,1862,365,74,21,9,6,100.6,Los Angeles,Grocery,310.54
+353,49,1890,471,78,30,17,7,88.2,Palo Alto,Clothing,353.71
+618,9,1704,88,89.2,10,8,3,90.6,San Francisco,Clothing,327.31
+444,19,1161,288,71.5,5,11,4,115.1,Palo Alto,Grocery,310.17
+605,12,1631,154,52.2,3,12,4,71.8,Sacramento,Grocery,320.73
+612,10,2343,347,70.7,21,10,3,84.3,Los Angeles,Electronics,405.07
+406,19,2244,482,58.7,24,13,4,74.2,Sacramento,Grocery,304.16
+631,11,2222,153,90.3,17,10,5,134.5,Sacramento,Electronics,309.29
+417,11,1601,250,58,19,10,4,77.7,San Francisco,Grocery,227
+284,33,2210,201,70.7,26,14,7,100.3,Los Angeles,Grocery,180.86
+478,45,2216,403,80.5,21,8,8,89.8,Sacramento,Clothing,369.03
+449,28,1924,326,91.8,5,13,6,106.1,Los Angeles,Electronics,317.09
+715,35,1792,203,91.4,11,11,6,105,Los Angeles,Grocery,301.12
+681,44,1723,242,73.6,27,8,7,99.5,Los Angeles,Grocery,329.7
+573,12,2697,339,73.4,6,3,3,100.4,Palo Alto,Electronics,310.5
+533,23,2656,185,89,18,6,6,91.6,Sacramento,Grocery,255.35
+634,29,2110,414,55.3,7,6,6,76.6,Los Angeles,Electronics,367.56
+753,24,1124,90,52,2,13,5,93.5,Palo Alto,Clothing,281.47
+275,42,1552,424,60.4,14,7,7,110.7,San Francisco,Clothing,241.59
+734,35,1855,194,80.3,26,11,6,120.2,Palo Alto,Electronics,363.21
+396,48,1906,203,78.5,18,10,7,102.8,Sacramento,Electronics,239.52
+348,23,2431,88,69.4,1,13,5,85.6,Los Angeles,Electronics,176.62
+518,6,2121,366,74.9,28,12,4,101.5,Sacramento,Grocery,330.54
+460,27,852,59,54.2,8,11,5,76.3,Sacramento,Grocery,212.78
+614,48,1884,299,84.3,5,7,8,104.3,San Francisco,Electronics,394.09
+666,8,1722,272,89.8,27,12,3,104.7,Los Angeles,Grocery,376.6
+332,40,1482,165,72,18,11,7,114.9,Sacramento,Clothing,175.08
+752,44,2385,232,55.7,26,14,7,109,Palo Alto,Grocery,362.66
+466,26,2043,252,72.7,27,9,6,86,Los Angeles,Electronics,296.71
+408,11,1797,434,72.3,7,10,5,100.3,Los Angeles,Grocery,319.68
+634,9,2514,272,51.6,13,2,3,106.4,Los Angeles,Electronics,286.13
+543,40,2249,262,84.7,20,11,7,121,San Francisco,Grocery,331.59
+595,22,1629,184,68.4,3,8,5,85.5,Sacramento,Grocery,309.93
+614,38,2048,453,82.5,23,11,7,120.6,Los Angeles,Electronics,370.87
+371,39,1399,358,83.6,21,7,7,120.8,Palo Alto,Clothing,339.06
+774,8,1527,271,76,27,8,4,101.6,Los Angeles,Electronics,374.97
+528,49,2183,301,66.9,6,8,7,111.4,San Francisco,Clothing,304.93
+372,14,1040,86,70.8,27,9,4,72.7,Sacramento,Electronics,251.24
+495,19,2226,56,93.7,19,14,4,117.8,Palo Alto,Clothing,271.46
+391,15,2802,343,90.4,23,9,4,117.3,Palo Alto,Clothing,317.22
+710,19,2376,154,68.3,6,7,5,60,Los Angeles,Electronics,348.08
+500,37,2764,391,70.8,1,12,6,96,Sacramento,Grocery,325.58
+279,8,1628,306,90.8,8,13,3,86.4,San Francisco,Electronics,242.39
+622,32,2282,65,91.9,11,12,7,101.7,Sacramento,Electronics,287.03
+342,35,1774,228,81.4,6,12,6,98.9,Sacramento,Clothing,227.3
+697,40,3156,103,53.4,11,10,7,91.2,Sacramento,Grocery,343.3
+441,13,1810,84,50.2,11,11,5,120.3,Sacramento,Electronics,207.52
+481,28,2160,95,75.9,5,10,6,109.6,Palo Alto,Electronics,291.8
+677,38,2120,489,52.3,4,8,6,102.1,San Francisco,Electronics,394.57
+466,22,1554,122,63.6,27,11,5,107.3,San Francisco,Electronics,290.23
+334,6,1567,499,57.4,11,9,4,90.3,Los Angeles,Electronics,299.8
+628,40,1378,104,67.2,12,2,7,94.6,Sacramento,Clothing,283.5
+426,12,1916,278,75.5,15,11,3,77.9,Los Angeles,Grocery,289.2
+190,28,2033,449,56.3,17,7,5,104.5,San Francisco,Clothing,256.92
+361,14,1497,270,85.1,15,9,5,99,Palo Alto,Electronics,290.11
+468,24,2277,371,79,22,13,5,115.5,San Francisco,Electronics,311.08
+931,48,1867,325,74.3,29,8,7,98.2,Los Angeles,Grocery,427.45
+679,50,3144,133,69.6,11,17,8,96.8,Sacramento,Electronics,303.72
+742,33,2079,313,86.6,21,6,6,103.3,San Francisco,Electronics,379.18
+787,40,1973,93,80.5,10,7,7,100.7,Sacramento,Grocery,307.52
+387,18,2807,399,87.4,30,12,4,121.1,Sacramento,Electronics,353.83
+416,7,1135,295,52.2,21,12,3,92.1,Sacramento,Electronics,245.21
+550,46,1679,420,66.3,16,10,7,96.6,Sacramento,Grocery,341.91
+550,36,1861,123,64.5,4,14,6,108.4,Palo Alto,Grocery,283.38
+762,22,1608,209,58.3,27,9,5,62.5,San Francisco,Clothing,398.01
+624,34,1644,314,62.3,7,14,5,108.2,Sacramento,Electronics,396.78
+150,31,2034,54,53.2,24,11,5,106.3,Los Angeles,Electronics,107.16
+825,49,2567,132,55.8,11,10,8,93.6,Sacramento,Electronics,313.33
+458,41,1201,449,81.5,9,11,7,100.8,Palo Alto,Electronics,311.91
+463,40,2099,190,55,27,10,7,105.3,San Francisco,Clothing,222.45
+497,41,2768,447,67.8,8,7,7,97.7,Palo Alto,Clothing,342.2
+562,19,1613,83,90.5,29,7,5,110.7,Los Angeles,Clothing,260.11
+594,11,1554,301,82.9,9,11,3,110,Sacramento,Electronics,294.19
+507,33,2174,252,50.6,15,16,6,86.7,San Francisco,Electronics,250.71
+681,45,2180,454,60.4,11,8,7,121.9,Palo Alto,Grocery,432.77
+632,28,1891,377,71.7,25,15,5,93.7,San Francisco,Clothing,374.93
+449,35,1755,254,71.3,1,12,7,92.5,San Francisco,Electronics,297.89
+715,36,2247,415,78.2,25,12,6,78.1,San Francisco,Electronics,444.85
+527,13,1792,110,85.1,6,11,4,110.2,San Francisco,Grocery,282.61
+488,24,1774,407,55.7,19,12,4,101.2,Los Angeles,Clothing,352.24
+577,30,781,186,67,7,12,6,92.2,Palo Alto,Grocery,310.45
+474,18,2602,434,88.4,11,14,5,99.2,Palo Alto,Clothing,361.95
+746,43,2134,195,72.1,15,12,6,61.4,Sacramento,Grocery,369
+639,37,2433,416,92,26,8,7,84.7,San Francisco,Grocery,356.22
+329,50,2510,425,90.2,18,5,8,113.5,Sacramento,Clothing,340.77
+234,24,1624,310,81.1,1,9,5,96.6,Palo Alto,Grocery,263.87
+474,8,930,138,86.6,29,9,4,111.7,Sacramento,Electronics,303.72
+412,29,1913,281,65.9,8,7,6,92.1,Sacramento,Clothing,319.7
+561,49,2474,70,51,5,13,7,115.9,San Francisco,Clothing,253.25
+600,10,2276,494,56.4,28,9,4,116.6,Palo Alto,Clothing,407.83
+528,40,1422,217,51.9,7,12,7,100.7,Palo Alto,Grocery,237.3
+461,44,2342,283,80.6,16,3,7,96.4,San Francisco,Electronics,289.61
+658,26,2010,303,52.6,16,9,5,115.8,San Francisco,Clothing,357.23
+585,11,1760,485,52.3,27,11,4,86.6,San Francisco,Electronics,349.04
+657,46,1658,445,56.3,11,10,8,89.8,San Francisco,Clothing,438.63
+262,40,2213,313,64.6,9,12,7,103.7,Los Angeles,Electronics,250.21
+364,22,1585,235,93.3,22,9,4,115.3,Palo Alto,Electronics,254.57
+384,38,2016,54,62.4,12,12,6,103.6,Palo Alto,Clothing,169.89
+553,39,1325,409,63.5,11,8,6,103.7,Sacramento,Grocery,396.7
+466,8,1473,322,55.9,17,8,3,88.5,San Francisco,Clothing,258.97
+543,41,1136,474,71.5,4,12,7,94.7,Los Angeles,Grocery,375.31
+470,36,1706,51,79.9,11,11,6,97.4,Palo Alto,Grocery,212
+323,48,1999,351,78,25,12,7,95.2,Sacramento,Electronics,243.87
+666,45,2370,187,74.8,29,8,8,94.9,Sacramento,Electronics,361.83
+340,40,1014,119,77.3,20,10,7,96.2,San Francisco,Grocery,168.6
+332,22,2356,235,55.2,8,11,5,118.1,Palo Alto,Clothing,237.41
+419,29,1974,272,54.8,22,7,6,103,Los Angeles,Grocery,257.88
+392,32,2245,117,71.8,1,12,6,88.6,Palo Alto,Clothing,221.28
+534,35,1737,280,61.3,26,13,6,84.4,Palo Alto,Grocery,288.18
+442,40,2896,154,78.3,1,11,7,126,Los Angeles,Electronics,281.03
+622,13,1774,135,75.1,1,11,4,103.5,Palo Alto,Clothing,249.32
+495,20,1021,268,80.5,2,15,5,93.1,Sacramento,Grocery,315.19
+709,30,3265,211,56.9,2,12,6,83.8,Sacramento,Clothing,381.88
+639,28,1720,331,77,27,12,6,119,Palo Alto,Electronics,341.44
+338,50,2292,379,50.5,21,14,8,95.2,San Francisco,Electronics,323.1
+382,47,1594,313,80.6,13,7,7,102.7,Palo Alto,Clothing,235.53
+589,19,2044,487,89,16,12,5,91.3,Sacramento,Grocery,363.92
+474,34,2163,207,69.8,18,9,6,114.2,Palo Alto,Clothing,265.67
+546,14,1439,321,65.1,5,9,4,84.6,Sacramento,Clothing,301.74
+567,39,2483,179,54.5,25,6,6,108.6,Sacramento,Electronics,296.22
+654,10,2792,254,74.5,11,14,4,88.7,San Francisco,Grocery,342.55
+594,12,2047,62,69.8,23,11,3,86.8,Los Angeles,Electronics,302.61
+375,48,2241,120,62.1,24,9,7,98.2,Los Angeles,Electronics,224.51
+639,48,1037,474,80.7,22,13,8,91.8,Palo Alto,Electronics,396.6
+285,26,1994,329,87.6,11,10,5,107.6,Palo Alto,Electronics,301.09
+446,38,1757,310,68.2,8,7,7,94.4,Los Angeles,Grocery,261.33
+579,32,2040,435,82.4,2,14,6,98.6,Los Angeles,Grocery,331.35
+419,14,1323,260,60.3,29,12,4,106.7,San Francisco,Grocery,282.88
+217,7,1985,224,74.4,14,12,3,76.7,Sacramento,Clothing,241.72
+665,20,2012,329,78.4,23,9,5,110.7,Sacramento,Electronics,416.66
+289,17,2419,69,69.3,11,5,4,108.6,Palo Alto,Grocery,156.12
+260,35,1467,147,71.9,27,14,6,95.8,Los Angeles,Electronics,151.12
+485,27,1775,463,52.6,25,7,6,102.9,San Francisco,Electronics,389.19
+275,18,1702,327,50.8,22,8,4,103.8,Sacramento,Clothing,204.74
+523,26,1596,462,83.9,25,11,5,99.8,San Francisco,Clothing,377.78
+504,27,2366,463,90.8,10,13,5,101.3,San Francisco,Grocery,402.53
+857,26,1751,109,58.4,12,13,6,104.4,Los Angeles,Electronics,355.24
+614,49,2352,60,71.2,18,8,8,75.9,Sacramento,Electronics,275.95
+340,15,2359,261,81,14,10,5,112.3,San Francisco,Electronics,223.44
+275,43,2045,185,92.2,28,8,7,87.6,Sacramento,Clothing,234.71
+383,42,2541,183,71.5,12,10,7,79.2,Sacramento,Clothing,202.56
+363,6,2443,222,53.7,28,18,4,123.1,Sacramento,Electronics,194.53
+470,21,2605,490,85.3,17,9,5,100.9,Sacramento,Grocery,398.88
+430,32,2572,337,55.9,30,9,6,92.3,Palo Alto,Grocery,300.07
+506,44,2239,273,55.7,30,10,7,104,Sacramento,Grocery,298.68
+398,32,2078,71,77.1,3,11,6,111.7,Los Angeles,Electronics,214.01
+610,12,1711,283,60.8,7,10,5,92.5,Palo Alto,Grocery,338.1
+554,6,1978,53,80.8,18,16,4,98.4,Los Angeles,Grocery,205.5
+740,19,2028,62,78.9,11,12,4,82.4,San Francisco,Clothing,338.84
+660,38,2647,398,69.9,24,7,7,108.5,Sacramento,Clothing,375.03
+651,14,1407,347,55,29,10,4,136,San Francisco,Electronics,371.49
+575,35,2041,491,79.3,9,9,6,100.3,San Francisco,Clothing,394.71
+279,10,2739,280,64.5,6,15,3,77.3,Palo Alto,Clothing,268.29
+603,8,1642,374,94.6,7,14,3,131.3,Sacramento,Clothing,401.36
+472,48,2223,146,52.1,19,9,7,91.8,Sacramento,Grocery,218.27
+398,7,1740,213,80.8,27,11,3,86.2,Los Angeles,Electronics,242.33
+420,26,1977,354,77.5,6,10,6,101.2,Los Angeles,Grocery,306.39
+618,42,2110,500,68.4,14,4,8,89.5,San Francisco,Grocery,366.29
+713,32,2024,460,72.4,27,15,5,92.3,Sacramento,Clothing,436.22
+587,18,1823,450,60.4,4,11,5,102.2,Palo Alto,Electronics,386.73
+400,7,1968,250,64.4,9,13,3,119.2,San Francisco,Electronics,261.42
+417,23,2393,69,78.5,29,7,5,105.7,San Francisco,Electronics,260.5
+422,17,2396,95,59.3,6,6,5,102.1,Los Angeles,Grocery,260.98
+492,38,1896,337,72,3,12,7,91.1,Sacramento,Electronics,274.29
+571,27,1757,489,87.6,20,7,5,96.8,Los Angeles,Grocery,391.14
+497,22,2062,66,51,28,7,5,99.5,San Francisco,Grocery,189.48
+617,26,1573,488,73.8,20,11,5,93.6,Los Angeles,Electronics,370.94
+727,31,1136,202,90.9,16,12,6,97,Los Angeles,Grocery,387.67
+381,26,1732,134,93.4,7,14,6,98.3,Sacramento,Grocery,188.08
+374,8,1083,250,71.3,24,6,3,123.4,San Francisco,Clothing,257.47
+448,15,2338,287,70.9,9,11,4,105.1,Palo Alto,Grocery,320.81
+497,47,2440,375,92.3,4,5,7,80,San Francisco,Grocery,321.77
+465,49,2983,367,50,19,10,7,98.2,Sacramento,Grocery,277.21
+355,9,2179,242,67.1,24,8,3,90.4,Sacramento,Electronics,265.09
+542,27,540,223,63.8,23,9,5,118.8,Sacramento,Electronics,308.75
+692,26,1429,478,94,3,6,5,101.2,Palo Alto,Grocery,400.43
+434,36,1348,421,70.4,3,14,7,94.2,San Francisco,Clothing,358.37
+407,28,1681,383,56.9,17,13,5,102.9,Sacramento,Clothing,274.94
+532,50,2254,430,75.5,10,15,7,76,Los Angeles,Clothing,395.45
+562,47,1547,365,60.6,2,8,7,89.9,Sacramento,Grocery,366.1
+606,11,2756,209,93.6,14,8,4,116.6,Palo Alto,Electronics,279.56
+673,34,2129,259,94.7,8,9,7,100.3,San Francisco,Grocery,339.77
+273,14,1373,373,90,24,10,5,114.4,Palo Alto,Grocery,234.15
+321,39,2434,230,79.4,15,7,7,96,Palo Alto,Clothing,216.23
+504,33,2180,391,70.3,6,12,6,86.6,Sacramento,Grocery,309.87
+461,35,1638,199,65.6,18,10,6,84.4,San Francisco,Electronics,275.1
+666,26,1850,257,58,19,8,5,96.7,Palo Alto,Electronics,350.72
+686,34,1736,489,51.8,8,8,6,94.1,San Francisco,Grocery,406.82
+341,12,2364,344,58.7,28,14,5,110,San Francisco,Electronics,281.47
+461,30,2281,483,72.9,6,11,5,123.3,San Francisco,Clothing,384.91
+596,24,2743,157,87,30,9,5,75.2,San Francisco,Electronics,346.77
+596,14,1229,311,85.2,18,13,4,94.3,Los Angeles,Electronics,323.54
+275,45,2606,397,79,12,8,8,105.6,Palo Alto,Grocery,278.44
+694,12,2668,51,83,21,13,3,94.1,Palo Alto,Clothing,335.76
+509,17,2374,120,94.3,1,7,4,96.1,San Francisco,Clothing,236.31
+499,35,1405,198,51.8,17,1,7,77.6,San Francisco,Clothing,299.42
+499,19,2300,186,57.3,23,11,5,85.1,Sacramento,Clothing,271.33
+492,25,1844,86,64.3,23,9,5,113.1,San Francisco,Clothing,260.85
+788,33,1754,221,52.3,26,12,6,108,Los Angeles,Clothing,337.01
+713,33,2563,221,59.2,11,1,7,109.9,Los Angeles,Grocery,318.09
+916,25,2490,440,51.6,21,9,5,109.2,Sacramento,Electronics,430.08
+367,10,2542,269,84.6,19,9,4,90.5,San Francisco,Electronics,227.89
+521,22,2552,471,94.4,15,11,6,60.8,Palo Alto,Grocery,403.89
+492,50,2177,394,60.6,29,9,8,96.8,San Francisco,Clothing,287.83
+386,41,1857,64,64.7,22,16,7,87.3,San Francisco,Clothing,199.3
+366,50,1793,103,91.9,8,10,8,76,San Francisco,Electronics,202.62
+472,20,1892,370,78.5,27,13,5,105.4,San Francisco,Electronics,295.1
+432,30,1875,217,94.1,9,14,6,97,Los Angeles,Grocery,240.4
+520,36,1307,446,60.3,27,14,6,86.8,Palo Alto,Electronics,348.62
+576,32,2045,122,57.1,23,11,6,98.6,Palo Alto,Clothing,243.55
+629,50,2236,456,65.4,5,3,8,118.7,Sacramento,Electronics,342.74
+691,21,2134,311,56.3,22,8,4,93.1,Palo Alto,Grocery,390.03
+541,42,1613,198,74.7,6,11,7,79,Sacramento,Clothing,291.29
+507,16,2126,83,65.7,19,3,5,106.8,Los Angeles,Clothing,232.63
+703,45,1860,362,71.1,16,14,7,74.7,Sacramento,Electronics,394.61
+606,21,2429,55,50.4,26,12,5,102.4,Sacramento,Electronics,264.97
+338,41,1582,295,80.6,22,9,7,82.3,San Francisco,Clothing,266.76
+468,31,2753,60,90.4,2,12,6,123.6,Los Angeles,Clothing,211.54
+571,19,2412,405,72.6,22,11,5,85,Los Angeles,Grocery,376.63
+502,22,1904,471,56.3,30,15,5,74.6,Palo Alto,Clothing,317.09
+764,49,1540,491,73.3,1,9,7,99.8,Palo Alto,Grocery,415.6
+638,34,3111,222,73,11,10,6,114.1,Los Angeles,Clothing,282.79
+449,32,1991,60,52.3,17,4,6,131.6,Los Angeles,Grocery,191.46
+338,23,1625,79,67.7,17,10,5,111.3,Los Angeles,Electronics,162.11
+567,13,1793,329,71.7,22,12,5,82,Los Angeles,Electronics,370.18
+423,21,1277,270,65.6,20,10,5,111.1,Palo Alto,Electronics,278.99
+589,22,2193,174,66.6,19,3,5,111.2,San Francisco,Grocery,269.45
+498,36,2273,87,59,25,6,6,96.1,Palo Alto,Clothing,257.23
+310,32,1538,118,94.9,3,6,6,105,Sacramento,Grocery,162.95
+704,27,1891,146,58.3,11,5,5,107.9,Palo Alto,Grocery,310.29
+625,24,1983,238,60.9,11,16,5,98.3,Sacramento,Electronics,327.96
+747,28,1783,403,77.9,7,4,6,101.6,Sacramento,Grocery,383.43
+388,24,2108,336,80.4,28,8,5,102.8,San Francisco,Grocery,254.07
+631,43,2336,122,83,24,13,8,127.7,Palo Alto,Clothing,332.07
+454,13,1128,488,58,30,14,5,110.4,Los Angeles,Grocery,386.02
+308,37,2033,247,59.1,3,12,7,82.2,Palo Alto,Grocery,263.84
+568,18,2542,496,64.4,4,11,4,93.2,Los Angeles,Grocery,422.24
+649,31,1358,248,56.8,1,14,6,88.8,Los Angeles,Electronics,324.37
+414,49,1952,230,53.5,1,5,8,116.2,Los Angeles,Electronics,268.32
+804,11,1505,363,59,2,8,4,103.5,San Francisco,Clothing,389.15
+466,21,1437,306,80.4,1,6,5,96.6,Sacramento,Clothing,334.29
+441,13,1732,268,66.9,16,6,3,105.2,Los Angeles,Electronics,251.57
+563,34,2304,315,85.4,9,7,6,81.9,Palo Alto,Clothing,318.2
+717,16,1254,493,75,18,8,4,82.5,Los Angeles,Electronics,426.62
+475,33,1866,216,83.3,21,13,6,114.4,San Francisco,Electronics,285.01
+339,48,1984,387,64.1,23,10,7,95.4,Los Angeles,Grocery,242.27
+595,36,2081,379,79.7,1,7,6,112.4,San Francisco,Grocery,375.54
+455,8,2251,359,93.8,30,8,4,90.7,San Francisco,Grocery,291.09
+771,32,1843,312,89.1,8,11,6,116.9,Palo Alto,Electronics,363.2
+656,34,2947,120,84.4,20,9,7,114.5,Sacramento,Clothing,274.07
+416,31,1658,337,65.3,2,7,5,104.9,Sacramento,Electronics,334.35
+698,31,2112,239,83.8,30,11,7,98.8,Palo Alto,Electronics,303.1
+525,17,2167,423,66,11,13,4,126.7,Los Angeles,Electronics,348.18
+386,43,1485,441,55.5,11,7,8,89.8,Los Angeles,Electronics,331.69
+525,37,1834,114,69.7,5,14,7,94.5,Los Angeles,Electronics,294.35
+525,27,2001,269,67.8,23,9,6,106.2,San Francisco,Electronics,271.42
+688,13,1775,355,61.7,17,12,4,125.3,Sacramento,Grocery,344.69
+431,17,2376,131,90.4,4,12,5,102.3,Los Angeles,Clothing,242.19
+739,22,2175,200,56.6,14,5,5,104.2,Palo Alto,Clothing,352.95
+505,32,1883,399,83.8,9,9,6,86.8,Los Angeles,Clothing,328.91
+709,25,2114,265,64.6,6,10,5,95.2,San Francisco,Clothing,352.22
+723,23,1397,458,83.1,25,8,5,99.8,Los Angeles,Grocery,438.81
+472,32,1166,142,71.1,28,11,6,95.7,San Francisco,Grocery,268.57
+367,47,2345,350,73.6,26,5,7,104.4,San Francisco,Grocery,328.62
+566,47,1732,447,86.3,28,5,8,107.7,Los Angeles,Electronics,381.34
+483,25,2331,398,54,5,9,6,83.5,Sacramento,Clothing,338.97
+638,36,2338,149,63.8,1,12,6,117.3,San Francisco,Electronics,280.17
+599,19,2029,72,75,14,9,5,91.5,Sacramento,Clothing,225.37
+422,26,1902,400,74.7,20,7,5,90.2,Sacramento,Clothing,312.01
+406,35,1839,439,56.9,6,12,6,81.9,Sacramento,Electronics,305.04
+502,49,1935,255,88.5,25,6,8,107.9,Sacramento,Grocery,270.55
+463,15,1918,102,59.1,8,7,4,99.2,Palo Alto,Grocery,205.12
+550,21,1405,331,70.3,26,7,4,89.9,San Francisco,Electronics,324.29
+611,16,2088,458,67,22,14,4,100.8,San Francisco,Clothing,356.17
+680,34,2285,341,75.4,4,8,6,125.1,Los Angeles,Electronics,418.1
+443,20,1796,232,75.1,23,6,5,63.5,Sacramento,Electronics,262.34
+560,33,1849,241,73.3,16,14,7,106.6,Palo Alto,Grocery,342.35
+513,14,2611,285,52.7,10,9,4,112.4,Sacramento,Grocery,324.62
+718,43,2233,112,58.2,7,8,7,85.5,San Francisco,Electronics,353.75
+613,18,1343,256,82.5,17,6,5,107.2,San Francisco,Clothing,368.41
+348,39,1990,496,67.6,14,12,6,89.4,Los Angeles,Clothing,312.76
+396,44,1838,469,73,6,8,7,89.9,Sacramento,Clothing,294.26
+504,31,1637,362,55.2,27,7,6,98.8,San Francisco,Grocery,325.23
+435,35,2546,429,83.9,5,10,6,94.4,Sacramento,Electronics,377.42
+620,17,2150,449,56,6,13,5,112.7,Sacramento,Grocery,341.57
+557,47,1906,180,55.6,16,4,7,83.4,Sacramento,Electronics,327.69
+370,45,2743,469,79.9,22,10,7,91.8,Sacramento,Grocery,316.71
+854,31,2377,459,67.9,29,7,7,101.8,Palo Alto,Electronics,423.53
+321,13,1756,380,51.6,12,13,4,112.3,San Francisco,Clothing,299.33
+601,21,1167,321,90.5,10,11,5,98.1,Sacramento,Clothing,346.31
+355,22,2158,225,91.6,8,6,6,98.1,Los Angeles,Electronics,293.17
+349,14,1879,224,54.8,19,14,4,94.5,San Francisco,Clothing,225.02
+609,10,2575,254,90.7,28,15,3,103.4,Los Angeles,Grocery,364.64
+529,5,1390,283,54.1,6,14,3,106.2,San Francisco,Grocery,296.74
+667,10,2350,253,77,28,9,4,100.3,Los Angeles,Electronics,321.37
+543,6,1054,89,73.7,2,14,3,100.1,Los Angeles,Grocery,226.01
+420,10,2534,350,51.5,15,11,4,104.9,Sacramento,Grocery,259.54
+676,28,977,137,54.1,10,8,5,69.8,San Francisco,Clothing,341.45
+481,44,1755,52,74.1,17,9,7,113.1,Palo Alto,Clothing,266.15
+357,23,2416,262,75.1,20,8,4,85.8,San Francisco,Grocery,206.16
+509,26,1885,425,64.6,15,8,6,80.5,San Francisco,Electronics,376.08
+414,31,1274,300,81.7,20,3,7,119.8,Palo Alto,Clothing,268.4
+591,49,1919,281,78.4,20,6,7,101.5,San Francisco,Clothing,335.48
+471,11,1448,414,83.9,22,9,4,90.9,Los Angeles,Grocery,303.41
+658,21,1371,357,60.3,21,7,5,79.8,Palo Alto,Grocery,368.24
+456,50,2256,441,71.6,14,11,8,88.4,Palo Alto,Grocery,368.98
+283,41,2478,74,53.9,10,9,6,93.1,Sacramento,Clothing,140.6
+599,30,2328,130,63.7,10,17,7,97.2,Sacramento,Grocery,265.76
+400,47,1265,303,72,14,11,8,83.4,Los Angeles,Electronics,272.14
+762,18,1510,475,52.8,16,7,5,107.1,San Francisco,Grocery,479.27
+521,5,1648,467,68.4,24,13,4,80.8,Los Angeles,Grocery,363.26
+374,22,1832,446,82.6,23,15,5,102.7,Los Angeles,Clothing,276.47
+617,46,1193,400,77.8,30,9,7,85.9,Sacramento,Electronics,327.08
+566,48,2189,208,73.1,12,6,8,83.6,San Francisco,Clothing,336.64
+432,24,2188,59,69.9,30,11,6,88.1,Palo Alto,Clothing,249.56
+443,31,2079,290,63.7,19,12,6,84.2,San Francisco,Clothing,302.74
+539,10,1062,145,70.6,9,9,3,101.8,San Francisco,Clothing,262.91
+565,43,1426,492,80.4,30,8,7,121.8,San Francisco,Clothing,399.56
+147,37,1799,166,94.6,25,17,6,73.2,San Francisco,Clothing,195.55
+150,27,1968,320,92.7,13,10,5,93.8,Los Angeles,Clothing,172.99
+438,13,1738,406,86.6,7,13,5,105.1,Palo Alto,Electronics,310.37
+359,25,1769,60,90.6,16,9,5,93.6,Palo Alto,Grocery,191.94
+458,22,2141,251,81.5,3,7,5,91.7,Sacramento,Grocery,288.86
+531,18,2232,414,54.9,25,12,5,89.6,Palo Alto,Clothing,332.96
+839,10,2545,280,80.7,23,16,4,97.4,Sacramento,Clothing,398.45
+100,9,1854,473,54.2,12,12,4,101.8,Palo Alto,Grocery,221.47
+298,10,2329,279,66.9,23,10,4,94.2,Sacramento,Grocery,275.58
+235,10,1743,279,73.8,8,12,4,95.8,Sacramento,Electronics,186.77
+507,10,2506,376,86.5,10,12,3,98.8,San Francisco,Clothing,361.79
+423,32,1730,327,54.2,16,6,6,120,Los Angeles,Clothing,319.08
+567,44,1736,78,64,12,9,7,105.7,Los Angeles,Electronics,230.17
+368,19,1997,123,55,4,10,5,127.2,Palo Alto,Grocery,258.97
+600,26,1868,451,54.6,10,8,6,122.9,Palo Alto,Grocery,341.5
+422,27,2374,161,61.5,4,8,5,107.8,Los Angeles,Grocery,220.43
+745,49,1902,307,68.4,15,7,7,95.4,Palo Alto,Electronics,346.81
+654,15,1885,153,84,28,8,4,84.9,Sacramento,Electronics,276.46
+284,21,1333,382,50.2,16,8,5,122,Sacramento,Clothing,220.86
+631,9,2937,180,71.7,20,9,3,81.3,Los Angeles,Grocery,272.45
+433,34,2247,392,55.3,24,9,6,105.1,Palo Alto,Clothing,340.91
+357,34,953,320,63.8,16,13,6,92.6,Palo Alto,Electronics,246.54
+490,47,1213,329,62,8,11,8,129.2,Sacramento,Grocery,264.18
+456,21,1921,214,52.9,22,2,4,102.6,Palo Alto,Grocery,305.49
+615,5,1627,493,58.4,19,14,3,123.3,Sacramento,Clothing,356.23
+548,26,2183,185,82.7,29,12,5,98.4,Sacramento,Clothing,246.74
+116,46,1125,425,67.8,25,9,7,66.6,San Francisco,Grocery,241.24
+303,7,2706,398,73.2,18,15,4,70.2,Los Angeles,Clothing,264.29
+446,39,2389,292,55.5,8,13,7,89.4,Los Angeles,Electronics,306.26
+364,43,1888,358,84.1,17,7,7,82.9,Palo Alto,Clothing,254.14
+553,25,1515,378,56.2,17,10,5,102.8,Palo Alto,Grocery,319.47
+500,10,2972,109,55.8,28,12,4,119.9,Los Angeles,Clothing,281.79
+553,45,2656,69,59.8,11,11,8,128.3,Palo Alto,Electronics,265.63
+650,39,1770,388,68.1,10,13,7,93,San Francisco,Clothing,360.25
+776,20,2543,310,51.8,23,10,4,102.5,Sacramento,Clothing,360.57
+120,36,1524,129,66,13,13,6,92.8,Los Angeles,Grocery,184.14
+471,38,2332,484,67.1,12,9,6,92.9,Palo Alto,Electronics,365.67
+371,6,2428,397,59.4,17,9,3,123.6,Los Angeles,Grocery,277.26
+379,10,2516,306,70.7,18,4,4,90.8,San Francisco,Electronics,298.9
+192,5,1314,334,79,26,17,3,93.8,Sacramento,Electronics,209.84
+426,10,2309,304,56.9,17,10,3,86.7,San Francisco,Clothing,252.06
+263,6,630,140,53.6,22,16,4,86.4,San Francisco,Electronics,218.39
+436,47,1673,73,56.2,13,7,7,88.1,Palo Alto,Electronics,174.98
+431,28,3264,188,79,30,9,6,107.9,Sacramento,Grocery,255.73
+495,36,2279,225,78.7,15,13,7,96,Sacramento,Electronics,316.1
+544,23,2372,314,55.1,10,9,5,115.6,Los Angeles,Electronics,365.33
+779,26,1851,477,89.5,5,9,5,111.4,Sacramento,Clothing,471.58
+591,31,1163,351,61.6,10,6,6,103.2,Sacramento,Grocery,324.32
+358,49,1885,332,58.3,10,8,8,88.3,Sacramento,Grocery,268.47
+667,11,1384,465,63.8,12,10,4,124.7,Palo Alto,Electronics,365.09
+420,21,1291,408,85.2,11,8,4,111,San Francisco,Electronics,337.74
+391,13,1653,370,71.8,25,8,4,136.9,Sacramento,Grocery,253.82
+519,34,2229,418,90.3,18,9,6,98.9,Los Angeles,Electronics,375.53
+549,31,1512,352,75.4,10,11,5,106.5,Sacramento,Clothing,372.23
+334,48,1989,75,83.7,14,8,8,95.3,Palo Alto,Grocery,238.91
+651,19,2106,246,64.5,16,12,4,121.5,San Francisco,Clothing,346.05
+535,43,2180,189,73,22,9,7,107.3,San Francisco,Electronics,277.97
+556,22,1797,497,62.5,13,4,5,89.9,San Francisco,Grocery,407.3
+638,39,1940,122,82.5,28,13,7,110.5,Palo Alto,Clothing,317.01
+582,41,1160,381,77.7,10,11,6,108.8,Sacramento,Grocery,313.68
+360,31,1569,439,70.1,11,9,6,132.9,Sacramento,Grocery,261.25
+375,39,1389,219,63.9,1,9,6,121,Los Angeles,Clothing,280.25
+483,17,2099,75,70.8,20,17,5,93,Los Angeles,Grocery,244.13
+507,6,2225,421,80.6,12,15,4,107.9,Sacramento,Grocery,380.03
+662,45,2619,95,94.8,6,11,7,113.2,Sacramento,Grocery,321.36
+483,27,1935,371,72.7,2,10,6,68.6,San Francisco,Grocery,302.37
+368,20,2514,335,86.8,18,10,5,96.4,San Francisco,Electronics,287.38
+205,33,2564,441,90.8,27,6,6,81.4,Sacramento,Grocery,279.12
+394,30,1501,180,81.7,15,13,6,77.1,Los Angeles,Grocery,287.94
+381,48,2005,258,84.3,1,11,8,109.4,Sacramento,Electronics,287.94
+546,40,2244,124,65,29,14,6,121.2,Palo Alto,Electronics,225.87
+235,46,2394,195,58.8,10,8,7,83.3,San Francisco,Electronics,172.45
+512,10,2289,330,91.8,12,10,4,71.2,Palo Alto,Electronics,354.11
+493,10,1704,331,53.7,27,13,3,77.7,Palo Alto,Clothing,267.63
+770,10,2454,427,66.4,29,13,4,84.3,Sacramento,Grocery,443.35
+600,32,1691,379,79.1,6,7,5,103.3,San Francisco,Grocery,386.7
+320,44,1698,129,88.9,2,10,7,93.3,Palo Alto,Clothing,197
+237,27,1155,53,55.2,16,7,6,109.5,San Francisco,Electronics,191.32
+369,26,1834,51,79.5,30,9,5,104.4,San Francisco,Electronics,177.65
+347,35,1768,90,61.7,16,14,7,98.9,San Francisco,Grocery,169.02
+459,49,1868,358,93.3,5,8,8,76.4,San Francisco,Clothing,275.14
+418,15,1851,204,63.9,17,9,5,114.7,Los Angeles,Clothing,235.04
+717,29,2178,312,50.5,27,14,5,107.9,Palo Alto,Clothing,348.81
+562,16,2022,109,71.9,1,6,5,117.6,San Francisco,Electronics,249.54
+362,42,1643,322,55.5,5,17,7,96.4,Sacramento,Clothing,250.55
+257,35,1923,91,75.5,16,10,6,102,San Francisco,Clothing,202.67
+445,48,1973,100,73.7,9,8,7,88.2,Los Angeles,Clothing,236.74
+407,23,2535,436,64.6,22,11,5,113.2,Palo Alto,Clothing,352.86
+385,5,1582,93,83.3,8,1,4,104.5,Palo Alto,Grocery,166.21
+278,26,2148,237,62.6,18,13,6,83.5,Palo Alto,Grocery,268.99
+481,46,901,476,92.7,15,10,7,107.5,Los Angeles,Electronics,338.29
+333,44,1767,120,77.9,16,10,7,104.1,San Francisco,Electronics,183.55
+628,39,2346,343,80.4,28,15,7,121,Palo Alto,Clothing,375.08
+548,43,1854,410,64,6,8,7,112.9,San Francisco,Grocery,386.07
+569,17,2083,100,60.8,15,4,5,85.1,San Francisco,Clothing,234.47
+738,10,2812,161,80.7,17,12,3,103.3,San Francisco,Grocery,367.6
+291,45,2585,121,84.7,1,12,7,105.7,San Francisco,Clothing,174.99
+676,31,2295,110,72.8,8,9,5,119.6,Los Angeles,Grocery,278.29
+466,20,2487,361,76.8,13,11,5,89.7,Palo Alto,Grocery,281.8
+481,36,1470,180,90.9,3,15,7,138,San Francisco,Electronics,280.05
+485,30,1473,206,71.7,10,13,5,119.4,Sacramento,Clothing,280.34
+554,6,2382,448,84.4,7,10,4,104.6,San Francisco,Electronics,392.98
+650,40,2225,149,55,24,14,7,110.6,Los Angeles,Grocery,268.68
+558,35,2670,178,63.3,2,14,7,114.4,Palo Alto,Clothing,261.68
+604,10,2270,356,81.8,7,11,4,116.7,Sacramento,Grocery,346.33
+699,14,2065,70,53.8,3,11,4,125.4,Sacramento,Clothing,247.36
+366,10,2430,453,56.4,24,13,3,133.4,San Francisco,Clothing,287.15
+359,36,2053,118,79.2,12,4,6,99,Palo Alto,Electronics,232.32
+437,44,1678,155,78.9,26,10,7,85.5,Los Angeles,Electronics,296.92
+487,31,1766,243,55.3,21,17,5,104.7,Palo Alto,Electronics,246.21
+637,33,2742,406,89.8,16,2,6,101.8,Palo Alto,Clothing,426.74
+530,38,2121,280,61.8,21,12,6,94.6,Los Angeles,Grocery,303.85
+197,12,2861,262,58.5,21,14,3,135.6,Palo Alto,Electronics,218.5
+586,19,2202,395,64,23,7,4,108.9,Sacramento,Clothing,339.18
+343,29,2161,338,85.4,22,15,6,101.5,Los Angeles,Electronics,312.85
+294,20,2406,300,72,7,14,5,110.9,Los Angeles,Electronics,222.85
+462,42,1621,347,90.5,30,5,8,89.6,San Francisco,Clothing,356.46
+492,39,2280,281,75.6,22,8,7,97.7,Palo Alto,Grocery,326.49
+530,48,1956,126,63.6,3,9,7,76.1,San Francisco,Electronics,227.09
+576,27,1441,176,64.7,28,10,6,107.7,Los Angeles,Clothing,281.13
+678,7,2173,289,60,14,11,4,69.6,San Francisco,Grocery,325.95
+725,31,1790,147,94.5,5,8,6,103.2,San Francisco,Electronics,380.31
+567,46,500,51,82.7,10,10,7,101.2,San Francisco,Grocery,293.56
+522,48,2120,310,78,21,8,8,99.8,Palo Alto,Electronics,293.6
+209,39,2326,368,70.3,23,17,7,110.5,Los Angeles,Electronics,213.81
+256,47,2205,149,64.2,12,5,8,107.5,Palo Alto,Grocery,142.95
+423,25,1429,455,71.1,2,11,5,80.2,Palo Alto,Grocery,332.99
+767,6,2189,473,60.5,1,4,3,95.4,Palo Alto,Electronics,461.17
+423,45,2554,146,74.7,26,12,7,99.6,Palo Alto,Electronics,279.15
+423,35,3348,301,72.9,14,8,6,112.2,Sacramento,Electronics,256.22
+551,20,2462,387,66.7,8,11,5,79.4,Los Angeles,Clothing,345.55
+488,33,2506,492,70.7,17,7,6,111.9,Los Angeles,Electronics,393.61
+299,38,2273,110,81.9,26,10,6,114.7,San Francisco,Electronics,157.65
+273,10,1187,187,84.5,13,9,3,100.3,Palo Alto,Electronics,226.71
+271,40,2207,175,89.9,19,16,7,103.8,Sacramento,Clothing,231.11
+286,39,1550,368,63.4,7,12,6,108.7,Los Angeles,Grocery,306.67
+527,47,1408,52,51.5,10,5,7,104.3,San Francisco,Clothing,230.97
+508,47,2229,53,58.3,25,8,8,105.9,San Francisco,Grocery,229.14
+536,39,2183,271,50.7,6,12,7,105.3,Palo Alto,Clothing,288.64
+619,24,2217,101,83.7,4,11,6,85.8,Los Angeles,Clothing,329.19
+774,6,2460,59,89.1,13,7,4,80.8,Sacramento,Grocery,331.24
+684,34,2119,433,55.4,27,13,6,100.4,Los Angeles,Clothing,358.74
+240,33,2696,432,79.7,11,5,5,95.8,Los Angeles,Clothing,272.45
+100,42,2562,471,61.9,27,11,7,89.6,Sacramento,Electronics,228.59
+396,12,2797,287,93.5,16,14,4,114.4,Los Angeles,Grocery,254.01
+340,23,2742,134,64.1,29,17,5,104.2,San Francisco,Clothing,183.24
+450,29,2144,363,75.4,17,1,6,95.4,Sacramento,Grocery,309.54
+504,24,1247,490,72.1,12,12,5,105.9,Sacramento,Electronics,339.14
+547,42,1599,373,80.5,25,6,7,79.3,Los Angeles,Electronics,320.18
+499,35,1889,142,55.4,6,10,6,89,Sacramento,Grocery,304.73
+377,11,1031,481,73.9,20,15,4,134.4,Palo Alto,Clothing,350.04
+322,30,1881,366,64.8,3,8,6,103.2,Sacramento,Grocery,285.03
+504,14,1573,193,70.3,30,8,5,125.4,Palo Alto,Electronics,307.16
+446,35,2141,337,94.6,10,6,7,98.9,Palo Alto,Clothing,335.74
+596,10,812,126,79.7,7,12,3,71.3,Los Angeles,Clothing,242.98
+470,8,1760,220,64.8,8,11,4,123.9,Sacramento,Clothing,303.51
+573,40,1535,114,92.1,28,11,7,85.2,San Francisco,Electronics,284.96
+289,42,1416,331,82.9,8,6,7,99.6,Los Angeles,Electronics,208.07
+513,24,2579,351,54.9,9,10,5,123.1,Los Angeles,Grocery,284.05
+461,8,2240,82,54.5,19,11,4,90.8,Sacramento,Electronics,273.12
+735,6,1561,371,78.8,25,7,3,97.2,Los Angeles,Clothing,400.48
+596,37,1083,361,66.9,2,13,6,107.1,San Francisco,Electronics,347.06
+408,27,1473,161,70.9,6,4,6,70.2,Sacramento,Electronics,195.25
+695,35,2590,101,64.7,5,13,6,106.9,Sacramento,Clothing,332.73
+430,36,1946,457,65.8,3,9,6,107,Palo Alto,Grocery,329.89
+301,5,2018,369,58.2,9,9,3,92.3,Los Angeles,Clothing,305.86
+579,47,3083,400,94.1,18,9,8,101.5,Palo Alto,Grocery,351.31
+504,41,1616,428,57.4,25,9,8,104.2,Sacramento,Grocery,384.67
+627,46,2558,399,80.3,17,13,7,98.4,Palo Alto,Electronics,331.68
+753,5,2282,113,52.3,13,14,4,101.7,Palo Alto,Electronics,341.88
+390,46,2921,496,54.9,4,7,7,102.9,Los Angeles,Grocery,346.19
+634,19,1437,283,57.5,30,12,5,128.3,Sacramento,Clothing,377.68
+372,5,2089,405,73,20,17,3,124,San Francisco,Clothing,343.25
+709,29,1206,164,74.1,23,13,6,92.5,Sacramento,Grocery,286.07
+409,32,2217,327,63.6,18,13,5,89.1,Sacramento,Electronics,247.02
+476,45,2659,80,55.9,15,8,7,83.5,San Francisco,Electronics,245.3
+677,18,1691,61,52.7,15,9,4,111,San Francisco,Clothing,319.63
+529,25,2926,194,58.1,17,11,5,100,Los Angeles,Grocery,279.11
+132,35,2766,137,79.5,16,9,7,92.9,Palo Alto,Clothing,106.71
+738,27,1367,99,66.1,30,9,5,101.6,San Francisco,Clothing,313.31
+404,49,2044,147,84.6,23,10,7,69.9,Sacramento,Clothing,269.69
+722,38,1936,203,94.4,24,7,7,82.6,San Francisco,Electronics,395.78
+476,10,2379,376,57.7,27,12,4,114.5,Los Angeles,Electronics,276.98
+342,25,2560,97,83.5,29,9,6,95.5,San Francisco,Grocery,210.86
+597,13,2804,89,54.1,7,5,5,112.6,Los Angeles,Grocery,232.61
+457,30,1276,68,68.3,6,6,6,90.8,Los Angeles,Grocery,247.77
+780,9,2351,473,63.6,14,10,3,117,Sacramento,Electronics,457.64
+659,11,1810,281,58.8,26,8,4,114.7,Palo Alto,Clothing,299.48
+431,47,2000,339,51.2,27,17,8,80.7,Palo Alto,Clothing,318.74
+737,47,2501,241,69.7,24,10,7,123.2,San Francisco,Clothing,394.55
+539,33,2598,426,51.9,6,11,7,97.5,Palo Alto,Clothing,352.73
+239,35,2236,358,70.5,30,8,6,97.7,San Francisco,Grocery,269.33
+455,29,2642,482,84.7,25,16,6,101.8,San Francisco,Grocery,390.63
+455,19,1065,186,82.9,13,9,5,115.6,Los Angeles,Grocery,232.39
+584,50,2532,272,76.7,6,13,8,84.1,Palo Alto,Clothing,321.91
+518,17,2583,377,80.7,16,9,4,115.3,Palo Alto,Electronics,369.03
+356,22,2324,446,91.9,25,12,5,118.8,Sacramento,Grocery,350.1
+595,32,2015,194,74.2,20,16,5,99,San Francisco,Electronics,321.53
+339,25,2255,60,54.9,18,7,6,106.2,Los Angeles,Electronics,206.87
+348,23,1611,253,73.4,6,15,4,111.4,Palo Alto,Clothing,291.83
+557,32,1487,388,61.4,9,8,5,106.7,Sacramento,Clothing,315.48
+370,24,1452,60,93,2,15,6,104.5,Los Angeles,Grocery,197.06
+568,24,2230,156,60.7,4,15,5,107.8,San Francisco,Electronics,238.05
+484,46,1431,108,73.4,11,9,8,83.7,Palo Alto,Clothing,207.19
+640,13,1442,309,83.2,7,11,5,117.5,Los Angeles,Electronics,383.65
+601,41,2654,233,94.5,21,8,7,91.6,Palo Alto,Grocery,329
+424,48,2427,109,94.1,27,6,7,90.4,Palo Alto,Clothing,279.99
+408,12,2345,148,76.3,13,11,4,82.1,Palo Alto,Electronics,273.06
+504,26,2477,416,62.9,2,16,5,108,Palo Alto,Grocery,362.81
+465,37,2451,263,78.5,14,4,6,99.3,Sacramento,Grocery,308.64
+552,43,1998,492,89.8,2,5,8,90,Los Angeles,Electronics,368.48
+437,37,2006,447,54.7,17,8,7,126.4,Palo Alto,Electronics,287.97
+481,10,2193,330,63.1,30,11,4,95.9,Sacramento,Grocery,269.31
+431,48,2521,100,83,11,5,8,101.5,San Francisco,Grocery,238.41
+549,16,2615,109,81.2,3,13,4,87.6,Los Angeles,Clothing,251.28
+515,36,1694,445,72.2,16,8,6,112.5,Palo Alto,Grocery,327.83
+723,19,1226,273,77.6,14,7,5,85.7,Los Angeles,Electronics,358.23
+616,40,1970,416,56.9,23,17,7,107.3,Los Angeles,Clothing,360.53
+350,16,2571,205,87,20,11,5,89.5,San Francisco,Clothing,281
+398,21,2344,178,92.5,13,7,4,90,Palo Alto,Clothing,262.3
+505,8,2146,72,74.7,3,6,3,98.9,Los Angeles,Grocery,193.44
+437,12,1653,139,58.4,11,9,3,94.5,Palo Alto,Electronics,234.43
+622,39,3574,158,75.4,12,12,7,112.9,Palo Alto,Grocery,309.67
+559,24,2434,341,75.1,22,14,6,83.6,Palo Alto,Clothing,331.24
+373,22,1756,179,54.4,28,9,6,91.9,Palo Alto,Grocery,273.89
+889,8,1494,168,87.4,5,6,4,101.9,Sacramento,Electronics,401.49
+325,34,2254,90,71.1,18,12,6,112.4,Los Angeles,Clothing,194.59
+351,6,655,360,85.2,8,5,4,101.7,Los Angeles,Clothing,258.1
+529,7,2101,264,86.3,6,11,4,101.8,San Francisco,Grocery,305.74
+352,36,2396,384,74.3,26,13,6,94.6,Palo Alto,Clothing,328.54
+611,32,1673,415,65.2,4,13,7,103.5,San Francisco,Grocery,357.05
+530,27,1991,443,73.5,12,12,5,106.3,Los Angeles,Grocery,399.96
+670,32,1458,414,51.4,4,8,6,100.4,San Francisco,Electronics,414.06
+545,28,1887,250,93.1,8,12,5,100.2,San Francisco,Grocery,329.54
+422,32,1645,60,71,21,11,6,105,Palo Alto,Grocery,227.82
+679,5,1876,298,73.5,17,7,3,70.5,Los Angeles,Clothing,345.46
+483,21,2253,213,93.5,23,8,4,113.3,Sacramento,Grocery,269.67
+360,45,1540,423,94.6,26,6,8,86,Los Angeles,Grocery,309.95
+511,47,2404,135,84.1,21,7,7,80.7,Los Angeles,Electronics,244.29
+416,8,1943,460,56.1,26,14,4,120,Sacramento,Clothing,360.45
+593,26,2452,442,52.9,26,3,6,101.6,Los Angeles,Clothing,354.4
+645,41,1332,453,78.6,20,13,7,94.9,San Francisco,Grocery,442.54
+405,6,1222,396,55,19,11,3,86.6,San Francisco,Clothing,279.37
+623,35,2194,479,66.3,12,5,6,92.8,Sacramento,Grocery,438.57
+506,19,2204,405,60.1,27,12,5,118.3,Los Angeles,Grocery,358.2
+601,7,1426,290,83.1,16,14,4,97.2,Palo Alto,Grocery,369.09
+402,24,1940,464,91.5,20,10,5,83.6,San Francisco,Electronics,375.77
+770,39,2056,184,72.3,22,5,7,107.2,Los Angeles,Grocery,322.52
+347,19,1167,298,67.6,8,7,5,64.5,San Francisco,Grocery,283.39
+625,37,1534,277,81.7,7,8,7,99.2,Sacramento,Clothing,324.28
+455,16,2540,231,77,15,11,4,79.1,Palo Alto,Electronics,250.63
+407,17,1942,490,72.3,27,9,4,74.7,Los Angeles,Clothing,323.23
+434,46,1041,219,89.4,6,10,7,88.2,Sacramento,Grocery,252.82
+444,8,2794,451,83.2,25,11,3,84.4,Los Angeles,Clothing,306.29
+541,31,1888,306,90.1,15,8,7,101.9,Los Angeles,Clothing,346.12
+685,43,1631,287,70.7,12,14,6,88,Sacramento,Electronics,401.15
+391,37,1935,412,84.9,6,11,6,93,Sacramento,Electronics,269.5
+391,27,2100,115,83.1,24,6,6,104.7,Palo Alto,Electronics,210.98
+524,13,1879,201,76.9,18,10,4,120.8,San Francisco,Clothing,301.75
+461,25,1907,306,80.9,27,6,6,104.5,Sacramento,Clothing,323.4
+543,22,2285,497,71.8,15,13,6,102.8,Los Angeles,Electronics,335.66
+533,40,1223,124,74.4,1,11,7,89.7,Sacramento,Clothing,301.18
+864,32,1652,440,55.1,29,13,6,97.4,Palo Alto,Clothing,471.02
+538,23,1565,304,53.3,26,5,5,98.4,Sacramento,Grocery,325.15
+573,24,2065,110,66.1,7,12,5,90.2,Palo Alto,Grocery,230.53
+552,24,1388,111,73,22,4,5,92,Palo Alto,Electronics,254.79
+322,24,2194,207,85.7,24,4,4,95.3,Los Angeles,Clothing,278.56
+694,46,1363,159,53.4,1,9,7,113.6,Sacramento,Grocery,273.07
+408,13,1376,360,63.2,26,12,4,102.2,San Francisco,Clothing,316.78
+370,41,2584,284,74.4,10,9,6,127.6,Sacramento,Electronics,229.92
+587,9,2656,319,62.6,27,8,3,98.9,Los Angeles,Clothing,317.19
+410,10,1712,479,69.5,22,7,4,89,Sacramento,Electronics,331.26
+712,33,2744,174,76.3,2,6,6,120.3,Sacramento,Grocery,316.05
+638,43,2697,472,92,15,7,7,107.5,San Francisco,Grocery,386.23
+250,49,2127,250,58.2,3,7,8,98.6,San Francisco,Grocery,189.98
+617,37,1973,499,79.6,7,9,6,105.4,Sacramento,Clothing,382.83
+422,18,1577,260,63.3,11,8,4,85.4,Los Angeles,Electronics,223.11
+610,48,2467,151,63,30,7,7,88.4,Los Angeles,Electronics,294.81
+280,16,2551,160,61.1,23,15,5,117.8,Palo Alto,Grocery,173.64
+818,36,1654,497,52.1,6,8,6,99.1,Sacramento,Electronics,422.05
+452,19,1092,324,57.5,3,8,4,115.5,Palo Alto,Clothing,279.97
+386,40,1937,468,81.8,13,6,7,94.9,Palo Alto,Grocery,306.11
+539,15,2512,257,67,10,11,4,121.2,Los Angeles,Grocery,340.89
+575,21,2304,229,72.4,2,8,5,122.4,Sacramento,Grocery,318.41
+759,8,2112,123,54.6,23,7,4,84.4,San Francisco,Electronics,372.54
+616,12,1610,190,83.3,1,9,4,72.9,Sacramento,Clothing,302.41
+392,39,2964,210,55.3,2,13,6,99.4,Sacramento,Electronics,243.91
+305,24,2388,392,55,12,20,5,113.5,San Francisco,Grocery,231.49
+392,14,2280,352,59,26,14,4,117.5,Sacramento,Electronics,325.35
+477,8,1436,220,67.3,25,7,3,88.8,Palo Alto,Clothing,281.07
+525,34,2217,141,51,7,12,7,99.1,San Francisco,Grocery,257.52
+539,6,3002,411,65.1,27,7,3,88.6,San Francisco,Grocery,317.66
+196,7,2067,315,66.2,26,11,3,88.7,Sacramento,Electronics,255.68
+623,21,2141,228,58.6,2,12,4,115.6,Sacramento,Grocery,271.96
+890,9,2009,381,74.2,19,7,4,135.1,Los Angeles,Clothing,445.62
+629,49,2326,409,82.6,26,6,7,76.8,San Francisco,Clothing,361.13
+501,16,2901,258,80.7,10,8,4,60,Los Angeles,Clothing,263.45
+398,13,1640,94,77.5,14,11,5,140,Los Angeles,Clothing,247.8
+510,8,1987,477,80,5,14,4,71.6,Sacramento,Clothing,374.18
+433,5,1841,349,53.5,6,8,4,108,Palo Alto,Grocery,248.04
+497,13,1338,386,53.1,21,12,4,96.1,Palo Alto,Electronics,375.57
+533,6,1709,181,63,27,8,4,95.6,Sacramento,Grocery,241.28
+735,9,2619,344,52.5,22,8,4,92.5,San Francisco,Electronics,426.08
+579,14,2071,219,69.6,27,4,5,82.3,San Francisco,Clothing,300.13
+340,33,2698,200,66.3,27,7,6,110.2,San Francisco,Clothing,242.77
+649,39,2150,333,71.8,29,9,7,99.4,Los Angeles,Grocery,339.15
+408,49,2110,276,93.2,28,8,7,92.2,Palo Alto,Clothing,313.53
+377,41,2342,238,79.7,13,7,7,101,San Francisco,Clothing,302.54
+321,10,2141,407,78,14,12,4,120.2,Sacramento,Grocery,300.29
+370,7,1357,342,63.1,6,15,3,81.3,San Francisco,Electronics,303.08
+579,24,1907,64,71.4,9,11,6,113.5,Los Angeles,Clothing,296.49
+465,39,2023,236,52.2,12,7,6,94.8,San Francisco,Electronics,234.23
+537,19,989,350,92.5,28,8,5,107.4,Los Angeles,Electronics,381.49
+557,44,2297,207,81.9,19,14,7,90,Los Angeles,Grocery,275.55
+640,15,2485,282,56.9,4,12,5,110.6,Sacramento,Clothing,309.24
+584,17,1909,90,52.2,16,10,4,108.9,Palo Alto,Grocery,270.42
+363,8,2096,149,89.6,17,8,3,134,Palo Alto,Grocery,229.72
+377,16,1990,380,83.4,7,8,5,121.2,San Francisco,Grocery,283.97
+484,39,2875,235,90.3,26,14,7,93.1,San Francisco,Grocery,247.35
+508,28,1201,131,55.1,18,13,6,108,Palo Alto,Grocery,236.99
+665,22,1699,255,69.2,12,10,5,113.3,Palo Alto,Grocery,313.72
+484,49,2476,81,92.1,9,9,8,69.4,Los Angeles,Grocery,250.25
+467,20,2836,130,77.1,29,7,4,107.4,Los Angeles,Grocery,256.15
+650,25,1874,358,60.8,17,7,5,92,Los Angeles,Grocery,383.34
+262,22,2247,97,51.8,4,14,5,90,San Francisco,Clothing,219.04
+221,40,1087,175,54.3,21,12,6,121.6,Palo Alto,Grocery,210.4
+476,32,1609,492,80.1,19,15,6,81.7,Sacramento,Grocery,369.02
+243,23,1515,355,78.3,16,7,5,83.5,Los Angeles,Electronics,277.41
+514,32,1359,491,66.3,18,10,6,71.8,Sacramento,Electronics,346.37
+495,32,2204,491,73.2,4,12,5,77.9,Sacramento,Clothing,338.05
+729,38,1776,295,74.4,17,12,7,107,San Francisco,Clothing,410.52
+588,16,2382,246,87.1,23,6,4,82.4,Palo Alto,Clothing,362.07
+297,27,2390,448,51.9,19,9,5,116.3,Los Angeles,Electronics,293.5
+162,10,2069,371,63.1,3,6,3,90.9,Palo Alto,Grocery,183.34
+353,9,2585,370,87.5,17,9,4,84.4,Palo Alto,Grocery,287.63
+328,18,2478,409,69.7,3,13,4,61.5,Palo Alto,Clothing,278.18
+448,33,2657,226,56.3,22,7,5,103.5,Palo Alto,Electronics,240.09
+406,43,2619,72,71.9,5,8,8,95,Sacramento,Electronics,184.25
+497,49,2093,301,83.1,23,8,8,83.8,Los Angeles,Clothing,278.24
+387,37,1940,99,59.5,27,9,7,92.9,Palo Alto,Grocery,181.55
+599,18,1528,311,88.2,1,9,5,115.2,San Francisco,Clothing,316.95
+545,11,1838,81,63.2,12,13,4,136.6,Palo Alto,Clothing,273.66
+713,24,1890,90,61.4,4,11,5,106,Sacramento,Electronics,301.62
+645,43,2408,426,52.3,17,16,7,89.9,Los Angeles,Electronics,368.13
+387,27,2105,253,57.7,15,14,6,104.6,Sacramento,Grocery,258.33
+283,48,3436,397,82,24,12,7,83.7,Sacramento,Grocery,273.15
+483,23,1867,186,67.2,21,9,4,107.6,San Francisco,Electronics,295.25
+336,21,2265,281,52.3,22,9,5,104.2,Los Angeles,Electronics,276.23
+631,16,1453,52,54.8,4,13,4,121.2,Sacramento,Clothing,231.96
+550,20,2363,119,83.5,12,6,4,113.1,Los Angeles,Grocery,233.68
+692,17,2220,346,51.1,27,12,5,97.9,Los Angeles,Electronics,372.43
+355,10,1189,407,71.1,29,10,4,116.9,Sacramento,Clothing,327.19
+691,37,1885,488,54.8,21,12,6,114.9,Los Angeles,Electronics,400.66
+577,23,1667,478,87.8,28,10,6,80.3,San Francisco,Grocery,365.86
+388,13,1828,278,91.8,2,11,4,97.6,Sacramento,Grocery,240.24
+407,29,2226,97,60.9,22,2,6,86.5,Sacramento,Grocery,228.32
+412,22,2229,123,86.7,29,14,5,80.1,Palo Alto,Electronics,240.11
+484,44,1749,365,54.4,27,11,7,113.2,Los Angeles,Grocery,342.59
+561,32,1586,66,70,14,19,5,124.8,Palo Alto,Clothing,223.88
+488,27,1925,95,78.4,21,15,5,69.7,Sacramento,Clothing,236.54
+591,38,1605,223,89.8,24,10,7,96.2,San Francisco,Clothing,321.65
+676,42,1225,388,61.8,21,11,7,99.5,San Francisco,Electronics,355.02
+350,38,1758,321,64.3,12,12,6,100.8,Palo Alto,Electronics,261.74
+342,19,1186,437,87.2,29,15,5,63.4,Los Angeles,Clothing,341.97
+426,27,2368,473,86.9,14,10,6,107.9,Sacramento,Grocery,307.93
+476,14,2475,111,63.2,9,14,4,84.9,Los Angeles,Grocery,222.54
+622,17,1925,274,52.7,4,15,5,79.2,Los Angeles,Electronics,290.43
+519,22,1372,148,69.8,9,12,5,118.5,Sacramento,Clothing,280.16
+878,40,1958,129,66.5,9,13,7,100.9,Los Angeles,Grocery,401.92
+574,47,1516,262,72,10,6,7,90.2,San Francisco,Electronics,314.75
+324,12,1450,205,93.4,10,14,4,78.3,Sacramento,Grocery,186.26
+263,49,1739,167,80,24,13,7,92.1,Sacramento,Grocery,192.79
+452,25,2312,215,53.5,17,16,5,111.5,Palo Alto,Grocery,221.43
+481,23,1617,149,83.6,9,8,6,128.9,Los Angeles,Clothing,302.82
+519,32,2974,445,71.6,21,8,6,103.4,Palo Alto,Clothing,338.7
+564,10,2181,494,72.7,15,9,4,88.9,Sacramento,Electronics,392.12
+658,35,1469,157,68,1,10,7,102.1,Palo Alto,Clothing,299.59
+697,15,2511,465,57.4,22,7,4,82.3,Palo Alto,Grocery,434.52
+291,31,2857,90,77.4,7,19,5,104.9,Los Angeles,Grocery,197.82
+778,33,2063,349,72.7,19,12,6,103.5,Sacramento,Electronics,410.54
+399,39,2513,164,60.7,4,11,7,74.2,San Francisco,Grocery,236.64
+411,47,2359,395,54.5,23,12,7,129.6,Sacramento,Clothing,290.2
+511,25,1633,250,61.4,13,9,6,95.3,San Francisco,Clothing,324.78
+366,6,2341,268,50.9,13,12,3,106.3,San Francisco,Grocery,206.59
+510,45,2946,392,65,7,9,7,111.2,San Francisco,Grocery,306.25
+510,35,1362,96,63.2,25,13,6,78.4,Los Angeles,Grocery,248.02
+660,20,2726,182,57,19,8,5,95,Palo Alto,Electronics,343.81
+575,33,2816,287,61,28,13,7,78,San Francisco,Grocery,285.36
+427,38,2443,356,72.3,8,7,7,82.4,Sacramento,Grocery,297.08
+416,10,1496,433,74.8,24,3,4,112.2,San Francisco,Grocery,370.73
+416,40,2362,421,80.3,30,11,7,117.9,Los Angeles,Electronics,275.41
+421,39,1721,163,53.8,19,9,7,60,San Francisco,Clothing,212.99
+623,47,1618,298,86.8,21,12,8,118.9,Los Angeles,Electronics,372.07
+598,47,2388,299,93.7,7,15,7,123,Los Angeles,Clothing,368.5
+637,39,2334,66,86.1,17,9,6,121.4,Sacramento,Electronics,295.64
+149,25,2373,347,74.1,15,9,5,98.4,Palo Alto,Electronics,176.4
+743,33,1339,247,91,13,14,6,105.3,San Francisco,Clothing,395.6
+670,16,2553,171,57.2,26,10,4,75.1,Sacramento,Electronics,293.14
+200,15,1561,169,81.6,11,12,5,121.8,Sacramento,Electronics,198.74
+825,24,1463,208,63.8,27,9,5,111.7,San Francisco,Grocery,384.44
+387,39,1608,476,50.4,16,11,6,95,Sacramento,Clothing,313.95
+327,50,1585,323,66,28,12,7,84.3,Palo Alto,Electronics,253.25
+443,11,2601,101,77.2,17,12,4,120.9,San Francisco,Clothing,245.92
+497,6,1791,228,73.9,12,10,4,86.9,San Francisco,Grocery,275.66
+540,24,1979,111,82.3,24,12,5,104.7,Sacramento,Grocery,256.61
+492,17,2240,331,57.3,5,8,5,111.1,San Francisco,Clothing,276.55
+367,38,1735,218,75.8,20,11,6,101,Los Angeles,Electronics,285.33
+307,13,2231,104,66.7,3,4,4,82.5,San Francisco,Clothing,219.12
+497,41,1960,382,72.1,30,15,7,99.7,Los Angeles,Grocery,378.98
+438,17,2596,75,51.4,10,12,5,65.2,Los Angeles,Electronics,260.84
+587,37,1710,315,81.6,6,9,6,102.5,Sacramento,Electronics,314.37
+463,36,2110,409,66.7,7,9,6,99.3,San Francisco,Electronics,328.39
+493,38,2123,59,89.5,11,10,6,118.2,Palo Alto,Clothing,273.28
+423,42,1624,126,73.2,20,12,7,111.3,San Francisco,Grocery,213.83
+606,24,3038,146,90.2,20,7,6,88.5,Palo Alto,Clothing,288.56
+546,8,2402,328,89.9,1,9,3,102.1,Palo Alto,Grocery,310.84
+354,6,1730,166,69.2,6,13,3,108.3,Palo Alto,Electronics,251.79
+766,38,1455,156,57.2,13,10,7,127.4,Sacramento,Grocery,363.75
+498,27,1664,407,61.2,18,11,5,92.4,Los Angeles,Grocery,322.99
+328,35,3092,347,55,16,10,7,126.6,Palo Alto,Electronics,223.78
+517,36,2078,252,56.1,15,16,7,127,San Francisco,Clothing,321.46
+428,5,2151,164,93.5,20,5,4,103.4,Palo Alto,Electronics,220.85
+715,47,1328,195,84.4,29,5,7,113.9,Sacramento,Clothing,357.77
+594,41,1774,223,92.8,7,2,7,118.7,Los Angeles,Clothing,288.48
+206,46,2958,194,70.6,29,10,8,109.7,Sacramento,Grocery,171
+361,5,2454,359,87.7,25,11,3,114.2,Sacramento,Clothing,336.53
+483,46,1269,291,90.2,16,12,7,116.3,San Francisco,Clothing,350.96
+233,19,1639,78,92.8,11,9,4,90.1,Los Angeles,Electronics,181.07
+541,35,2033,444,67.7,18,10,6,74,Sacramento,Clothing,321.38
+684,13,2082,483,82.1,10,12,4,115,San Francisco,Clothing,393.52
+396,15,1536,195,71.5,6,13,4,110.9,San Francisco,Grocery,222.64
+466,28,1893,399,63.9,2,7,6,106.6,Palo Alto,Grocery,356.9
+658,47,2382,380,60.6,2,8,7,92.2,Palo Alto,Electronics,328.6
+518,9,1972,62,66.1,4,10,3,72.7,Sacramento,Clothing,255.42
+807,18,1933,456,87.5,3,9,5,115.7,Los Angeles,Electronics,423.8
+707,10,2142,418,74.1,18,9,3,78.6,Palo Alto,Electronics,418.72
+391,32,1151,465,92.6,11,9,6,102.1,San Francisco,Electronics,280.21
+695,21,2866,70,57.4,11,6,4,106.1,Palo Alto,Grocery,255.54
+466,38,1716,244,65.7,14,12,7,94.9,Sacramento,Grocery,253.27
+322,9,1844,416,91.5,17,8,3,120.5,Palo Alto,Clothing,319.8
+585,41,1944,408,62.1,25,16,6,93.5,Sacramento,Clothing,343.63
+446,13,2105,387,76.3,24,5,5,112.8,Sacramento,Clothing,359.25
+735,37,1690,340,71.5,1,10,6,96.4,San Francisco,Grocery,423.33
+642,39,2543,148,66.8,13,8,7,95,Los Angeles,Electronics,273.51
+420,30,826,207,59.2,14,14,6,105.1,Los Angeles,Electronics,247.79
+591,45,2000,316,73.3,25,11,7,106.2,Los Angeles,Grocery,344.28
+457,31,2053,50,55.5,7,12,5,84.8,Los Angeles,Grocery,166.14
+246,12,1236,67,90,6,7,4,97.8,Los Angeles,Electronics,138.91
+457,6,1711,192,59.1,1,13,3,101.9,Los Angeles,Grocery,247.61
+457,41,1889,346,57.3,19,9,6,115.7,San Francisco,Grocery,324.38
+586,27,1643,432,51.1,13,12,6,84.2,Sacramento,Clothing,413.95
+519,39,1678,86,55.1,22,8,6,115.5,Sacramento,Electronics,225.7
+358,44,1420,155,66.4,1,11,7,119,Palo Alto,Electronics,207.04
+597,9,2622,355,93.6,26,13,4,99.1,Los Angeles,Electronics,325.16
+342,47,1285,221,74.4,24,6,7,106.3,San Francisco,Electronics,210.75
+350,45,2126,413,92.9,12,13,8,111.6,Sacramento,Clothing,295.37
+559,9,2042,98,80.9,15,7,4,106.8,Palo Alto,Clothing,283.73
+372,46,2022,220,67.5,9,13,8,104.6,San Francisco,Grocery,289.25
+569,46,1217,317,80.2,11,13,7,107.9,Los Angeles,Electronics,341.61
+486,23,2011,268,92.9,17,7,5,83.8,Sacramento,Clothing,310.4
+643,35,2017,470,57.7,13,10,7,117.7,San Francisco,Electronics,376.19
+603,18,1718,393,68.9,27,7,5,91.7,Sacramento,Grocery,361.74
+671,23,2319,99,81.8,22,10,5,107.8,Los Angeles,Electronics,311.9
+473,24,1401,260,88.7,16,9,6,98.6,Los Angeles,Electronics,293.32
+566,39,1562,76,75.3,5,12,7,75,Los Angeles,Grocery,246.48
+526,50,1537,374,90.9,18,12,8,114.1,San Francisco,Clothing,327.13
+624,11,2538,152,57.1,6,13,3,103.7,Sacramento,Grocery,303.13
+728,6,1755,279,53.9,2,10,3,116.9,Los Angeles,Electronics,347.8
+251,24,1946,162,62.2,14,13,5,92.2,Palo Alto,Electronics,172.88
+713,17,2204,382,82.2,25,9,4,98.1,Los Angeles,Grocery,430.44
+387,31,2259,392,80.4,17,7,5,81.8,San Francisco,Grocery,310.7
+336,50,1289,277,71.3,1,10,8,108.2,Los Angeles,Grocery,246.87
+511,34,2558,104,76.7,28,9,6,78.7,San Francisco,Clothing,267.05
+453,10,1713,248,56.1,8,8,3,103.6,San Francisco,Clothing,284.51
+605,30,2234,488,86.2,4,14,6,84.5,Palo Alto,Grocery,365.27
+653,36,2077,460,91.6,27,10,6,85.2,Sacramento,Clothing,446.51
+318,23,1902,354,73.8,17,9,4,95.4,Sacramento,Electronics,244.82
+727,26,1183,421,57.5,26,11,6,90.6,Los Angeles,Clothing,429.07
+458,8,2432,441,74.6,26,5,4,108.4,Sacramento,Grocery,368.47
+399,38,2145,172,74.2,7,8,7,74.7,Sacramento,Clothing,255.72
+624,36,1412,461,53.5,12,12,7,87.5,Sacramento,Grocery,357
+535,22,2893,451,86.5,19,9,5,98.4,Palo Alto,Clothing,356.45
+512,19,2193,129,65.8,16,7,4,118.6,San Francisco,Electronics,237.63
+527,35,2872,398,80,6,10,6,105.4,San Francisco,Clothing,297.4
+839,36,2045,303,81,4,5,6,105.5,Los Angeles,Grocery,432.47
+606,5,2117,216,73.4,10,6,3,90.7,Sacramento,Clothing,277.39
+450,47,1236,246,64.3,19,7,8,100.1,Los Angeles,Grocery,281
+362,41,1737,275,72.7,26,6,6,102.7,San Francisco,Grocery,222.04
+488,46,2804,245,50.6,18,11,7,97,Los Angeles,Electronics,332.03
+382,42,1610,81,92.3,23,6,6,96.7,Los Angeles,Electronics,253.04
+692,46,1156,342,70.1,5,13,7,101.5,Sacramento,Grocery,416.53
+493,19,1595,129,72.7,1,10,5,122.5,San Francisco,Clothing,262.1
+256,35,2000,495,92.6,8,10,7,108.8,Palo Alto,Grocery,309.29
+612,14,3096,254,93.7,11,9,5,79.3,San Francisco,Grocery,358.1
+329,17,2123,417,83.2,6,9,4,64,San Francisco,Electronics,297.37
+681,22,1681,292,55.3,11,7,5,113.6,San Francisco,Clothing,312.57
+434,40,2158,273,52,11,9,7,98.1,San Francisco,Grocery,279.15
+474,10,2634,284,77.8,4,7,4,91.1,Los Angeles,Grocery,263.6
+663,20,2556,227,54.2,3,16,4,80.2,Palo Alto,Grocery,329.18
+459,49,1947,311,65.4,26,9,8,88.7,Palo Alto,Grocery,261.98
+320,33,1956,237,59.3,11,5,6,112.5,Sacramento,Grocery,274.97
+441,21,2746,122,82.3,1,7,5,93.6,Sacramento,Electronics,193.86
+658,38,1677,295,90.6,4,12,6,74.7,Palo Alto,Electronics,325.08
+523,9,1810,467,71.4,6,9,4,103.5,San Francisco,Grocery,383.05
+349,41,1911,459,87,14,5,7,65.9,Los Angeles,Grocery,287.23
+628,13,2072,438,56.2,13,7,4,99.3,Palo Alto,Grocery,416.75
+456,37,1649,391,51.4,21,10,6,79.4,Sacramento,Electronics,342.61
+409,39,2488,200,91.7,3,8,6,75,San Francisco,Clothing,291.54
+436,23,1885,380,63.8,12,9,5,88.3,Palo Alto,Grocery,345.13
+446,30,1773,160,57.6,1,10,5,84.5,San Francisco,Clothing,262.98
+543,8,2408,466,64.5,21,6,4,102,San Francisco,Clothing,358.42
+569,42,2608,362,74.3,13,5,6,122.4,San Francisco,Clothing,359.83
+186,36,1378,487,88.5,7,12,6,74,San Francisco,Clothing,301.64
+187,26,1642,190,86.6,25,8,6,94,Los Angeles,Clothing,143.47
+441,11,1233,276,80.5,19,11,4,105.3,Palo Alto,Electronics,270.63
+364,24,1313,381,84.5,28,7,6,93.8,Palo Alto,Grocery,287.94
+461,21,1839,121,75.4,16,14,5,91.9,Sacramento,Grocery,222.51
+366,9,2556,406,73.5,16,15,4,84.7,Palo Alto,Clothing,258.65
+534,47,1179,272,54.3,14,7,7,93.9,Sacramento,Clothing,271.3
+539,45,2093,465,72.8,2,14,7,98.4,Palo Alto,Grocery,328.68
+575,46,2749,271,85.5,13,11,7,90.3,Sacramento,Grocery,334.11
+554,46,1990,271,92.4,28,14,7,92.1,Sacramento,Electronics,358.03
+325,46,1078,368,60.1,30,14,8,95.4,San Francisco,Clothing,271.32
+698,23,1978,319,72.8,7,8,5,113.7,Palo Alto,Grocery,376.95
+410,35,1984,70,82.6,2,11,6,102.3,Los Angeles,Clothing,185.09
+373,18,1678,444,93.9,16,8,4,128.2,Palo Alto,Electronics,366.14
+604,24,1500,321,93.5,22,5,5,123.5,Palo Alto,Grocery,313.18
+426,26,2045,482,55.4,17,5,6,108,Los Angeles,Grocery,316.04
+759,48,1552,177,62.3,27,15,7,95.6,Palo Alto,Electronics,310.07
+660,14,1526,474,77.9,10,2,5,85.2,Sacramento,Electronics,372.66
+293,20,2526,253,89.1,28,4,5,122.5,Sacramento,Clothing,194.26
+636,8,2310,50,65.6,2,7,4,81.7,Los Angeles,Grocery,233.1
+437,33,1940,262,94.2,6,6,6,105.3,Palo Alto,Clothing,245.22
+379,26,2197,483,69.2,17,10,6,111.8,Los Angeles,Clothing,336.04
+505,39,2252,492,67.4,9,9,6,98.1,San Francisco,Electronics,351.51
+472,14,1270,377,58.3,23,12,4,74.2,Los Angeles,Clothing,292.96
+636,43,2546,204,63.7,20,11,7,96.7,San Francisco,Grocery,350.54
+388,17,2479,177,56.3,19,15,5,95,Sacramento,Grocery,262.93
+541,37,1628,417,86.4,16,11,6,121.5,San Francisco,Grocery,323.79
+707,21,2482,475,62.7,14,14,5,88.2,Los Angeles,Clothing,458.75
+364,8,2253,369,89.9,4,13,4,97.5,Sacramento,Grocery,266.01
+105,12,1770,436,73.6,12,6,4,92.9,Los Angeles,Electronics,249.84
+485,39,1289,456,90.7,13,10,7,111,Los Angeles,Grocery,383.85
+430,24,2602,187,90.3,23,11,5,80.8,Los Angeles,Clothing,245.78
+485,14,2452,147,94.3,7,11,4,85.2,Los Angeles,Grocery,230.02
+563,8,1638,466,57.6,6,13,3,100.5,San Francisco,Electronics,407.76
+620,35,2374,387,86.3,19,10,6,110.6,Sacramento,Clothing,398.38
+641,6,1304,206,55.5,9,13,4,100.3,Los Angeles,Clothing,313.88
+396,7,2204,110,56.5,7,9,4,100.4,Palo Alto,Grocery,181.29
+182,21,2285,474,93.9,13,9,5,83.4,Los Angeles,Clothing,251.79
+384,9,2142,176,64.5,30,13,3,91,San Francisco,Electronics,259.44
+215,49,2513,204,72.9,8,12,8,94,Sacramento,Electronics,202.55
+590,16,1258,53,71.1,21,13,5,91.6,San Francisco,Electronics,255.81
+490,13,1794,340,67.8,26,9,4,91.3,San Francisco,Electronics,276.11
+601,8,2119,272,70.4,17,10,3,92.7,Palo Alto,Electronics,314.06
+596,35,1782,388,93.2,4,12,6,112.6,Sacramento,Grocery,335.56
+486,41,2129,254,61.1,9,11,7,122.2,Los Angeles,Grocery,284.7
+535,28,2209,342,82.5,3,7,6,95.7,Palo Alto,Grocery,344.8
+741,31,1699,54,72,28,7,5,92.6,Los Angeles,Electronics,295.53
+581,36,2768,379,89,3,14,6,82.5,Los Angeles,Clothing,403.41
+343,10,1738,360,85.8,3,4,4,110.3,Los Angeles,Clothing,246.35
+651,16,3627,494,91.2,5,8,4,99.5,San Francisco,Grocery,442.98
+410,26,2930,436,67.6,4,6,5,92.3,Sacramento,Grocery,305.59
+380,18,1447,398,54.2,19,6,4,101.1,Los Angeles,Clothing,321.25
+510,40,2084,446,72.7,12,7,7,63.5,Palo Alto,Grocery,343.83
+540,37,1201,380,57.8,4,10,6,87.5,Los Angeles,Electronics,340.42
+317,9,1850,103,66.1,7,5,4,120.4,San Francisco,Clothing,204.68
+637,24,1968,274,91.9,10,11,5,98.5,Sacramento,Electronics,383.44
+141,49,3001,388,87.2,26,12,7,111.8,San Francisco,Electronics,249.1
+266,29,2233,246,76.7,17,9,6,94.2,San Francisco,Grocery,175.01
+392,45,2403,321,51.7,2,8,7,116,Palo Alto,Clothing,321.57
+325,47,1852,129,91.9,14,16,8,113.8,Sacramento,Grocery,190.99
+534,38,2040,187,84.3,15,11,7,79.4,Sacramento,Grocery,267.74
+545,45,1934,419,78.1,5,12,8,68.5,Los Angeles,Clothing,321.05
+669,24,2688,274,85,24,9,5,96.9,Sacramento,Grocery,389.38
+725,12,852,170,94.8,16,9,4,112.6,Sacramento,Grocery,353.16
+297,22,1845,51,59.6,24,8,5,80.4,Sacramento,Clothing,169.2
+571,49,2754,327,82.4,20,6,7,92.3,Palo Alto,Clothing,297.48
+469,42,1786,291,51.6,5,6,7,107.5,San Francisco,Grocery,274.98
+400,9,1816,396,55.6,15,11,3,96,San Francisco,Clothing,294.77
+488,7,2186,136,91.5,2,9,3,94.2,Los Angeles,Clothing,284.76
+478,25,3157,214,94,19,8,5,69.5,Sacramento,Grocery,285.66
+654,17,1529,79,74.8,17,10,5,87.8,Palo Alto,Grocery,273.53
+483,8,1417,394,73,14,11,4,89,San Francisco,Electronics,336.16
+744,16,1204,78,61,16,14,4,82.8,Los Angeles,Grocery,266.55
+690,17,2145,79,67.9,1,7,5,85.5,Los Angeles,Electronics,280.89
+454,16,1493,176,80.6,3,7,4,89.7,Sacramento,Grocery,303.11
+353,39,2134,127,93.3,10,10,7,107.3,San Francisco,Grocery,266.69
+512,5,2140,328,58.1,6,13,4,97.2,Palo Alto,Clothing,332.63
+483,33,1851,252,69.4,19,10,6,114.7,San Francisco,Electronics,254.69
+540,32,2272,250,93.7,4,12,5,108.5,San Francisco,Electronics,318.63
+526,41,2204,289,75.9,20,8,7,102.7,San Francisco,Grocery,312.32
+631,11,2311,106,62.5,9,11,4,84.9,San Francisco,Clothing,269.53
+582,21,2292,404,78.1,21,11,5,122.8,Los Angeles,Electronics,374.03
+439,35,2993,60,64.6,1,8,7,112.6,Palo Alto,Clothing,260.2
+552,22,1884,138,54.3,25,14,5,96.8,Sacramento,Grocery,317.95
+348,47,1432,350,83,28,13,8,123.4,Los Angeles,Electronics,328.56
+216,41,1779,119,57.9,10,8,7,79.8,Sacramento,Electronics,161.44
+435,9,1832,129,56.1,2,6,3,110.2,Palo Alto,Electronics,205.13
+396,28,2335,465,92,15,10,5,94.1,San Francisco,Electronics,291.44
+552,12,2049,292,52.5,12,9,4,108.6,Palo Alto,Grocery,294.72
+494,33,2841,436,76.8,22,8,6,89.2,Palo Alto,Grocery,323.33
+665,8,1809,225,61.9,19,13,4,112.1,Sacramento,Electronics,336.82
+518,6,2203,319,92,20,13,3,108.2,San Francisco,Grocery,328.63
+384,46,1339,91,94.6,2,9,7,68.5,Palo Alto,Clothing,255.89
+241,49,2294,158,78.2,10,11,8,119.6,San Francisco,Grocery,147.93
+300,24,2648,299,75,19,9,5,90.3,San Francisco,Clothing,243.47
+446,16,1716,360,94.9,21,7,5,107.2,San Francisco,Grocery,269.53
+499,6,1608,320,53.9,5,6,4,110,San Francisco,Electronics,315.59
+419,38,1220,310,87,12,12,7,60,Los Angeles,Grocery,291.09
+641,27,1527,109,90.9,17,15,5,94,Palo Alto,Grocery,341.53
+569,13,2166,135,55.7,20,10,4,91.3,Palo Alto,Grocery,263.57
+574,7,2169,162,81.5,27,9,4,86.8,Sacramento,Electronics,275.55
+667,28,1684,404,94.1,25,5,5,119.9,Palo Alto,Grocery,395.68
+278,17,1502,105,64.8,12,10,5,74.9,Sacramento,Clothing,225.66
+676,12,1868,133,73.1,19,10,4,82.2,Palo Alto,Electronics,312.1
+357,16,1140,104,51,11,15,4,127.3,Sacramento,Clothing,215.32
+431,20,2609,269,68,7,3,4,75.8,Sacramento,Clothing,256.47
+538,16,1465,201,70.6,28,8,5,79.5,San Francisco,Clothing,293.08
+534,43,2587,317,93.4,15,9,8,102.7,Palo Alto,Grocery,374.23
+602,5,2123,354,93.1,30,14,3,90.6,Los Angeles,Electronics,336.04
+676,37,2202,442,69.5,25,9,7,108.9,Palo Alto,Electronics,392.58
+391,40,1691,154,58.9,20,9,7,105.7,Palo Alto,Clothing,196.04
+873,45,2747,480,76,25,7,8,98.4,Los Angeles,Grocery,496.7
+476,19,1730,461,72.7,25,8,5,79.9,Palo Alto,Electronics,391.79
+333,25,3262,143,78.2,27,10,5,113.8,Sacramento,Clothing,217.36
+524,35,2896,86,54.6,26,9,6,105.4,Los Angeles,Electronics,210.01
+500,27,1434,499,86.2,11,8,5,116.5,Los Angeles,Electronics,414.83
+453,47,1400,375,72.9,23,13,8,111.6,Sacramento,Electronics,324.67
+483,44,2131,310,58,15,6,8,129.5,San Francisco,Clothing,295.09
+521,9,1815,154,91.1,27,7,3,103.5,Sacramento,Grocery,306.61
+566,32,998,204,92.1,21,8,6,89.1,Palo Alto,Electronics,260.38
+661,12,2032,318,87.4,7,9,4,102.2,Sacramento,Clothing,403.48
+701,37,1627,175,76.9,28,6,6,82.5,Sacramento,Grocery,303.43
+296,8,1791,250,51.9,14,14,3,105,San Francisco,Grocery,190.56
+788,10,2745,58,92.1,25,11,4,103.6,Palo Alto,Electronics,327.79
+478,46,1297,117,84.5,27,9,7,116,Los Angeles,Electronics,248.99
+488,8,3332,348,78.3,16,9,3,112.1,Palo Alto,Grocery,275.36
+427,24,2612,325,64.9,14,10,6,80.6,Palo Alto,Electronics,293.29
+784,49,1887,343,54.4,14,13,7,95.6,Palo Alto,Electronics,425.71
+427,44,2164,467,68.6,8,10,7,99.8,Palo Alto,Electronics,374.75
+427,34,2352,171,66.8,26,16,5,112.4,Sacramento,Electronics,216.52
+555,19,2107,257,60.6,20,9,5,79.9,Los Angeles,Clothing,305.78
+492,31,2135,362,64.6,29,15,7,112.2,Los Angeles,Clothing,353.79
+306,36,1963,431,75.8,8,8,7,115,San Francisco,Electronics,254.49
+282,9,2448,57,78.4,25,7,4,100.5,Palo Alto,Electronics,188.86
+281,39,1904,496,83.8,1,12,6,104,Sacramento,Clothing,328.61
+295,38,2807,238,57.3,20,10,7,108.9,Los Angeles,Grocery,268.49
+530,46,2589,373,90.3,22,13,8,104.5,San Francisco,Clothing,337.71
+511,46,1924,374,52.2,8,6,7,106.1,San Francisco,Grocery,324.62
+540,38,1881,141,89.6,18,10,6,105.5,Palo Alto,Clothing,260.1
+624,23,1912,422,77.6,16,10,5,86.1,Los Angeles,Clothing,371.93
+352,35,1918,172,87.4,12,12,6,120.9,Sacramento,Electronics,184.82
+295,18,1593,96,53.7,26,9,4,93.3,Los Angeles,Grocery,187.17
+393,17,2040,94,78,10,11,5,87.7,Los Angeles,Clothing,263.14
+374,26,1979,133,60.2,26,8,5,76.9,Los Angeles,Clothing,255.43
+477,40,2073,401,91.8,15,10,6,105.7,Los Angeles,Electronics,358.8
+438,6,2057,248,62.4,27,11,3,97.2,San Francisco,Grocery,246.09
+454,27,1842,233,69.3,29,12,6,95.6,Sacramento,Grocery,237.85
+485,33,2218,457,72.8,29,8,5,85.9,Los Angeles,Grocery,391.62
+528,6,2446,340,81.2,11,11,3,104,Palo Alto,Clothing,372.49
+480,44,912,109,56.2,23,4,6,110.3,Los Angeles,Clothing,257.21
+349,20,2164,448,74.6,7,10,5,100.4,San Francisco,Electronics,299.64
+277,39,809,333,65.6,20,12,7,81.2,Sacramento,Electronics,229.5
+485,23,2419,160,71,17,12,6,99.1,San Francisco,Grocery,259.65
+425,44,1604,304,50.3,27,11,8,136.9,San Francisco,Grocery,276.44
+574,19,2141,93,80.4,24,7,4,101.8,Palo Alto,Electronics,294.51
+451,17,2695,187,65.6,25,7,5,98.7,Sacramento,Electronics,255.81
+553,49,2384,81,92.8,15,6,8,107.1,Sacramento,Clothing,296.58
+485,8,1883,148,76.5,23,9,4,102.6,Los Angeles,Grocery,237.79
+706,35,1509,168,93.5,24,12,6,68.2,Los Angeles,Clothing,324.15
+614,20,2946,350,93.2,4,14,5,94.2,Sacramento,Electronics,336.64
+430,18,1970,188,72.5,10,9,4,100.2,Sacramento,Clothing,280.11
+323,49,1766,178,60.5,17,6,7,110.7,Palo Alto,Grocery,236.04
+558,38,1915,428,64.5,21,8,7,81,San Francisco,Grocery,346.1
+414,46,1517,369,58.3,20,5,7,110.5,Sacramento,Electronics,307.86
+505,18,2619,481,55,2,12,4,124.3,Los Angeles,Electronics,337.43
+415,32,2820,394,92.4,8,13,7,102.7,Sacramento,Electronics,336.61
+687,28,1899,424,83.3,16,13,5,112.9,Palo Alto,Clothing,368.72
+580,23,2201,453,91.6,24,12,5,117.3,San Francisco,Clothing,404.12
+879,28,1742,423,69.5,16,8,6,108.9,Palo Alto,Grocery,492.38
+343,32,1479,137,86.6,12,9,6,113.3,Los Angeles,Clothing,215.03
+472,27,1876,69,89.1,3,11,5,115.2,Sacramento,Clothing,231.6
+128,46,2082,307,91.7,28,7,7,89.3,San Francisco,Electronics,169.11
+529,16,2534,222,66.6,5,8,4,70.4,Palo Alto,Electronics,261.3
+420,41,1797,432,67.7,8,6,7,95.7,San Francisco,Clothing,305.87
+559,43,2842,144,57.2,3,7,8,92.7,San Francisco,Grocery,262.85
+636,11,1566,348,94.5,30,10,3,88.2,San Francisco,Grocery,410.65
+404,30,2069,329,91.3,30,11,5,115.4,San Francisco,Electronics,255.22
+757,37,1670,462,51.7,2,13,6,103,Los Angeles,Clothing,453.72
+457,46,1620,405,73.1,1,11,8,96.1,Palo Alto,Electronics,310.36
+432,38,1859,367,59.7,15,11,7,104.7,Palo Alto,Electronics,327.49
+554,15,2461,415,78.2,9,12,4,80.9,Sacramento,Clothing,321.01
+426,49,2315,471,88,9,9,8,87.5,San Francisco,Grocery,353.85
+454,20,2147,473,64.6,2,10,5,94.2,Palo Alto,Grocery,369.12
+296,35,2274,194,90.4,4,5,6,119,San Francisco,Clothing,196.17
+571,23,2396,186,61,12,12,5,92.8,Palo Alto,Clothing,323.8
+433,40,2682,165,75.1,11,13,6,111.9,Palo Alto,Electronics,239.63
+702,19,2124,119,70.4,18,8,5,95.7,Sacramento,Grocery,297.78
+625,21,1565,378,65.7,30,17,5,94.3,San Francisco,Electronics,388.11
+406,12,1794,436,58.1,1,12,5,104.4,Palo Alto,Electronics,310.01
+680,12,2237,338,76.6,29,7,4,98.3,San Francisco,Grocery,376.24
+517,43,2298,71,58.8,11,9,7,124.7,San Francisco,Grocery,289.01
+375,23,1655,89,93.3,10,12,5,89.2,San Francisco,Electronics,182.86
+516,18,1954,214,62.4,5,10,5,94,San Francisco,Electronics,270.77
+516,8,2119,368,60.6,23,14,4,105.7,Los Angeles,Electronics,347.54
+671,38,1898,454,54.4,16,9,6,123.6,Palo Alto,Clothing,444.82
+582,5,1926,108,58.4,25,14,3,105.5,San Francisco,Electronics,249.84
+434,10,1745,177,69.7,5,7,4,107.6,Sacramento,Electronics,234.94
+690,20,1280,377,51.9,30,10,4,90.8,San Francisco,Clothing,347.19
+423,13,1675,242,77.7,28,11,5,98.4,Los Angeles,Clothing,239.9
+428,12,2389,435,51.2,16,10,3,102.8,Palo Alto,Grocery,312.74
+632,20,2285,120,84.2,19,12,4,98.9,Los Angeles,Clothing,263.91
+354,28,2515,449,66.4,26,11,6,104,Sacramento,Grocery,303.43
+557,27,1859,95,79.1,28,11,5,107.2,San Francisco,Electronics,221.97
+474,50,2496,497,91.8,4,16,8,82.6,Palo Alto,Electronics,326.34
+626,16,2505,248,56.6,30,8,5,116.5,Los Angeles,Grocery,355.15
+589,44,2148,171,67.8,14,15,7,91,Palo Alto,Clothing,300.98
+413,6,2019,499,67.4,20,12,3,89.7,Palo Alto,Clothing,387.75
+395,15,1958,87,94.7,6,9,4,80.9,Los Angeles,Electronics,256.53
+494,30,2052,355,81.2,25,11,6,107.3,Palo Alto,Grocery,347
+455,40,2036,201,51.8,7,12,7,98.7,Sacramento,Clothing,281.17
+542,46,1598,431,63.1,26,12,8,89.3,Los Angeles,Grocery,400.61
+601,42,2211,106,59.8,21,10,7,100.3,Los Angeles,Electronics,296.31
+664,15,2437,440,68.2,3,12,4,123.4,San Francisco,Electronics,418.51
+595,8,829,210,88.1,15,8,3,79.8,Palo Alto,Grocery,281.84
+236,21,1174,219,86.3,7,5,5,110.2,San Francisco,Grocery,252.03
+748,40,1911,104,77.3,20,9,6,94.1,Los Angeles,Grocery,357.03
+439,24,1613,382,82.7,17,9,5,108.6,San Francisco,Clothing,267.4
+369,45,2172,75,62,27,7,8,89.2,San Francisco,Clothing,245.8
+527,20,1071,315,92.1,24,13,5,112.1,Palo Alto,Grocery,369.13
+385,25,1958,117,65.8,6,13,5,89.3,Palo Alto,Electronics,234.35
+495,12,1776,462,93,26,12,4,98.3,Los Angeles,Grocery,312.93
+426,15,2853,77,76.7,5,2,4,93.9,Palo Alto,Electronics,217.99
+609,43,2278,97,93.7,5,9,7,112.1,Palo Alto,Grocery,292.83
+549,27,2024,279,93.4,16,11,6,82.6,Palo Alto,Electronics,314.93
+358,25,1018,117,72.7,21,6,6,91.2,Palo Alto,Clothing,256.3
+780,11,2558,107,60.7,28,12,4,101.3,Sacramento,Electronics,344.56
+303,38,1881,480,89.4,11,9,6,111.7,Los Angeles,Electronics,310.63
+333,9,2285,299,58.5,1,12,4,101.1,Los Angeles,Clothing,228.83
+519,10,1726,203,59.6,30,8,4,101.2,San Francisco,Grocery,325.52
+431,24,1806,116,52,5,8,5,84.9,Palo Alto,Clothing,214.04
+723,21,2457,146,87.9,14,9,4,95.8,San Francisco,Grocery,363.31
+597,15,1203,175,51.3,22,8,4,98.5,Los Angeles,Grocery,281.75
+222,20,2265,145,74.1,14,12,5,92.5,San Francisco,Electronics,152.52
+615,16,2969,432,70.9,18,8,4,92.3,San Francisco,Electronics,347.39
+486,20,2424,242,93.7,1,5,5,97.3,Palo Alto,Grocery,255.01
+245,38,2905,480,51.3,26,11,6,113.9,Los Angeles,Clothing,311.97
+544,9,1673,395,71.2,3,12,3,104.2,Sacramento,Grocery,384.8
+436,33,2325,154,72.3,6,11,5,128.8,Los Angeles,Grocery,294.45
+574,36,1812,317,61.8,1,11,7,119,Los Angeles,Electronics,313.22
+404,11,1516,399,74.5,20,10,4,118.7,Sacramento,Clothing,344.05
+581,30,2036,380,71.2,20,11,6,101,Los Angeles,Clothing,337.75
+630,44,2426,392,51.9,13,10,7,94.3,San Francisco,Grocery,413.92
+393,9,2372,334,73.3,12,9,3,85.7,San Francisco,Clothing,262.51
+610,38,1825,418,84.6,5,12,7,92.2,Sacramento,Clothing,421.71
+497,23,1834,344,78.4,20,9,5,117.2,Los Angeles,Clothing,301.73
+351,12,1714,400,88.2,20,6,4,129.5,Sacramento,Electronics,288.81
+565,29,2140,123,51.6,24,12,6,107.3,Palo Alto,Electronics,272.78
+453,44,2267,294,77.4,26,8,7,89.1,Sacramento,Grocery,248.32
+786,32,2387,286,92.9,4,16,6,105.8,Palo Alto,Grocery,404.74
+544,49,2665,265,62.1,3,5,7,82.5,Palo Alto,Clothing,278.32
+374,28,2118,219,57.4,10,10,6,108.9,Los Angeles,Electronics,204.57
+295,30,1555,478,52.7,22,8,5,107.3,San Francisco,Clothing,267.89
+343,13,2354,207,69.7,2,9,4,116,San Francisco,Grocery,203.91
+359,21,2229,439,63.6,21,9,5,112.1,Sacramento,Clothing,258.98
+472,44,1470,294,70.5,11,1,7,87,Sacramento,Clothing,324.03
+496,32,1646,190,80.3,2,15,6,102.7,San Francisco,Clothing,324.97
+644,27,1947,314,94.4,27,11,6,107.1,San Francisco,Clothing,325.71
+645,17,2112,468,92.6,14,7,5,132.1,Los Angeles,Clothing,402.51
+352,47,1891,104,86.4,8,10,7,91.2,Palo Alto,Electronics,171.26
+522,13,3156,489,58.6,7,11,5,96.8,Sacramento,Clothing,338.79
+612,10,1707,229,94.6,25,8,3,95.1,Los Angeles,Clothing,329.58
+600,28,2157,306,52.1,11,7,6,74.3,Sacramento,Clothing,318.14
+347,21,2432,172,77.9,9,9,5,88.9,Palo Alto,Clothing,215.36
+355,19,1780,365,51.4,28,6,5,94.1,Sacramento,Grocery,262.39
+401,20,2247,171,64.1,9,13,5,84.4,Palo Alto,Grocery,270.98
+376,20,1659,171,71,24,6,5,86.8,Palo Alto,Electronics,193.63
+572,20,2401,268,83.7,26,6,4,90.7,Los Angeles,Clothing,345.75
+489,42,1645,219,51.4,2,10,7,108.2,Sacramento,Grocery,303.2
+647,9,1652,421,61.2,28,12,4,98.1,San Francisco,Clothing,380.7
+606,37,929,344,72.4,12,10,6,116.1,Sacramento,Electronics,325.35
+429,43,2685,221,72.1,18,8,8,114.4,Sacramento,Grocery,249.9
+672,45,1726,382,79,12,8,7,103.5,San Francisco,Grocery,390.14
+508,22,2782,77,85.9,23,7,5,90.9,Sacramento,Electronics,235.07
+470,33,2730,374,56.5,5,7,5,75.6,Palo Alto,Electronics,304.68
+557,39,2140,153,67.7,24,8,7,113.9,Palo Alto,Clothing,262.36
+454,26,1985,401,89.1,27,9,6,60,San Francisco,Grocery,314.28
+692,7,1594,162,72.8,1,8,3,101,Sacramento,Clothing,310.93
+613,45,1885,383,92.8,12,12,8,106.8,San Francisco,Clothing,359.48
+684,29,2123,148,86.5,18,12,5,100.9,Los Angeles,Grocery,284.24
+627,48,3000,484,77.5,2,6,8,82.3,Palo Alto,Electronics,353.96
+370,32,2365,312,82.9,29,3,6,99.6,Los Angeles,Clothing,244.91
+241,8,1547,456,62.2,9,13,3,63.8,Los Angeles,Grocery,240.77
+470,28,2101,245,92.3,5,10,5,102.4,Sacramento,Grocery,309.74
+504,34,1951,217,52.8,28,5,6,102.8,Palo Alto,Grocery,275.28
+614,21,1769,111,80,18,15,5,112.1,Los Angeles,Electronics,318.5
+538,24,2826,178,63.7,27,8,5,106.9,San Francisco,Clothing,257.13
+260,7,2271,198,80.7,27,11,4,82.8,Palo Alto,Electronics,193.78
+706,36,2017,380,80.4,8,12,6,98.4,Palo Alto,Grocery,441.32
+259,27,1931,340,84.4,21,12,5,100.8,Palo Alto,Electronics,275.01
+402,20,2546,208,92.7,20,16,5,116.9,Sacramento,Clothing,248.2
+456,47,1875,129,76.4,3,11,7,82.2,Los Angeles,Grocery,226.33
+470,18,2277,399,90.5,23,15,5,116.6,Palo Alto,Grocery,286.51
+649,19,1718,303,91.6,22,10,5,116.8,San Francisco,Electronics,380.99
+543,33,1799,216,84,27,10,6,99.7,Palo Alto,Grocery,337.45
+634,22,1647,369,54.6,14,15,5,105.1,Sacramento,Clothing,347.15
+547,17,1970,397,63,22,14,5,108,Palo Alto,Clothing,355.51
+678,27,1664,75,74.4,25,10,5,79.1,Los Angeles,Clothing,287.55
+549,24,2027,362,71.1,29,14,6,78.5,Los Angeles,Electronics,299.35
+698,20,2379,294,73.6,21,7,5,81.5,Sacramento,Electronics,348.48
+688,46,2016,410,51.5,8,8,8,103.6,Palo Alto,Grocery,416.63
+265,9,1631,447,51.1,23,13,4,91.6,Palo Alto,Electronics,230.97
+366,41,1724,84,72.5,18,8,7,109.9,San Francisco,Electronics,171.63
+515,43,2646,247,62,13,8,7,106.6,Palo Alto,Clothing,340.6
+421,49,2083,121,79.1,18,5,8,99.2,Palo Alto,Grocery,232.91
+598,22,2731,102,75.8,18,7,5,81.8,Palo Alto,Grocery,300.09
+477,29,2163,235,81.3,19,10,5,115.2,Los Angeles,Electronics,267.65
+668,39,2123,178,57.7,18,8,7,106.3,Los Angeles,Electronics,360.44
+629,30,2357,140,89.2,3,8,5,118.2,Palo Alto,Grocery,284.81
+325,7,1570,188,62.8,26,9,3,94.9,San Francisco,Electronics,265.72
+373,49,2238,122,92.9,18,11,7,102.3,Palo Alto,Clothing,179.11
+581,21,837,296,56.2,21,7,5,90.8,Sacramento,Grocery,296.69
+467,37,1366,467,82,24,12,7,113.6,Palo Alto,Clothing,345.29
+539,17,2134,130,77.3,10,13,4,84,Sacramento,Clothing,246.01
+560,41,1749,438,66.7,1,10,7,108.2,Sacramento,Electronics,375.4
+644,13,1896,63,86.7,16,9,4,88.2,San Francisco,Grocery,238.76
+511,30,1504,78,77.6,12,8,6,94.9,Los Angeles,Grocery,238.22
+943,21,1750,137,70,13,1,5,105,Sacramento,Grocery,381.99
+204,28,1622,368,63.8,2,5,6,102.4,Los Angeles,Grocery,210.38
+411,7,2252,223,70.7,22,11,3,127.2,Los Angeles,Grocery,303.67
+438,40,2400,119,80.5,13,11,6,94,Los Angeles,Grocery,205.53
+571,34,756,243,94.6,8,9,6,98.3,Los Angeles,Grocery,275.15
+411,17,2079,69,72.5,4,8,4,106.3,San Francisco,Grocery,226.9
+161,10,2889,484,86.6,20,8,4,75.4,Sacramento,Electronics,306.65
+654,22,3077,138,90.6,29,12,4,110.2,Sacramento,Grocery,359.51
+269,19,1699,329,81.6,16,10,4,108.2,Palo Alto,Grocery,231.89
+232,37,2150,406,84.1,3,9,7,95.4,Los Angeles,Electronics,224.14
+478,30,2423,272,64.9,1,11,6,102.5,San Francisco,Electronics,333.53
+252,21,2337,136,63.1,28,12,5,103.4,Sacramento,Clothing,144.18
+516,29,2239,271,51.1,30,5,6,99.4,Palo Alto,Electronics,310.87
+497,29,1651,272,58,16,9,6,100.9,San Francisco,Grocery,335.64
+791,29,2392,369,70.7,18,9,5,104,Los Angeles,Electronics,416.96
+605,6,1637,320,83.4,24,11,3,74.5,Sacramento,Electronics,355
+328,18,1644,70,93.2,20,19,5,111.8,San Francisco,Grocery,166.12
+253,46,852,445,59.4,4,11,7,87.1,Sacramento,Clothing,298.28
+374,45,1787,443,83.7,18,13,7,78.2,Sacramento,Clothing,281.46
+353,9,1718,482,66,4,10,3,122,Sacramento,Electronics,313.72
+771,22,2686,128,65.8,12,8,5,124.9,Los Angeles,Clothing,317.07
+665,33,2646,426,81.4,25,8,6,109.2,San Francisco,Clothing,404.18
+499,46,1499,82,67.9,5,14,7,103.6,Sacramento,Clothing,243.03
+390,34,1104,331,89.4,9,5,6,111.3,Los Angeles,Electronics,293.1
+601,15,2347,92,73,13,15,4,92.1,Palo Alto,Grocery,281.9
+547,8,2860,312,93,24,9,3,98,Los Angeles,Clothing,284.74
+719,21,3370,321,91.2,16,8,6,81.6,San Francisco,Clothing,413.81
+649,40,1843,207,82.1,30,11,6,108.1,Sacramento,Clothing,344.56
+390,24,1517,485,87.5,27,10,5,78.5,San Francisco,Electronics,369.88
+289,45,2103,178,66.8,7,9,7,103.5,San Francisco,Electronics,239.06
+485,20,3020,418,52,3,16,5,84.4,Los Angeles,Clothing,295.35
+339,18,1717,61,82.1,4,15,4,77.3,Sacramento,Electronics,152.48
+634,13,2293,284,84.6,16,10,3,95.3,San Francisco,Grocery,343.61
+552,17,1808,351,68.3,25,12,5,90.5,Sacramento,Electronics,354.14
+573,36,2039,492,65,3,10,6,104.5,Sacramento,Grocery,337.91
+752,29,2680,102,85,6,8,6,74.3,Sacramento,Electronics,338.73
+301,19,2507,62,89,19,8,5,81.3,Sacramento,Clothing,144.71
+683,5,2245,52,77,26,13,3,94.7,Palo Alto,Electronics,247.77
+470,39,2422,302,81,1,6,6,108,San Francisco,Electronics,302.95
+409,26,1676,328,90.7,4,11,5,105.3,San Francisco,Electronics,312.94
+674,12,2242,476,51.2,20,15,4,98.2,Los Angeles,Grocery,423.02
+261,33,1763,267,63.9,17,11,6,85.8,Sacramento,Electronics,255.98
+402,22,1603,420,79.5,4,4,5,92.6,Palo Alto,Grocery,291.92
+276,17,1937,448,87.9,12,17,4,95.5,San Francisco,Grocery,321.08
+446,21,1349,419,65.7,4,10,5,88.9,Palo Alto,Electronics,370.82
+504,25,2787,133,82.8,30,10,5,92.9,Los Angeles,Grocery,272.02
+621,21,1572,65,85.3,21,12,5,94.2,Sacramento,Grocery,311.35
+614,47,2751,181,63.2,8,15,8,114.7,San Francisco,Clothing,280.79
+735,10,2194,218,62.8,23,10,3,101.1,Palo Alto,Grocery,358.02
+277,42,2278,306,84.2,18,14,7,133.5,San Francisco,Grocery,266.36
+471,45,1769,469,73.7,13,14,7,120.3,San Francisco,Electronics,348.76
+364,50,3103,343,90.8,18,11,8,108.8,San Francisco,Clothing,237.2
+548,23,1805,325,87.5,18,12,5,94.4,San Francisco,Clothing,306.9
+430,30,1168,458,93,19,5,6,79.5,Los Angeles,Grocery,342.69
+587,46,1471,108,57.9,30,14,7,97.5,San Francisco,Electronics,234.36
+560,38,1753,70,89.5,14,14,7,106.2,San Francisco,Electronics,262.33
+788,15,2327,117,63,8,19,5,83.7,Los Angeles,Clothing,302.49
+252,12,1633,52,93.1,30,8,4,93.5,Sacramento,Grocery,214.51
+344,21,3070,347,81.1,11,8,4,124.6,Palo Alto,Electronics,266.37
+405,44,2194,397,82.2,5,9,7,103.5,San Francisco,Clothing,324.96
+483,24,1490,60,77.5,22,10,5,120.6,Los Angeles,Grocery,227.23
+502,49,2531,368,67,12,8,7,99.2,Los Angeles,Electronics,356.3
+571,20,2914,443,86.9,28,4,5,134,Sacramento,Electronics,397
+525,22,2076,251,82.2,10,12,5,125,San Francisco,Clothing,261.63
+230,13,2274,310,74.6,11,10,4,88.2,Palo Alto,Clothing,187.42
+269,21,2158,90,68.4,30,10,4,84.4,San Francisco,Electronics,213.76
+428,44,1336,396,75.3,20,7,7,101.9,San Francisco,Electronics,301.15
+787,25,2143,414,64.8,20,10,5,114.7,San Francisco,Clothing,434.22
+427,19,2480,87,78.9,14,8,4,124.1,San Francisco,Electronics,247.3
+427,9,2886,242,77.1,2,12,4,89.8,Los Angeles,Electronics,224.37
+555,39,2399,328,71,26,7,7,101.6,Palo Alto,Grocery,313.63
+492,7,2438,433,75,5,11,4,89.6,Palo Alto,Clothing,361.62
+307,12,2224,51,86.2,14,18,4,91.8,Sacramento,Clothing,227.19
+284,29,944,129,88.7,1,13,6,127.1,San Francisco,Clothing,150.36
+681,29,2378,324,89.8,21,11,5,89.6,Sacramento,Clothing,335.38
+692,28,1735,65,63.3,9,9,5,94.7,Palo Alto,Grocery,274.15
+459,36,1634,201,51.3,12,12,6,90.2,Sacramento,Clothing,292.08
+439,37,2405,201,58.2,27,17,6,92,Sacramento,Grocery,289.66
+469,29,2349,420,50.6,7,9,6,91.4,San Francisco,Clothing,349.78
+541,14,2390,249,83.6,5,9,4,113.6,Los Angeles,Clothing,333.82
+796,25,2397,451,93.4,1,11,5,102.2,Los Angeles,Electronics,440.24
+692,8,2074,374,59.6,15,9,4,127.7,Palo Alto,Grocery,428.1
+255,7,2596,373,84,29,10,4,115.3,Palo Alto,Clothing,243.97
+169,16,2487,412,66.2,15,6,5,107.9,Los Angeles,Clothing,216.09
+401,31,2670,228,52.8,4,9,7,91.6,Palo Alto,Electronics,211.06
+346,42,2631,75,68.4,17,10,7,77.5,Sacramento,Grocery,152.07
+454,48,2099,304,79.6,5,10,7,114.7,Sacramento,Electronics,277.61
+508,43,1069,431,76.3,1,8,7,81.5,Los Angeles,Clothing,307.14
+551,16,1536,314,84.7,13,11,5,101.5,Palo Alto,Electronics,288.25
+502,9,1844,84,59.7,24,5,4,107.4,Los Angeles,Electronics,273.04
+382,30,3198,422,78.1,8,10,5,98,San Francisco,Grocery,318.47
+330,49,1836,307,69.1,21,13,7,73.8,Los Angeles,Grocery,268.21
+568,24,1462,85,67.4,16,11,6,110.3,Sacramento,Clothing,291
+509,45,2070,229,91.8,26,10,8,90.9,Sacramento,Clothing,319.24
+695,20,2838,469,76.9,23,5,4,114.2,San Francisco,Grocery,372.66
+533,18,1678,112,62,24,5,5,109.9,Palo Alto,Clothing,286.8
+657,5,1414,457,89.2,14,15,4,126.5,Los Angeles,Electronics,369.53
+568,9,2337,73,72.9,22,8,4,115.4,Palo Alto,Clothing,269.13
+331,36,2006,93,90,23,11,6,92,Palo Alto,Electronics,218.05
+855,21,1756,275,89.6,4,12,5,104.9,Palo Alto,Clothing,415.51
+514,19,2455,113,68.9,9,8,4,111.8,Palo Alto,Grocery,211.5
+435,5,2208,103,56.9,16,15,3,73.8,Sacramento,Clothing,176.3
+666,39,2377,353,60.9,21,7,7,95.5,Los Angeles,Clothing,384.83
+499,48,2011,294,54.8,19,15,7,73.1,Los Angeles,Grocery,286.76
+706,49,1315,198,55.8,17,10,7,73.5,San Francisco,Electronics,289.78
+573,18,1466,111,93.2,23,10,4,106.3,Palo Alto,Grocery,276.12
+419,14,2144,142,84.1,2,10,4,118.9,San Francisco,Electronics,280.81
+312,9,2517,170,92.5,10,10,4,127.7,Los Angeles,Electronics,168.9
+379,29,2186,348,66,15,7,6,60,San Francisco,Electronics,248.61
+447,33,1988,62,83,11,8,6,79.9,San Francisco,Electronics,252.76
+554,29,2328,445,85.5,2,10,5,82.6,Palo Alto,Electronics,397.94
+385,47,2662,232,88.1,28,4,7,100.6,Sacramento,Grocery,252.62
+622,18,1577,147,63,4,7,5,92.3,Sacramento,Grocery,295.55
+505,42,2240,357,64.1,7,17,7,106.4,Los Angeles,Electronics,337.6
+667,45,1732,69,53.6,2,2,8,103.5,Los Angeles,Clothing,301.72
+223,12,2043,273,91,29,9,4,99.8,Sacramento,Clothing,193.23
+491,31,2632,254,87.7,29,10,5,82.9,Sacramento,Grocery,287.73
+358,38,2122,387,93.2,1,12,6,116.1,Palo Alto,Electronics,251.65
+539,48,2082,330,69.6,30,10,8,106.9,San Francisco,Grocery,341.31
+515,39,2308,292,56.1,15,10,7,119.4,Sacramento,Grocery,258.84
+659,16,1510,340,74.7,8,11,4,95.4,Los Angeles,Grocery,358.9
+510,5,1288,396,84.5,8,8,4,99.3,Sacramento,Clothing,344.72
+222,22,1879,118,92.8,11,14,5,86.9,Palo Alto,Clothing,189.39
+597,38,1996,290,73.6,14,10,7,109.6,Sacramento,Clothing,300.03
+437,26,2094,282,89.2,22,7,6,84.9,Palo Alto,Clothing,308.36
+811,43,2265,261,58.3,21,8,7,104.9,Palo Alto,Electronics,366.7
+524,22,1856,215,53.6,28,11,4,88.9,Los Angeles,Clothing,298.6
+193,21,1733,173,56,12,11,5,105.2,Los Angeles,Grocery,124.29
+496,12,1930,231,93.4,13,9,4,119.2,Sacramento,Grocery,313.83
+315,12,2397,133,66.9,10,13,4,109.6,Los Angeles,Clothing,232.29
+610,43,2475,318,94.1,22,5,8,89.1,Los Angeles,Clothing,329.38
+472,24,1807,335,83.6,21,9,5,100.8,Sacramento,Grocery,312.9
+609,18,2086,460,52.8,16,6,4,105,Los Angeles,Grocery,399.57
+609,8,2260,163,50.9,4,11,3,122.4,San Francisco,Grocery,341.05
+304,38,2030,249,89.8,28,17,7,88.7,San Francisco,Electronics,211.76
+723,5,2058,354,93.8,7,10,3,121.9,Sacramento,Grocery,404.28
+520,10,1885,423,60,16,13,3,129.9,Los Angeles,Grocery,361.72
+325,20,1541,172,87.2,11,7,5,102.1,Sacramento,Electronics,214.38
+510,13,1824,489,68,9,9,4,109.7,Palo Alto,Electronics,367.33
+515,12,2603,230,86.5,28,6,4,116.1,Sacramento,Clothing,315.62
+225,20,2458,366,74.5,30,9,5,110.3,Palo Alto,Electronics,289.78
+529,12,2428,488,61.1,24,6,4,107.9,Palo Alto,Clothing,342.6
+264,12,1801,134,73.8,26,6,4,111.6,Los Angeles,Electronics,221.05
+651,35,2412,85,86.5,2,10,6,88.4,Sacramento,Electronics,283.92
+199,16,2815,494,91.9,11,15,4,84.3,San Francisco,Clothing,239.35
+742,44,2293,417,58.1,25,11,7,102.2,Sacramento,Electronics,447.84
+502,6,2153,294,57.8,1,9,4,101.1,San Francisco,Grocery,279.98
+487,15,2090,333,85,17,16,4,95.6,San Francisco,Grocery,285.02
+582,30,2188,150,71.6,6,8,5,128.6,San Francisco,Clothing,238.98
+540,40,2170,447,87.2,19,9,6,110.1,Los Angeles,Electronics,318.89
+645,46,1759,226,53.4,7,9,8,100.8,Palo Alto,Clothing,297.18
+789,42,2366,352,50.1,3,7,8,112.3,San Francisco,Grocery,453.57
+295,15,2681,235,58.5,15,10,5,88.7,Sacramento,Clothing,273.55
+761,8,1398,456,78.5,26,14,4,95.1,San Francisco,Clothing,432.82
+405,21,1490,465,76.7,18,12,5,73,Los Angeles,Clothing,303.52
+359,41,2042,350,67.6,2,6,7,105,Palo Alto,Clothing,241.39
+525,24,1772,178,73,29,18,6,60,Los Angeles,Electronics,259.04

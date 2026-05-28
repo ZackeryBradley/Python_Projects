@@ -1,0 +1,18 @@
+KPIGroup,Metric,Value,Unit,Status,Definition
+Revenue & Financial Health,Total Monthly Revenue,493767.92,k,PASS,Sum of monthly sales revenue
+Revenue & Financial Health,Total Monthly Cost,541999.94,k,PASS,Estimated operating + support + marketing + COGS
+Revenue & Financial Health,Burn Rate,33.86,k,PASS,Average monthly operating shortfall per store
+Revenue & Financial Health,Run Rate,5925215.04,k,PASS,Annualized revenue run rate
+Revenue & Financial Health,MRR,179919.57,k,PASS,Recurring revenue modeled from category mix and retention profile
+Revenue & Financial Health,CAC,689.81,$,PASS,Average customer acquisition cost
+Revenue & Financial Health,CLV,2119.5,$,PASS,Average customer lifetime value
+Revenue & Financial Health,CLV/CAC Ratio,4.56,ratio,PASS,Healthy SaaS/recurring benchmark is typically > 3
+Customer Experience & Retention,Churn Rate,2.8,%,PASS,Active-customer-weighted churn rate
+Customer Experience & Retention,NPS,32.43,score,PASS,Net promoter score modeled from service and competitive context
+Customer Experience & Retention,CSAT,80.44,%,PASS,Support-ticket weighted CSAT
+Customer Experience & Retention,Resolution Time,15.82,hours,PASS,Average support resolution time
+Customer Experience & Retention,DAU/MAU,0.23,ratio,PASS,Portfolio engagement stickiness
+"Product, Ops & Technical Performance",Conversion Rate,2.16,%,PASS,CustomerFootfall to NewCustomers conversion
+"Product, Ops & Technical Performance",Error Rate,1.5,%,PASS,Weighted technical error rate
+"Product, Ops & Technical Performance",Cycle Time,15.98,days,PASS,Average time to deliver/store refresh cycles
+"Product, Ops & Technical Performance",System Uptime,99.58,%,PASS,Weighted system availability

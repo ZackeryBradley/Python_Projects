@@ -1,0 +1,9 @@
+Revenue engine: The portfolio is generating 493,767.92k in monthly revenue and 179,919.57k in recurring revenue, showing a strong recurring base layered on top of monthly sales.
+Financial health: Average burn rate is 33.86k per store with an average CLV/CAC ratio of 4.56. Customer economics are healthy overall, though weaker segments still need close monitoring.
+Retention posture: Weighted churn is 2.80% and DAU/MAU is 0.23. Engagement is acceptable, but repeat-usage and loyalty still represent a major optimization lever.
+Experience signal: Weighted NPS is 32.43 and CSAT is 80.44%. Sentiment is stable but not elite, so service quality and store execution remain high-impact levers.
+Reliability signal: Weighted error rate is 1.50% while uptime is 99.58%. Technical reliability is broadly healthy, but localized incidents can still hurt customer confidence and conversion.
+Top alert metrics: CLV/CAC Ratio (802), CSAT (548), NPS (529), DAU/MAU (479), Error Rate (365)
+Top segment: Los Angeles | Grocery → Revenue 45,247.48k, MRR 22,009.30k, NPS 32.1, CLV/CAC 3.59.
+Top segment: Palo Alto | Grocery → Revenue 44,786.14k, MRR 21,914.42k, NPS 33.0, CLV/CAC 3.85.
+Top segment: San Francisco | Grocery → Revenue 43,950.05k, MRR 21,789.47k, NPS 33.1, CLV/CAC 3.69.
