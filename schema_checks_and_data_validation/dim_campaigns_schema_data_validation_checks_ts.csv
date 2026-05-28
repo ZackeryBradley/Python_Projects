@@ -1,0 +1,51 @@
+campaign_sk,campaign_id,campaign_name,start_date_sk,end_date_sk,campaign_budget
+6,CAMP_006,Mega Weekend Bonanza,37,41,231714
+24,CAMP_024,Red Tag Clearance,27,55,701892
+39,CAMP_039,Midnight Madness,30,91,396601
+36,CAMP_036,Shop & Save Spectacular,15,101,287542
+47,CAMP_047,"Gift More, Spend Less",104,141,585808
+12,CAMP_012,Clearance Countdown,92,145,831755
+37,CAMP_037,Early Bird Specials,12,164,979514
+7,CAMP_007,New Year Kickoff,47,166,581298
+13,CAMP_013,Holiday Shopping Rush,124,172,534045
+9,CAMP_009,Back to School Boost,160,196,461504
+27,CAMP_027,Limited Time Treasures,2,205,915128
+5,CAMP_005,Flash Frenzy Friday,52,205,970860
+16,CAMP_016,Loyalty Rewards Blast,13,224,973542
+40,CAMP_040,12 Days of Deals,193,227,197440
+31,CAMP_031,Double Points Bonanza,139,229,457117
+26,CAMP_026,VIP Access Sale,122,235,933946
+21,CAMP_021,Black Friday Blowout,168,262,350598
+29,CAMP_029,Final Call Frenzy,170,269,955663
+41,CAMP_041,Countdown to Savings,233,269,950065
+17,CAMP_017,Exclusive Insider Offers,269,274,535298
+32,CAMP_032,Cashback Carnival,228,281,430018
+11,CAMP_011,End of Season Sale,84,283,459061
+28,CAMP_028,Golden Hour Bargains,54,286,390827
+1,CAMP_001,Winter Wonders Sale,130,291,492696
+44,CAMP_044,Ultimate Value Event,196,296,372846
+18,CAMP_018,Birthday Bash Sale,164,298,759068
+8,CAMP_008,Festive Fever Promo,179,298,490622
+46,CAMP_046,Seasonal Surprise Box,44,299,802394
+15,CAMP_015,Deal of the Month,283,299,288069
+30,CAMP_030,Instant Gratification Sale,225,305,165155
+20,CAMP_020,Price Drop Parade,270,307,880988
+43,CAMP_043,Hot Picks Promo,286,313,427832
+33,CAMP_033,New Product Launch Promo,309,315,338439
+4,CAMP_004,Autumn Deals Drive,247,316,294276
+10,CAMP_010,Mid-Year Madness,272,325,987420
+14,CAMP_014,Super Savings Week,297,325,681805
+50,CAMP_050,Smart Shopper Week,82,328,361952
+49,CAMP_049,BOGO Blitz,246,332,560083
+25,CAMP_025,Customer Appreciation Week,319,333,364556
+22,CAMP_022,Cyber Monday Mania,313,339,724912
+34,CAMP_034,Spring Refresh Event,251,340,896201
+19,CAMP_019,Weekend Warrior Specials,176,341,513019
+38,CAMP_038,Mystery Discount Days,43,342,867725
+45,CAMP_045,Happy Hour Discounts,173,342,907340
+23,CAMP_023,Green Weekend Deals,146,347,105815
+35,CAMP_035,Winter Clearance Carnival,203,352,640535
+3,CAMP_003,Summer Sizzle Promo,201,355,480660
+2,CAMP_002,Spring Splash Discounts,98,356,372105
+42,CAMP_042,New Arrival Showcase,99,357,191922
+48,CAMP_048,Cart Crasher Campaign,281,361,345327

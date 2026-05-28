@@ -1,0 +1,7 @@
+ColumnName,ExpectedType,ObservedType,Compliant
+campaign_sk,integer,integer,True
+campaign_id,string,string,True
+campaign_name,string,string,True
+start_date_sk,integer,integer,True
+end_date_sk,integer,integer,True
+campaign_budget,integer,integer,True

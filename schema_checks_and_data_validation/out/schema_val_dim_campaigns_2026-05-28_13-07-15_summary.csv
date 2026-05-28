@@ -1,0 +1,15 @@
+RunTimestamp,Category,CheckName,Status,FailedCount,FailurePct,Severity,Details
+2026-05-28 13:07:15,Structural & Schema Integrity,Column Existence,PASS,0,0.0,INFO,All required columns are present.
+2026-05-28 13:07:15,Structural & Schema Integrity,Column Count,PASS,0,0.0,INFO,Observed 6 columns; expected 6.
+2026-05-28 13:07:15,Structural & Schema Integrity,Data Type Compliance,PASS,0,0.0,INFO,Observed dtypes align with the expected schema baseline.
+2026-05-28 13:07:15,Structural & Schema Integrity,Format & Regex Patterns,PASS,0,0.0,INFO,campaign_id matches the CAMP_### naming standard.
+2026-05-28 13:07:15,Volume & Timeliness,Record Counts,PASS,0,0.0,INFO,Source rows=50; target rows=50.
+2026-05-28 13:07:15,Volume & Timeliness,Data Freshness,PASS,0,0.0,INFO,File age at run time is 2.03 hours.
+2026-05-28 13:07:15,Volume & Timeliness,Volume Anomalies,PASS,0,0.0,INFO,Current rows=50; historical mean=49.75; z-score=0.12.
+2026-05-28 13:07:15,Core Data Quality Dimensions,Null Rates,PASS,0,0.0,INFO,No nulls detected in mandatory columns.
+2026-05-28 13:07:15,Core Data Quality Dimensions,Uniqueness,PASS,0,0.0,INFO,Primary and business keys are unique.
+2026-05-28 13:07:15,Core Data Quality Dimensions,Range & Boundary Checks,PASS,0,0.0,INFO,All budgets and surrogate keys fall within defined boundaries.
+2026-05-28 13:07:15,Relational & Cross-Table Integrity,Referential Integrity,PASS,0,0.0,INFO,All date surrogate keys mapped to the reference date dimension.
+2026-05-28 13:07:15,Relational & Cross-Table Integrity,Cross-Table Consistency,PASS,0,0.0,INFO,Cross-table budget totals reconcile cleanly.
+2026-05-28 13:07:15,Pipeline Observability Metrics,Error Rate,PASS,0,0.0,INFO,0 unique campaign rows failed one or more row-level validations.
+2026-05-28 13:07:15,Pipeline Observability Metrics,Processing Latency,PASS,0,0.0,INFO,Validation steps completed in 0.0392 seconds before export.

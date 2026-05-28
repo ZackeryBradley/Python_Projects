@@ -1,0 +1,7 @@
+ColumnName,NullCount,NullRatePct
+campaign_sk,0,0.0
+campaign_id,0,0.0
+campaign_name,0,0.0
+start_date_sk,0,0.0
+end_date_sk,0,0.0
+campaign_budget,0,0.0

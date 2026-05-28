@@ -1,0 +1,9 @@
+Validation run timestamp: 2026-05-28 13:07:15.
+The dataset contains 50 campaign records and 6 expected columns, providing a stable schema footprint for the current run.
+File age at run time is 2.03 hours.
+No nulls detected in mandatory columns.
+Primary and business keys are unique.
+campaign_id matches the CAMP_### naming standard.
+Validation domain summary: Core Data Quality Dimensions -> 0 fails / 0 warnings, Pipeline Observability Metrics -> 0 fails / 0 warnings, Relational & Cross-Table Integrity -> 0 fails / 0 warnings, Structural & Schema Integrity -> 0 fails / 0 warnings, Volume & Timeliness -> 0 fails / 0 warnings.
+No row-level issues were detected; the sample dataset appears structurally clean and internally consistent against the configured controls.
+Top latency contributors were Build Reference Data (0.0187s), Load Source (0.0109s).

@@ -1,0 +1,6 @@
+Step,LatencySeconds,SharePct
+Load Source,0.0109,27.69
+Build Reference Data,0.0187,47.57
+Structural Checks,0.0015,3.74
+Volume & Timeliness Checks,0.0012,3.07
+Quality & Relational Checks,0.007,17.92
