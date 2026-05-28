@@ -1,0 +1,19 @@
+check_name,status,severity,failed_rows,failure_pct,details
+null_check:user_id,PASS,HIGH,0,0.0,0 null values
+null_check:person,PASS,HIGH,0,0.0,0 null values
+null_check:company,PASS,HIGH,0,0.0,0 null values
+null_check:address,PASS,HIGH,0,0.0,0 null values
+null_check:country,PASS,HIGH,0,0.0,0 null values
+null_check:phone_number,PASS,HIGH,0,0.0,0 null values
+null_check:email,PASS,HIGH,0,0.0,0 null values
+null_check:date,PASS,HIGH,0,0.0,0 null values
+user_id_format,PASS,HIGH,0,0.0,Invalid SSN format
+user_id_uniqueness,PASS,HIGH,0,0.0,Duplicate IDs
+email_validation,PASS,HIGH,0,0.0,Invalid email format
+phone_validation,PASS,HIGH,0,0.0,Invalid phone format
+date_format,PASS,HIGH,0,0.0,Invalid dates
+future_dates,PASS,HIGH,0,0.0,Future timestamps detected
+age_validation,PASS,MEDIUM,0,0.0,Unrealistic age values
+duplicate_records,PASS,HIGH,0,0.0,Full duplicate rows
+address_quality,PASS,MEDIUM,0,0.0,Short/incomplete addresses
+phone_clean_length,PASS,MEDIUM,0,0.0,Clean phone too short

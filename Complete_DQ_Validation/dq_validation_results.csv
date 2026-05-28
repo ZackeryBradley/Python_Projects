@@ -1,0 +1,24 @@
+Check_Name,Failed_Count,Failure_Rate_%,Status
+Missing Columns,0,0.0,PASS
+Unexpected Columns,0,0.0,PASS
+Missing Values - user_id,0,0.0,PASS
+Missing Values - person,0,0.0,PASS
+Missing Values - company,0,0.0,PASS
+Missing Values - address,0,0.0,PASS
+Missing Values - country,0,0.0,PASS
+Missing Values - phone_number,0,0.0,PASS
+Missing Values - email,0,0.0,PASS
+Missing Values - date,0,0.0,PASS
+Invalid User ID Format,0,0.0,PASS
+Duplicate User IDs,0,0.0,PASS
+Duplicate Records,0,0.0,PASS
+Invalid Emails,0,0.0,PASS
+Invalid Phone Numbers,0,0.0,PASS
+Invalid Email Domains,0,0.0,PASS
+Invalid Dates,0,0.0,PASS
+Future Dates,0,0.0,PASS
+Unrealistic Age (<0 or >120),0,0.0,PASS
+Short Person Name (<3 chars),0,0.0,PASS
+Long Email (>254 chars),0,0.0,PASS
+Short Address (<10 chars),0,0.0,PASS
+Invalid Country Values,0,0.0,PASS

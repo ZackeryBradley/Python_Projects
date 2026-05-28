@@ -1,0 +1,16 @@
+check_name,status,severity,failed_rows,failure_pct,details
+null:user_id,PASS,HIGH,0,0.0,Null values
+null:person,PASS,HIGH,0,0.0,Null values
+null:company,PASS,HIGH,0,0.0,Null values
+null:address,PASS,HIGH,0,0.0,Null values
+null:country,PASS,HIGH,0,0.0,Null values
+null:phone_number,PASS,HIGH,0,0.0,Null values
+null:email,PASS,HIGH,0,0.0,Null values
+null:date,PASS,HIGH,0,0.0,Null values
+user_id_format,PASS,HIGH,0,0.0,Bad format
+user_id_duplicates,PASS,HIGH,0,0.0,Duplicates
+email,PASS,HIGH,0,0.0,Invalid email
+phone,PASS,HIGH,0,0.0,Invalid phone
+date_invalid,PASS,HIGH,0,0.0,Invalid date
+date_future,PASS,HIGH,0,0.0,Future dates
+duplicate_records,PASS,HIGH,0,0.0,Full duplicates
