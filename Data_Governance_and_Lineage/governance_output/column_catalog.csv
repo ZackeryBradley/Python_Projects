@@ -1,0 +1,42 @@
+table_name,qualified_table_name,column_name,dtype,dtype_category,nullable,null_pct,distinct_count,is_primary_key,is_foreign_key,references,data_classification,semantic_role,sample_value
+customers,raw.customers,customer_id,object,string,False,0.0,99441,True,False,,Internal,Business Key,06b8999e2fba1a1fbc88172c00ba8bc7
+customers,raw.customers,customer_unique_id,object,string,False,0.0,96096,False,False,,Internal,Business Key,861eff4711a542e4b93843c6dd7febb0
+customers,raw.customers,customer_zip_code_prefix,int64,numeric,False,0.0,14994,False,False,,Restricted,Location,14409
+customers,raw.customers,customer_city,object,string,False,0.0,4119,False,False,,Restricted,Location,franca
+customers,raw.customers,customer_state,object,string,False,0.0,27,False,False,,Restricted,Location,SP
+orders,raw.orders,order_id,object,string,False,0.0,99441,True,False,,Internal,Business Key,e481f51cbdc54678b7cc49136f2d6af7
+orders,raw.orders,customer_id,object,string,False,0.0,99441,False,True,raw.customers.customer_id,Internal,Business Key,9ef432eb6251297304e76186b10a928d
+orders,raw.orders,order_status,object,string,False,0.0,8,False,False,,Public,Descriptive Attribute,delivered
+orders,raw.orders,order_purchase_timestamp,object,string,False,0.0,98875,False,False,,Internal,Operational Timestamp,2017-10-02 10:56:33
+orders,raw.orders,order_approved_at,object,string,True,0.16,90733,False,False,,Public,Descriptive Attribute,2017-10-02 11:07:15
+orders,raw.orders,order_delivered_carrier_date,object,string,True,1.79,81018,False,False,,Internal,Operational Timestamp,2017-10-04 19:55:00
+orders,raw.orders,order_delivered_customer_date,object,string,True,2.98,95664,False,False,,Internal,Operational Timestamp,2017-10-10 21:25:13
+orders,raw.orders,order_estimated_delivery_date,object,string,False,0.0,459,False,False,,Internal,Operational Timestamp,2017-10-18 00:00:00
+order_items,raw.order_items,order_id,object,string,False,0.0,98666,True,True,raw.orders.order_id,Internal,Business Key,00010242fe8c5a6d1ba2dd792cb16214
+order_items,raw.order_items,order_item_id,int64,numeric,False,0.0,21,True,False,,Internal,Business Key,1
+order_items,raw.order_items,product_id,object,string,False,0.0,32951,False,True,raw.products.product_id,Internal,Business Key,4244733e06e7ecb4970a6e2683c13e61
+order_items,raw.order_items,seller_id,object,string,False,0.0,3095,False,False,,Internal,Business Key,48436dade18ac8b2bce089ec2a041202
+order_items,raw.order_items,shipping_limit_date,object,string,False,0.0,93318,False,False,,Internal,Operational Timestamp,2017-09-19 09:45:35
+order_items,raw.order_items,price,float64,numeric,False,0.0,5968,False,False,,Internal,Measure,58.9
+order_items,raw.order_items,freight_value,float64,numeric,False,0.0,6999,False,False,,Confidential,Financial,13.29
+payments,raw.payments,order_id,object,string,False,0.0,99440,True,True,raw.orders.order_id,Internal,Business Key,b81ef226f3fe1789b1e8b2acac839d17
+payments,raw.payments,payment_sequential,int64,numeric,False,0.0,29,True,False,,Confidential,Financial,1
+payments,raw.payments,payment_type,object,string,False,0.0,5,False,False,,Confidential,Financial,credit_card
+payments,raw.payments,payment_installments,int64,numeric,False,0.0,24,False,False,,Confidential,Financial,8
+payments,raw.payments,payment_value,float64,numeric,False,0.0,29077,False,False,,Confidential,Financial,99.33
+products,raw.products,product_id,object,string,False,0.0,32951,True,False,,Internal,Business Key,1e9e8ef04dbcff4541ed26657ea517e5
+products,raw.products,product_category_name,object,string,True,1.85,73,False,False,,Restricted,Direct Identifier,perfumaria
+products,raw.products,product_name_lenght,float64,numeric,True,1.85,66,False,False,,Restricted,Direct Identifier,40.0
+products,raw.products,product_description_lenght,float64,numeric,True,1.85,2960,False,False,,Internal,Measure,287.0
+products,raw.products,product_photos_qty,float64,numeric,True,1.85,19,False,False,,Internal,Measure,1.0
+products,raw.products,product_weight_g,float64,numeric,True,0.01,2204,False,False,,Internal,Measure,225.0
+products,raw.products,product_length_cm,float64,numeric,True,0.01,99,False,False,,Internal,Measure,16.0
+products,raw.products,product_height_cm,float64,numeric,True,0.01,102,False,False,,Internal,Measure,10.0
+products,raw.products,product_width_cm,float64,numeric,True,0.01,95,False,False,,Internal,Operational Timestamp,14.0
+order_reviews,raw.order_reviews,review_id,object,string,False,0.0,98410,True,False,,Restricted,Behavioral,7bc2406110b926393aa56f80a40eba40
+order_reviews,raw.order_reviews,order_id,object,string,False,0.0,98673,False,True,raw.orders.order_id,Internal,Business Key,73fc7af87114b39712e6da79b0a377eb
+order_reviews,raw.order_reviews,review_score,int64,numeric,False,0.0,5,False,False,,Restricted,Behavioral,4
+order_reviews,raw.order_reviews,review_comment_title,object,string,True,88.34,4527,False,False,,Restricted,Behavioral,recomendo
+order_reviews,raw.order_reviews,review_comment_message,object,string,True,58.7,36159,False,False,,Restricted,Behavioral,Recebi bem antes do prazo estipulado.
+order_reviews,raw.order_reviews,review_creation_date,object,string,False,0.0,636,False,False,,Restricted,Behavioral,2018-01-18 00:00:00
+order_reviews,raw.order_reviews,review_answer_timestamp,object,string,False,0.0,98248,False,False,,Restricted,Behavioral,2018-01-18 21:46:59

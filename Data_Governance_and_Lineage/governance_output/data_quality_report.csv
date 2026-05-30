@@ -1,0 +1,26 @@
+table_name,check_name,status,severity,details
+customers,row_count_nonzero,PASS,High,row_count=99441
+customers,primary_key_uniqueness,PASS,High,duplicate_rows=0 on ['customer_id']
+customers,primary_key_not_null,PASS,High,null_pk_rows=0 on ['customer_id']
+orders,row_count_nonzero,PASS,High,row_count=99441
+orders,primary_key_uniqueness,PASS,High,duplicate_rows=0 on ['order_id']
+orders,primary_key_not_null,PASS,High,null_pk_rows=0 on ['order_id']
+orders,fk_integrity_customer_id,PASS,Medium,orphan_rows=0; references raw.customers.customer_id
+order_items,row_count_nonzero,PASS,High,row_count=112650
+order_items,primary_key_uniqueness,PASS,High,"duplicate_rows=0 on ['order_id', 'order_item_id']"
+order_items,primary_key_not_null,PASS,High,"null_pk_rows=0 on ['order_id', 'order_item_id']"
+order_items,fk_integrity_order_id,PASS,Medium,orphan_rows=0; references raw.orders.order_id
+order_items,fk_integrity_product_id,PASS,Medium,orphan_rows=0; references raw.products.product_id
+payments,row_count_nonzero,PASS,High,row_count=103886
+payments,primary_key_uniqueness,PASS,High,"duplicate_rows=0 on ['order_id', 'payment_sequential']"
+payments,primary_key_not_null,PASS,High,"null_pk_rows=0 on ['order_id', 'payment_sequential']"
+payments,fk_integrity_order_id,PASS,Medium,orphan_rows=0; references raw.orders.order_id
+products,row_count_nonzero,PASS,High,row_count=32951
+products,primary_key_uniqueness,PASS,High,duplicate_rows=0 on ['product_id']
+products,primary_key_not_null,PASS,High,null_pk_rows=0 on ['product_id']
+order_reviews,row_count_nonzero,PASS,High,row_count=99224
+order_reviews,primary_key_uniqueness,FAIL,High,duplicate_rows=814 on ['review_id']
+order_reviews,primary_key_not_null,PASS,High,null_pk_rows=0 on ['review_id']
+order_reviews,fk_integrity_order_id,PASS,Medium,orphan_rows=0; references raw.orders.order_id
+order_reviews,high_null_rate_review_comment_title,WARN,Low,null_pct=88.34%
+order_reviews,high_null_rate_review_comment_message,WARN,Low,null_pct=58.70%

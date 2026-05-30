@@ -1,0 +1,11 @@
+layer,table_name,qualified_name,domain,owner,update_frequency,row_count,column_count,primary_key_defined,primary_key_present,candidate_keys_detected,foreign_keys_defined,contains_pii,criticality,retention_policy,description
+raw,customers,raw.customers,Customer,Customer Data Steward,Daily,99441.0,5.0,customer_id,True,customer_id,,True,Medium,3 years after last activity,Customer master data captured from the commerce platform.
+raw,orders,raw.orders,Sales,Sales Data Steward,Daily,99441.0,8.0,order_id,True,"order_id, customer_id",customer_id->customers.customer_id,False,High,2 years,Order header records representing customer purchases.
+raw,order_items,raw.order_items,Sales,Sales Data Steward,Daily,112650.0,7.0,"order_id, order_item_id",True,,order_id->orders.order_id; product_id->products.product_id,False,High,2 years,Order line items including product and pricing details.
+raw,payments,raw.payments,Finance,Finance Data Steward,Daily,103886.0,5.0,"order_id, payment_sequential",True,,order_id->orders.order_id,False,High,7 years,Payment details and financial settlement attributes by order.
+raw,products,raw.products,Product,Product Data Steward,Weekly,32951.0,9.0,product_id,True,product_id,,True,Medium,2 years,Product catalog and descriptive product attributes.
+raw,order_reviews,raw.order_reviews,Customer Experience,CX Data Steward,Daily,99224.0,7.0,review_id,True,,order_id->orders.order_id,True,Low,2 years,Customer review text and score at order level.
+curated,dim_customer,curated.dim_customer,Customer,Analytics Engineering,Daily,,,customer_id,,,,True,Medium,3 years after last activity,Conformed customer dimension for analytics
+curated,dim_product,curated.dim_product,Product,Analytics Engineering,Daily,,,product_id,,,,False,Medium,2 years,Conformed product dimension for analytics
+curated,fact_order,curated.fact_order,Sales,Analytics Engineering,Daily,,,"order_id, order_item_id",,,order_id->orders.order_id; customer_id->customers.customer_id; product_id->products.product_id,True,High,7 years,Analytics fact table at order-item grain with payment enrichment
+mart,sales_summary_daily,mart.sales_summary_daily,Sales,BI / Analytics,Daily,,,order_purchase_date,,,,False,High,7 years,Daily sales KPI mart for BI consumption
