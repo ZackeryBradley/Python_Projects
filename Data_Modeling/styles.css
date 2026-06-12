@@ -1,0 +1,295 @@
+@import url('https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial');
+
+/* -----------------------------
+   Theme
+----------------------------- */
+:root {
+    --page-bg: #cfc9be;
+    --page-bg-2: #c5beb2;
+    --sidebar-bg: #d7d0c4;
+    --sidebar-bg-2: #e2dbd0;
+    --sidebar-border: #bcb3a5;
+
+    --text-main: #091747;
+    --text-muted: #4f5f78;
+
+    --primary-blue: #1C4E80;
+    --primary-blue-2: #406786;
+    --card-gradient: linear-gradient(180deg, rgba(95, 126, 160, 0.94) 0%, rgba(80, 114, 145, 0.92) 100%);
+
+    --card-surface: #f2eee6;
+    --card-border: #cfc6b8;
+
+    --tab-bg: #dad7cd;
+    --tab-hover: #cfcfc0;
+    --tab-active: #1C4E80;
+
+    --shadow-soft: 0 10px 25px rgba(25, 32, 43, 0.16);
+}
+
+/* -----------------------------
+   Base App
+----------------------------- */
+html, body, [data-testid="stAppViewContainer"], .main, .stApp {
+    background: linear-gradient(180deg, var(--page-bg) 0%, var(--page-bg-2) 100%);
+    color: var(--text-main);
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+}
+
+html, body, [class*="css"] {
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--text-main);
+}
+
+.block-container {
+    padding-top: 1.15rem;
+    padding-bottom: 2rem;
+    max-width: 1500px;
+}
+
+/* -----------------------------
+   Sidebar
+----------------------------- */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--sidebar-bg) 0%, var(--sidebar-bg-2) 100%);
+    border-right: 1px solid var(--sidebar-border);
+}
+
+[data-testid="stSidebar"] * {
+    color: var(--text-main) !important;
+}
+
+.sidebar-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+    color: var(--text-main);
+}
+
+div[data-baseweb="select"] {
+    max-height: 45px;
+    overflow: auto;
+}
+
+[data-testid="stSidebar"] div[data-baseweb="select"] > div,
+[data-testid="stSidebar"] .stDateInput > div > div,
+[data-testid="stSidebar"] .stTextInput > div > div,
+[data-testid="stSidebar"] .stNumberInput > div > div {
+    background: #ece7de !important;
+    border: 1px solid #c7beb1 !important;
+    border-radius: 12px !important;
+}
+
+/* -----------------------------
+   Hero Banner (same visual family as KPI cards)
+----------------------------- */
+.hero-shell {
+    background: var(--card-gradient);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 18px;
+    padding: 1.2rem 1.3rem 1rem 1.3rem;
+    color: white;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.12);
+    margin-bottom: 1rem;
+    backdrop-filter: blur(6px);
+}
+
+.eyebrow {
+    letter-spacing: 0.30rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    opacity: 0.95;
+    margin-bottom: 0.75rem;
+    color: rgba(255,255,255,0.92);
+}
+
+.hero-title {
+    font-size: 2.0rem;
+    font-weight: 800;
+    line-height: 1.05;
+    margin-bottom: 0.45rem;
+    color: white;
+}
+
+.hero-subtitle {
+    max-width: 900px;
+    color: rgba(255,255,255,0.92);
+    font-size: 0.96rem;
+    line-height: 1.4;
+}
+
+/* -----------------------------
+   KPI Cards
+----------------------------- */
+.kpi-card {
+    background: var(--card-gradient);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 18px;
+    padding: 0.95rem 1rem;
+    min-height: 110px;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(6px);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    margin-bottom: 0.8rem;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 26px rgba(15, 23, 42, 0.18);
+}
+
+.kpi-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.88);
+    margin-bottom: 0.4rem;
+}
+
+.kpi-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1.12;
+}
+
+.kpi-subtitle {
+    font-size: 0.76rem;
+    color: rgba(255,255,255,0.82);
+    margin-top: 0.28rem;
+}
+
+/* lighter cards inside section containers */
+.section-card .kpi-card {
+    background: linear-gradient(180deg, #eef3f8 0%, #e0e9f2 100%);
+    border: 1px solid #cfd8e2;
+    box-shadow: 0 8px 16px rgba(26, 48, 77, 0.06);
+}
+
+.section-card .kpi-label {
+    color: #596f86;
+}
+
+.section-card .kpi-value {
+    color: #173553;
+}
+
+.section-card .kpi-subtitle {
+    color: #6d8095;
+}
+
+/* -----------------------------
+   Section Cards
+----------------------------- */
+.section-card {
+    background: rgba(244, 239, 232, 0.94);
+    border: 1px solid var(--card-border);
+    border-radius: 22px;
+    padding: 1.15rem 1.2rem 1rem 1.2rem;
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 1rem;
+}
+
+/* -----------------------------
+   Tabs
+----------------------------- */
+.stTabs [role="tablist"] {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 20px;
+    gap: 16px;
+    padding-bottom: 10px;
+}
+
+.stTabs [role="tablist"] button {
+    background-color: #dad7cd;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+}
+
+.stTabs [role="tablist"] button:hover {
+    background-color: #cfcfc0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+}
+
+.stTabs [role="tablist"] button[aria-selected="true"] {
+    background-color: #1C4E80;
+    color: white;
+    border-color: #1C4E80;
+}
+
+/* -----------------------------
+   Expander
+----------------------------- */
+.stExpander:hover {
+    background-color: rgb(207, 207, 192);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 1.2rem;
+}
+
+div[data-testid="stExpander"] details {
+    border-color: #1C4E80;
+    border-radius: 1.2rem;
+    border-width: 2px;
+}
+
+div[data-testid="stExpanderDetails"] {
+    padding-bottom: 1.4rem;
+}
+
+/* -----------------------------
+   Dataframe
+----------------------------- */
+[data-testid="stDataFrame"] {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* -----------------------------
+   Typography
+----------------------------- */
+.stCaption {
+    color: #5f7083;
+}
+
+h1, h2, h3, h4 {
+    color: var(--text-main);
+}
+
+/* -----------------------------
+   Responsive
+----------------------------- */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.65rem;
+    }
+
+    .kpi-card {
+        min-height: 96px;
+    }
+}
+/* -----------------------------
+/* Main header container
+[data-testid="stHeader"] {
+    background: linear-gradient(180deg, var(--page-bg) 0%, var(--page-bg-2) 100%) !important;
+}
+/* -----------------------------
+
+/* Remove default white overlay */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* Remove faint divider line */
+[data-testid="stHeader"]::before {
+    display: none;
+}
