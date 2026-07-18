@@ -1,0 +1,61 @@
+(*Have you ever needed to identify past py packages within your root environment that needed to be re-installed? This script will look through all of your files, find, and download all of the installs for you!*)
+import os
+import ast
+import subprocess
+import pkgutil
+
+PROJECT_ROOT = r"PLACE_YOUR_ROOT_FILE_HERE"
+
+def get_imports_from_file(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        try:
+            tree = ast.parse(f.read())
+        except SyntaxError:
+            return set()
+
+    imports = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            for n in node.names:
+                imports.add(n.name.split('.')[0])
+        elif isinstance(node, ast.ImportFrom):
+            if node.module:
+                imports.add(node.module.split('.')[0])
+    return imports
+
+def get_all_imports(root):
+    all_imports = set()
+    for dirpath, _, filenames in os.walk(root):
+        for file in filenames:
+            if file.endswith(".py"):
+                full_path = os.path.join(dirpath, file)
+                all_imports.update(get_imports_from_file(full_path))
+    return all_imports
+
+def get_installed_packages():
+    return {pkg.name for pkg in pkgutil.iter_modules()}
+
+def main():
+    print("Scanning project for imports...")
+    imports = get_all_imports(PROJECT_ROOT)
+    installed = get_installed_packages()
+
+    missing = imports - installed
+
+    print("\nAll imports found:")
+    print(imports)
+
+    print("\nMissing packages:")
+    print(missing)
+
+    if missing:
+        print("\nInstalling missing packages...")
+        for pkg in missing:
+            subprocess.run(["pip", "install", pkg])
+
+        print("\nDone!")
+    else:
+        print("\nNo missing packages!")
+
+if __name__ == "__main__":
+    main()
